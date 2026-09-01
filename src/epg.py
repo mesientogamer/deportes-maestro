@@ -29,23 +29,22 @@ def download_json(url):
 
 def download_epg():
     """
-    Descarga las guías EPG de los canales deportivos.
-
-    Compatible con la estructura actual de guides.json,
-    donde las fuentes están dentro de guides[].sources[].
+    Descarga información EPG de canales deportivos.
     """
 
     print("Descargando información de canales...")
 
-    channels = download_json(CHANNELS_URL)
+    channels = download_json(
+        CHANNELS_URL
+    )
 
     print(
         f"Canales recibidos: {len(channels)}"
     )
 
-    # -------------------------------------------------
-    # 1. Obtener canales deportivos
-    # -------------------------------------------------
+    # --------------------------------------------------
+    # CANALES DEPORTIVOS
+    # --------------------------------------------------
 
     sports_channel_ids = set()
 
@@ -67,41 +66,65 @@ def download_epg():
         }
 
         if "sports" in categories_normalized:
-            sports_channel_ids.add(channel_id)
+            sports_channel_ids.add(
+                channel_id
+            )
 
     print(
         f"Canales deportivos: "
         f"{len(sports_channel_ids)}"
     )
 
-    # -------------------------------------------------
-    # 2. Descargar índice de EPG
-    # -------------------------------------------------
+    # --------------------------------------------------
+    # GUIDES.JSON
+    # --------------------------------------------------
 
     print("Descargando índice de EPG...")
 
-    guides = download_json(GUIDES_URL)
+    guides = download_json(
+        GUIDES_URL
+    )
 
     print(
         f"Entradas EPG recibidas: "
         f"{len(guides)}"
     )
 
-    # -------------------------------------------------
-    # 3. Obtener TODAS las fuentes EPG deportivas
-    # -------------------------------------------------
+    # --------------------------------------------------
+    # PRUEBA: MOSTRAR PRIMERAS GUÍAS
+    # --------------------------------------------------
+
+    print("")
+    print("========== PRIMERAS GUIAS ==========")
+
+    for guide in guides[:10]:
+
+        print(guide)
+
+    print("====================================")
+    print("")
+
+    # --------------------------------------------------
+    # OBTENER FUENTES EPG
+    # --------------------------------------------------
 
     guide_sources = {}
 
     for guide in guides:
 
-        channel_id = guide.get("channel")
+        channel_id = guide.get(
+            "channel"
+        )
 
         if not channel_id:
             continue
 
         if channel_id not in sports_channel_ids:
             continue
+
+        feed = guide.get(
+            "feed"
+        )
 
         site_id = guide.get(
             "site_id",
@@ -113,10 +136,6 @@ def download_epg():
             ""
         )
 
-        feed = guide.get(
-            "feed"
-        )
-
         sources = guide.get(
             "sources",
             []
@@ -124,12 +143,15 @@ def download_epg():
 
         for source in sources:
 
-            url = source.get("url")
+            url = source.get(
+                "url"
+            )
 
             if not url:
                 continue
 
             if url not in guide_sources:
+
                 guide_sources[url] = []
 
             guide_sources[url].append({
@@ -144,19 +166,23 @@ def download_epg():
         f"{len(guide_sources)}"
     )
 
-    # -------------------------------------------------
-    # 4. Descargar todas las fuentes
-    # -------------------------------------------------
+    # --------------------------------------------------
+    # DESCARGAR TODAS LAS FUENTES
+    # --------------------------------------------------
 
     all_programmes = []
 
-    for index, (url, guide_info) in enumerate(
+    for index, (
+        url,
+        guide_info
+    ) in enumerate(
         guide_sources.items(),
         start=1
     ):
 
         print(
-            f"EPG {index}/{len(guide_sources)}: "
+            f"EPG {index}/"
+            f"{len(guide_sources)}: "
             f"{url}"
         )
 
@@ -179,7 +205,10 @@ def download_epg():
 
             data = response.content
 
-            # Algunas fuentes vienen comprimidas.
+            # --------------------------------------------------
+            # DESCOMPRESIÓN
+            # --------------------------------------------------
+
             if (
                 url.endswith(".gz")
                 or response.headers.get(
@@ -191,17 +220,26 @@ def download_epg():
             ):
 
                 try:
+
                     data = gzip.decompress(
                         data
                     )
+
                 except Exception:
+
                     pass
 
-            root = ET.fromstring(data)
+            # --------------------------------------------------
+            # LEER XML
+            # --------------------------------------------------
 
-            # -------------------------------------------------
-            # Crear relación entre ID de la EPG y canal IPTV
-            # -------------------------------------------------
+            root = ET.fromstring(
+                data
+            )
+
+            # --------------------------------------------------
+            # MAPA DE CANALES DEL XML
+            # --------------------------------------------------
 
             channel_map = {}
 
@@ -221,8 +259,10 @@ def download_epg():
 
                 names = []
 
-                for display_name in channel_element.findall(
-                    "display-name"
+                for display_name in (
+                    channel_element.findall(
+                        "display-name"
+                    )
                 ):
 
                     name = (
@@ -231,67 +271,91 @@ def download_epg():
                     ).strip()
 
                     if name:
-                        names.append(name)
+                        names.append(
+                            name
+                        )
 
                 channel_map[
                     xml_channel_id
                 ] = names
 
-            # -------------------------------------------------
-            # Leer programas
-            # -------------------------------------------------
+            # --------------------------------------------------
+            # PROGRAMAS
+            # --------------------------------------------------
 
             for programme in root.findall(
                 "programme"
             ):
 
-                xml_channel = programme.get(
-                    "channel",
-                    ""
+                xml_channel = (
+                    programme.get(
+                        "channel",
+                        ""
+                    )
                 )
 
                 if not xml_channel:
                     continue
 
-                start = programme.get(
-                    "start",
-                    ""
+                start = (
+                    programme.get(
+                        "start",
+                        ""
+                    )
                 )
 
-                stop = programme.get(
-                    "stop",
-                    ""
+                stop = (
+                    programme.get(
+                        "stop",
+                        ""
+                    )
                 )
+
+                # ------------------------------
+                # TÍTULO
+                # ------------------------------
 
                 title_element = (
-                    programme.find("title")
-                )
-
-                desc_element = (
-                    programme.find("desc")
+                    programme.find(
+                        "title"
+                    )
                 )
 
                 title = ""
 
                 if title_element is not None:
+
                     title = (
                         title_element.text
-                        or ""
-                    ).strip()
-
-                description = ""
-
-                if desc_element is not None:
-                    description = (
-                        desc_element.text
                         or ""
                     ).strip()
 
                 if not title:
                     continue
 
-                # Intentamos asociar el ID de la EPG
-                # con el canal deportivo de guides.json.
+                # ------------------------------
+                # DESCRIPCIÓN
+                # ------------------------------
+
+                desc_element = (
+                    programme.find(
+                        "desc"
+                    )
+                )
+
+                description = ""
+
+                if desc_element is not None:
+
+                    description = (
+                        desc_element.text
+                        or ""
+                    ).strip()
+
+                # ------------------------------
+                # BUSCAR GUÍA
+                # ------------------------------
+
                 matched_guide = None
 
                 for guide in guide_info:
@@ -307,32 +371,59 @@ def download_epg():
                         site_id
                         and xml_channel == site_id
                     ):
+
                         matched_guide = guide
+
                         break
 
-                # Si no encontramos coincidencia
-                # exacta, usamos la primera guía
-                # asociada a esta fuente.
+                # ------------------------------
+                # SI NO HAY COINCIDENCIA
+                # ------------------------------
+
                 if matched_guide is None:
-                    matched_guide = guide_info[0]
+
+                    matched_guide = (
+                        guide_info[0]
+                    )
+
+                # ------------------------------
+                # GUARDAR PROGRAMA
+                # ------------------------------
 
                 all_programmes.append({
-                    "channel": matched_guide.get(
-                        "channel",
-                        ""
-                    ),
-                    "feed": matched_guide.get(
-                        "feed"
-                    ),
-                    "epg_channel": xml_channel,
-                    "channel_name": matched_guide.get(
-                        "site_name",
-                        ""
-                    ),
-                    "start": start,
-                    "stop": stop,
-                    "title": title,
-                    "description": description
+
+                    "channel":
+                        matched_guide.get(
+                            "channel",
+                            ""
+                        ),
+
+                    "feed":
+                        matched_guide.get(
+                            "feed"
+                        ),
+
+                    "epg_channel":
+                        xml_channel,
+
+                    "channel_name":
+                        matched_guide.get(
+                            "site_name",
+                            ""
+                        ),
+
+                    "start":
+                        start,
+
+                    "stop":
+                        stop,
+
+                    "title":
+                        title,
+
+                    "description":
+                        description
+
                 })
 
         except Exception as error:
@@ -360,14 +451,15 @@ def parse_epg(xml_data):
 
 def get_sport_events(programs):
     """
-    Devuelve los programas deportivos.
-
-    La detección se realiza por título,
-    descripción y nombre del canal.
+    Filtra programas deportivos.
     """
 
     keywords = [
-        # Fútbol
+
+        # -------------------------
+        # FÚTBOL
+        # -------------------------
+
         "football",
         "soccer",
         "futbol",
@@ -382,7 +474,10 @@ def get_sport_events(programs):
         "ligue 1",
         "copa del rey",
 
-        # Tenis
+        # -------------------------
+        # TENIS
+        # -------------------------
+
         "tennis",
         "tenis",
         "atp",
@@ -390,8 +485,12 @@ def get_sport_events(programs):
         "wimbledon",
         "roland garros",
         "us open",
+        "australian open",
 
-        # Baloncesto
+        # -------------------------
+        # BALONCESTO
+        # -------------------------
+
         "basketball",
         "baloncesto",
         "nba",
@@ -400,19 +499,26 @@ def get_sport_events(programs):
         "fiba",
         "acb",
 
-        # Fórmula 1
+        # -------------------------
+        # FÓRMULA 1
+        # -------------------------
+
         "formula 1",
         "formula1",
         "f1",
         "grand prix",
-        "grand prix",
+        "grandprix",
 
-        # MotoGP
+        # -------------------------
+        # MOTOGP
+        # -------------------------
+
         "motogp",
         "moto gp",
         "moto2",
         "moto3",
         "motorcycle gp"
+
     ]
 
     events = []
@@ -420,26 +526,32 @@ def get_sport_events(programs):
     for program in programs:
 
         text = (
+
             str(
                 program.get(
                     "title",
                     ""
                 )
             )
+
             + " "
+
             + str(
                 program.get(
                     "description",
                     ""
                 )
             )
+
             + " "
+
             + str(
                 program.get(
                     "channel_name",
                     ""
                 )
             )
+
         ).lower()
 
         if any(
