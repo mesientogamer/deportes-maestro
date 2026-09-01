@@ -1,97 +1,19 @@
 import gzip
+import io
 import xml.etree.ElementTree as ET
 
 import requests
 
 
-# ============================================================
-# CONFIGURACIÓN
-# ============================================================
-
 API_BASE = "https://iptv-org.github.io/api"
 
 CHANNELS_URL = f"{API_BASE}/channels.json"
+GUIDES_URL = f"{API_BASE}/guides.json"
 
-# EPG público fusionado basado en fuentes de iptv-org/epg
-EPG_URL = "https://dearbulut.github.io/iptv/epg/guide.xml.gz"
+# Fuente comunitaria adicional actualmente publicada por iptv-org.
+# Se utiliza solamente como respaldo.
+WORKER_EPG_URL = "https://worker-9dd4.onrender.com/guide.xml.gz"
 
-
-# ============================================================
-# DEPORTES
-# ============================================================
-
-SPORT_KEYWORDS = {
-    "football": [
-        "football",
-        "soccer",
-        "futbol",
-        "fútbol",
-        "premier league",
-        "la liga",
-        "champions league",
-        "europa league",
-        "conference league",
-        "copa del rey",
-        "serie a",
-        "bundesliga",
-        "ligue 1",
-        "liga portugal",
-        "eredivisie",
-        "uefa",
-        "fifa",
-    ],
-
-    "tennis": [
-        "tennis",
-        "tenis",
-        "atp",
-        "wta",
-        "wimbledon",
-        "roland garros",
-        "us open",
-        "australian open",
-        "masters 1000",
-        "masters",
-        "tennis channel",
-    ],
-
-    "basketball": [
-        "basketball",
-        "baloncesto",
-        "nba",
-        "wnba",
-        "euroleague",
-        "eurocup",
-        "acb",
-        "fiba",
-        "ncaa",
-        "basket",
-    ],
-
-    "formula1": [
-        "formula 1",
-        "formula1",
-        "formula one",
-        "f1",
-        "grand prix",
-        "gran premio",
-        "gp ",
-    ],
-
-    "motogp": [
-        "motogp",
-        "moto gp",
-        "moto2",
-        "moto3",
-        "motorcycle gp",
-        "motorcycle grand prix",
-    ],
-}
-
-
-# ============================================================
-# SESIÓN HTTP
-# ============================================================
 
 SESSION = requests.Session()
 
@@ -103,8 +25,7 @@ SESSION.headers.update(
             "AppleWebKit/537.36 "
             "(KHTML, like Gecko) "
             "Chrome/139.0 Safari/537.36"
-        ),
-        "Accept": "*/*",
+        )
     }
 )
 
@@ -113,36 +34,14 @@ SESSION.headers.update(
 # UTILIDADES
 # ============================================================
 
-def clean_text(value):
+def clean(value):
     return str(value or "").strip()
 
 
-def detect_sport(text):
-    """
-    Detecta el deporte a partir del texto.
-    """
-
-    text = clean_text(text).lower()
-
-    for sport, keywords in SPORT_KEYWORDS.items():
-
-        for keyword in keywords:
-
-            if keyword in text:
-                return sport
-
-    return None
-
-
-# ============================================================
-# DESCARGAR JSON
-# ============================================================
-
-def download_json(url):
-
+def download_json(url, timeout=120):
     response = SESSION.get(
         url,
-        timeout=120,
+        timeout=timeout,
     )
 
     response.raise_for_status()
@@ -150,158 +49,42 @@ def download_json(url):
     return response.json()
 
 
-# ============================================================
-# DESCARGAR EPG
-# ============================================================
-
-def download_epg_xml():
-
-    print("")
-    print(
-        "Descargando guía EPG fusionada..."
+def is_http_url(url):
+    return (
+        isinstance(url, str)
+        and (
+            url.startswith("http://")
+            or url.startswith("https://")
+        )
     )
 
-    print(
-        EPG_URL
-    )
-
-    response = SESSION.get(
-        EPG_URL,
-        timeout=180,
-    )
-
-    response.raise_for_status()
-
-    data = response.content
-
-    if not data:
-
-        raise RuntimeError(
-            "La guía EPG está vacía."
-        )
-
-    # La fuente termina en .gz,
-    # pero comprobamos también los bytes.
-    if (
-        data[:2] == b"\x1f\x8b"
-    ):
-
-        print(
-            "Descomprimiendo guía GZIP..."
-        )
-
-        data = gzip.decompress(
-            data
-        )
-
-    return data
-
 
 # ============================================================
-# PARSEAR XML
-# ============================================================
-
-def parse_xml(data):
-
-    if not data:
-        return None
-
-    try:
-
-        return ET.fromstring(
-            data
-        )
-
-    except Exception as error:
-
-        print(
-            f"ERROR XML: {error}"
-        )
-
-        return None
-
-
-# ============================================================
-# MAPA DE CANALES DEL XMLTV
-# ============================================================
-
-def build_xml_channel_map(root):
-
-    result = {}
-
-    if root is None:
-        return result
-
-    for xml_channel in root.findall(
-        "channel"
-    ):
-
-        xml_id = clean_text(
-            xml_channel.get(
-                "id",
-                ""
-            )
-        )
-
-        if not xml_id:
-            continue
-
-        channel_name = ""
-
-        display_name = (
-            xml_channel.find(
-                "display-name"
-            )
-        )
-
-        if display_name is not None:
-
-            channel_name = clean_text(
-                display_name.text
-            )
-
-        result[
-            xml_id
-        ] = channel_name
-
-    return result
-
-
-# ============================================================
-# MAPA DE CANALES DE IPTV-ORG
+# CANALES DEPORTIVOS
 # ============================================================
 
 def get_sports_channels():
 
-    print("")
-    print(
-        "Descargando canales de iptv-org..."
-    )
+    print()
+    print("Descargando canales de iptv-org...")
 
     channels = download_json(
         CHANNELS_URL
     )
 
     print(
-        f"Canales recibidos: "
-        f"{len(channels)}"
+        f"Canales recibidos: {len(channels)}"
     )
 
-    sports_channels = {}
+    sports = {}
 
     for channel in channels:
 
-        if not isinstance(
-            channel,
-            dict
-        ):
+        if not isinstance(channel, dict):
             continue
 
-        channel_id = clean_text(
-            channel.get(
-                "id",
-                ""
-            )
+        channel_id = clean(
+            channel.get("id")
         )
 
         if not channel_id:
@@ -312,82 +95,360 @@ def get_sports_channels():
             []
         )
 
-        categories_normalized = {
-            clean_text(
-                category
-            ).lower()
+        categories = {
+            clean(category).lower()
             for category in categories
         }
 
-        if "sports" in categories_normalized:
+        if "sports" in categories:
 
-            sports_channels[
-                channel_id
-            ] = channel
+            sports[channel_id] = channel
 
     print(
-        f"Canales deportivos: "
-        f"{len(sports_channels)}"
+        f"Canales deportivos: {len(sports)}"
     )
 
-    return sports_channels
+    return sports
 
 
 # ============================================================
-# OBTENER NOMBRE DE CANAL
+# GUIDES.JSON
 # ============================================================
 
-def get_channel_name(channel):
+def get_guide_sources(sports_channels):
 
-    if not isinstance(
-        channel,
-        dict
-    ):
-        return ""
+    print()
+    print("Descargando guides.json...")
 
-    # Intentamos varias propiedades
-    # porque la API puede tener nombres
-    # diferentes según el canal.
+    guides = download_json(
+        GUIDES_URL
+    )
 
-    name = clean_text(
-        channel.get(
-            "name",
-            ""
+    print(
+        f"Entradas de guías recibidas: "
+        f"{len(guides)}"
+    )
+
+    sources = {}
+
+    sports_ids = set(
+        sports_channels.keys()
+    )
+
+    for guide in guides:
+
+        if not isinstance(guide, dict):
+            continue
+
+        channel_id = clean(
+            guide.get("channel")
         )
-    )
 
-    if name:
-        return name
+        if not channel_id:
+            continue
 
-    name = clean_text(
-        channel.get(
-            "alt_names",
-            ""
+        # Solo nos interesan canales deportivos.
+        if channel_id not in sports_ids:
+            continue
+
+        guide_sources = guide.get(
+            "sources",
+            []
         )
+
+        if not isinstance(
+            guide_sources,
+            list
+        ):
+            continue
+
+        for source in guide_sources:
+
+            if not isinstance(
+                source,
+                dict
+            ):
+                continue
+
+            url = clean(
+                source.get("url")
+            )
+
+            if not is_http_url(url):
+                continue
+
+            source_format = clean(
+                source.get("format")
+            ).upper()
+
+            key = (
+                url,
+                source_format
+            )
+
+            if key not in sources:
+
+                sources[key] = {
+                    "url": url,
+                    "format": source_format,
+                    "channels": set(),
+                }
+
+            sources[key][
+                "channels"
+            ].add(channel_id)
+
+    print(
+        f"Fuentes EPG deportivas únicas: "
+        f"{len(sources)}"
     )
 
-    return name
+    return list(
+        sources.values()
+    )
 
 
 # ============================================================
-# EXTRAER TEXTO XML
+# DESCARGAR UNA GUÍA
 # ============================================================
 
-def get_xml_text(
-    programme,
-    tag
+def download_guide(source):
+
+    url = source["url"]
+
+    try:
+
+        response = SESSION.get(
+            url,
+            timeout=60,
+        )
+
+        response.raise_for_status()
+
+        data = response.content
+
+        if not data:
+            return None
+
+        # GZIP detectado por cabecera.
+        if data[:2] == b"\x1f\x8b":
+
+            data = gzip.decompress(
+                data
+            )
+
+        return data
+
+    except Exception as error:
+
+        print(
+            f" ERROR: {url}"
+        )
+
+        print(
+            f" {error}"
+        )
+
+        return None
+
+
+# ============================================================
+# PARSEAR XMLTV
+# ============================================================
+
+def parse_xmltv(
+    data,
+    sports_channels
 ):
 
-    element = programme.find(
-        tag
+    programs = []
+
+    if not data:
+        return programs
+
+    try:
+
+        root = ET.fromstring(
+            data
+        )
+
+    except Exception as error:
+
+        print(
+            f" ERROR XML: {error}"
+        )
+
+        return programs
+
+    # --------------------------------------------------------
+    # Nombres de canales del XMLTV
+    # --------------------------------------------------------
+
+    channel_names = {}
+
+    for channel in root.findall(
+        "channel"
+    ):
+
+        channel_id = clean(
+            channel.get("id")
+        )
+
+        if not channel_id:
+            continue
+
+        display_name = channel.find(
+            "display-name"
+        )
+
+        name = ""
+
+        if display_name is not None:
+            name = clean(
+                display_name.text
+            )
+
+        channel_names[
+            channel_id
+        ] = name
+
+    # --------------------------------------------------------
+    # PROGRAMAS
+    # --------------------------------------------------------
+
+    for programme in root.findall(
+        "programme"
+    ):
+
+        channel_id = clean(
+            programme.get(
+                "channel"
+            )
+        )
+
+        if not channel_id:
+            continue
+
+        # Match directo.
+        if channel_id not in sports_channels:
+            continue
+
+        start = clean(
+            programme.get(
+                "start"
+            )
+        )
+
+        stop = clean(
+            programme.get(
+                "stop"
+            )
+        )
+
+        title_element = (
+            programme.find(
+                "title"
+            )
+        )
+
+        if title_element is None:
+            continue
+
+        title = clean(
+            title_element.text
+        )
+
+        if not title:
+            continue
+
+        description_element = (
+            programme.find(
+                "desc"
+            )
+        )
+
+        description = ""
+
+        if description_element is not None:
+
+            description = clean(
+                description_element.text
+            )
+
+        channel_name = (
+            channel_names.get(
+                channel_id,
+                ""
+            )
+        )
+
+        programs.append(
+            {
+                "channel": channel_id,
+                "epg_channel": channel_id,
+                "channel_name": channel_name,
+                "feed": "",
+                "start": start,
+                "stop": stop,
+                "title": title,
+                "description": description,
+                "live": False,
+                "servers": [],
+            }
+        )
+
+    return programs
+
+
+# ============================================================
+# RESPALDO: WORKER COMUNITARIO
+# ============================================================
+
+def download_worker_epg(
+    sports_channels
+):
+
+    print()
+    print(
+        "Intentando fuente EPG comunitaria "
+        "de respaldo..."
     )
 
-    if element is None:
-        return ""
-
-    return clean_text(
-        element.text
+    print(
+        WORKER_EPG_URL
     )
+
+    source = {
+        "url": WORKER_EPG_URL,
+        "format": "GZIP",
+        "channels": set(
+            sports_channels.keys()
+        ),
+    }
+
+    data = download_guide(
+        source
+    )
+
+    if data is None:
+
+        print(
+            "Fuente comunitaria no disponible."
+        )
+
+        return []
+
+    programs = parse_xmltv(
+        data,
+        sports_channels
+    )
+
+    print(
+        f"Programas encontrados en "
+        f"respaldo: {len(programs)}"
+    )
+
+    return programs
 
 
 # ============================================================
@@ -396,536 +457,208 @@ def get_xml_text(
 
 def download_epg():
 
-    print("")
+    print()
     print(
-        "=========================================="
+        "============================================================"
     )
     print(
-        " OBTENIENDO PROGRAMACIÓN"
+        "OBTENIENDO PROGRAMACIÓN"
     )
     print(
-        "=========================================="
+        "============================================================"
     )
 
-    # ========================================================
+    # --------------------------------------------------------
     # 1. CANALES DEPORTIVOS
-    # ========================================================
-
-    sports_channels = (
-        get_sports_channels()
-    )
-
-    if not sports_channels:
-
-        print(
-            "No se encontraron canales deportivos."
-        )
-
-        return []
-
-    # ========================================================
-    # 2. DESCARGAR EPG
-    # ========================================================
-
-    print("")
+    # --------------------------------------------------------
 
     try:
 
-        epg_data = download_epg_xml()
+        sports_channels = (
+            get_sports_channels()
+        )
 
     except Exception as error:
 
-        print("")
+        print()
         print(
-            "ERROR DESCARGANDO EPG:"
+            "ERROR obteniendo canales:"
         )
 
-        print(
-            error
-        )
+        print(error)
 
         return []
 
-    print(
-        f"EPG descargado: "
-        f"{len(epg_data):,} bytes"
-    )
-
-    # ========================================================
-    # 3. PARSEAR XML
-    # ========================================================
-
-    root = parse_xml(
-        epg_data
-    )
-
-    if root is None:
-
-        print(
-            "No se pudo interpretar el XMLTV."
-        )
-
+    if not sports_channels:
         return []
 
-    # ========================================================
-    # 4. MAPA DE CANALES XMLTV
-    # ========================================================
+    # --------------------------------------------------------
+    # 2. FUENTES REALES
+    # --------------------------------------------------------
 
-    xml_channels = (
-        build_xml_channel_map(
-            root
+    try:
+
+        sources = get_guide_sources(
+            sports_channels
         )
+
+    except Exception as error:
+
+        print()
+        print(
+            "ERROR obteniendo guides.json:"
+        )
+
+        print(error)
+
+        sources = []
+
+    # --------------------------------------------------------
+    # 3. DESCARGAR FUENTES
+    # --------------------------------------------------------
+
+    all_programs = []
+
+    successful_sources = 0
+
+    failed_sources = 0
+
+    print()
+
+    print(
+        "Descargando fuentes EPG reales..."
     )
 
     print(
-        f"Canales dentro del EPG: "
-        f"{len(xml_channels)}"
+        f"Fuentes a comprobar: "
+        f"{len(sources)}"
     )
 
-    # ========================================================
-    # 5. BUSCAR PROGRAMAS
-    # ========================================================
-
-    all_programmes = []
-
-    total_programmes = 0
-
-    sports_programmes = 0
-
-    matched_channels = set()
-
-    print("")
-    print(
-        "Procesando programas EPG..."
-    )
-
-    for programme in root.findall(
-        "programme"
+    for index, source in enumerate(
+        sources,
+        start=1
     ):
 
-        total_programmes += 1
+        url = source["url"]
 
-        # ----------------------------------------------------
-        # ID DEL CANAL XMLTV
-        # ----------------------------------------------------
-
-        xml_channel = clean_text(
-            programme.get(
-                "channel",
-                ""
-            )
+        print(
+            f"[{index}/{len(sources)}] "
+            f"{url}"
         )
 
-        if not xml_channel:
+        data = download_guide(
+            source
+        )
+
+        if data is None:
+
+            failed_sources += 1
+
             continue
 
-        # ----------------------------------------------------
-        # MATCH DIRECTO CON IPTV-ORG
-        # ----------------------------------------------------
+        successful_sources += 1
 
-        channel = sports_channels.get(
-            xml_channel
+        programs = parse_xmltv(
+            data,
+            sports_channels
         )
 
-        if channel is None:
-            continue
+        if programs:
 
-        matched_channels.add(
-            xml_channel
+            print(
+                f" Programas deportivos: "
+                f"{len(programs)}"
+            )
+
+            all_programs.extend(
+                programs
+            )
+
+        else:
+
+            print(
+                " Sin programas deportivos "
+                "coincidentes."
+            )
+
+    # --------------------------------------------------------
+    # 4. RESPALDO
+    # --------------------------------------------------------
+
+    if not all_programs:
+
+        print()
+        print(
+            "Las fuentes directas no han "
+            "proporcionado programas."
         )
 
-        # ----------------------------------------------------
-        # HORARIO
-        # ----------------------------------------------------
-
-        start = clean_text(
-            programme.get(
-                "start",
-                ""
+        backup_programs = (
+            download_worker_epg(
+                sports_channels
             )
         )
 
-        stop = clean_text(
-            programme.get(
-                "stop",
-                ""
-            )
+        all_programs.extend(
+            backup_programs
         )
 
-        # ----------------------------------------------------
-        # TÍTULO
-        # ----------------------------------------------------
+    # --------------------------------------------------------
+    # 5. ELIMINAR DUPLICADOS
+    # --------------------------------------------------------
 
-        title = get_xml_text(
-            programme,
-            "title"
+    unique = {}
+
+    for program in all_programs:
+
+        key = (
+            program.get("channel", ""),
+            program.get("start", ""),
+            program.get("stop", ""),
+            program.get("title", ""),
         )
 
-        if not title:
-            continue
+        unique[key] = program
 
-        # ----------------------------------------------------
-        # DESCRIPCIÓN
-        # ----------------------------------------------------
+    programs = list(
+        unique.values()
+    )
 
-        description = get_xml_text(
-            programme,
-            "desc"
-        )
+    # --------------------------------------------------------
+    # 6. RESULTADO
+    # --------------------------------------------------------
 
-        # ----------------------------------------------------
-        # NOMBRE DEL CANAL
-        # ----------------------------------------------------
-
-        channel_name = (
-            xml_channels.get(
-                xml_channel,
-                ""
-            )
-        )
-
-        if not channel_name:
-
-            channel_name = (
-                get_channel_name(
-                    channel
-                )
-            )
-
-        if not channel_name:
-
-            channel_name = xml_channel
-
-        # ----------------------------------------------------
-        # DEPORTE
-        # ----------------------------------------------------
-
-        sport_text = (
-            f"{title} "
-            f"{description} "
-            f"{channel_name}"
-        )
-
-        sport = detect_sport(
-            sport_text
-        )
-
-        # ----------------------------------------------------
-        # SI EL CANAL ES DEPORTIVO PERO
-        # NO SE PUEDE IDENTIFICAR EL DEPORTE
-        # ----------------------------------------------------
-
-        if not sport:
-
-            # Como el canal ya pertenece a
-            # la categoría sports de iptv-org,
-            # intentamos identificarlo por su nombre.
-
-            sport = detect_sport(
-                channel_name
-            )
-
-        # ----------------------------------------------------
-        # Si sigue sin identificarse,
-        # no lo descartamos.
-        #
-        # Se marca como football por defecto
-        # SOLO para no perder canales deportivos
-        # que tengan nombres genéricos.
-        # ----------------------------------------------------
-
-        if not sport:
-
-            sport = "football"
-
-        # ----------------------------------------------------
-        # GUARDAR PROGRAMA
-        # ----------------------------------------------------
-
-        all_programmes.append(
-            {
-                "channel": xml_channel,
-                "feed": "",
-                "epg_channel": xml_channel,
-                "channel_name": channel_name,
-                "start": start,
-                "stop": stop,
-                "title": title,
-                "description": description,
-                "sport": sport,
-                "source": EPG_URL,
-                "site": "iptv-nexus",
-                "lang": "",
-                "live": False,
-                "servers": [],
-            }
-        )
-
-        sports_programmes += 1
-
-    # ========================================================
-    # RESULTADOS
-    # ========================================================
-
-    print("")
+    print()
     print(
-        "=========================================="
+        "============================================================"
     )
 
     print(
-        f"Programas totales en EPG: "
-        f"{total_programmes:,}"
+        f"Fuentes EPG descargadas correctamente: "
+        f"{successful_sources}"
     )
 
     print(
-        f"Canales deportivos con EPG: "
-        f"{len(matched_channels):,}"
+        f"Fuentes EPG fallidas: "
+        f"{failed_sources}"
     )
 
     print(
-        f"Programas deportivos obtenidos: "
-        f"{sports_programmes:,}"
+        f"Programas EPG deportivos: "
+        f"{len(programs)}"
     )
 
     print(
-        "=========================================="
+        "============================================================"
     )
 
-    return all_programmes
+    return programs
 
 
 # ============================================================
 # COMPATIBILIDAD CON MAIN.PY
 # ============================================================
 
-def parse_epg(xml_data):
+def parse_epg(epg_data):
 
-    return xml_data
-
-
-# ============================================================
-# FILTRAR EVENTOS DEPORTIVOS
-# ============================================================
-
-def get_sport_events(programs):
-
-    events = []
-
-    for program in programs:
-
-        sport = program.get(
-            "sport"
-        )
-
-        if sport in SPORT_KEYWORDS:
-
-            events.append(
-                program
-            )
-
-            continue
-
-        title = clean_text(
-            program.get(
-                "title",
-                ""
-            )
-        )
-
-        description = clean_text(
-            program.get(
-                "description",
-                ""
-            )
-        )
-
-        channel_name = clean_text(
-            program.get(
-                "channel_name",
-                ""
-            )
-        )
-
-        text = (
-            title
-            + " "
-            + description
-            + " "
-            + channel_name
-        )
-
-        detected = detect_sport(
-            text
-        )
-
-        if detected:
-
-            program["sport"] = (
-                detected
-            )
-
-            events.append(
-                program
-            )
-
-    return events
-
-
-# ============================================================
-# AGRUPAR POR DEPORTE
-# ============================================================
-
-def group_events_by_sport(events):
-
-    order = [
-        "football",
-        "tennis",
-        "basketball",
-        "formula1",
-        "motogp",
-    ]
-
-    groups = {
-        sport: []
-        for sport in order
-    }
-
-    for event in events:
-
-        sport = event.get(
-            "sport"
-        )
-
-        if sport in groups:
-
-            groups[
-                sport
-            ].append(
-                event
-            )
-
-    return {
-        sport: groups[sport]
-        for sport in order
-    }
-
-
-# ============================================================
-# NORMALIZAR EVENTO
-# ============================================================
-
-def normalize_event(event):
-
-    title = clean_text(
-        event.get(
-            "title",
-            ""
-        )
-    )
-
-    description = clean_text(
-        event.get(
-            "description",
-            ""
-        )
-    )
-
-    sport = event.get(
-        "sport"
-    )
-
-    if not sport:
-
-        sport = detect_sport(
-            f"{title} {description}"
-        )
-
-    return {
-        "id": clean_text(
-            event.get(
-                "id",
-                ""
-            )
-        ),
-
-        "sport": sport,
-
-        "title": title,
-
-        "description": description,
-
-        "channel": clean_text(
-            event.get(
-                "channel",
-                ""
-            )
-        ),
-
-        "channel_name": clean_text(
-            event.get(
-                "channel_name",
-                ""
-            )
-        ),
-
-        "epg_channel": clean_text(
-            event.get(
-                "epg_channel",
-                ""
-            )
-        ),
-
-        "feed": clean_text(
-            event.get(
-                "feed",
-                ""
-            )
-        ),
-
-        "start": clean_text(
-            event.get(
-                "start",
-                ""
-            )
-        ),
-
-        "stop": clean_text(
-            event.get(
-                "stop",
-                ""
-            )
-        ),
-
-        "live": bool(
-            event.get(
-                "live",
-                False
-            )
-        ),
-
-        "servers": event.get(
-            "servers",
-            []
-        ),
-
-        "source": clean_text(
-            event.get(
-                "source",
-                ""
-            )
-        ),
-
-        "site": clean_text(
-            event.get(
-                "site",
-                ""
-            )
-        ),
-
-        "lang": clean_text(
-            event.get(
-                "lang",
-                ""
-            )
-        ),
-    }
+    return epg_data
