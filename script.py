@@ -55,7 +55,7 @@ SPORTS = [
     (
         "5. BALONMANO",
         [
-            "handball", "balonmano"
+            "handball", "balonmano""handball","balonmano", "handbol", "handboll", "handbold", "hentbol", "гандбол", "гандболь",
         ],
     ),
     (
