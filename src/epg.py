@@ -394,3 +394,4 @@ def download_epg():
 
                     "description":
                         description
+                    })
