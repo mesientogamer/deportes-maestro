@@ -1,0 +1,14 @@
+{
+  "sports": [
+    "football",
+    "tennis",
+    "basketball",
+    "f1",
+    "motogp"
+  ],
+  "refresh_minutes": 30,
+  "only_live_events": true,
+  "use_all_available_languages": true,
+  "check_streams": true,
+  "max_streams_per_event": 5
+}
