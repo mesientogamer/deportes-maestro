@@ -91,21 +91,34 @@ def download_epg():
     )
 
     # --------------------------------------------------
-    # PRUEBA: MOSTRAR PRIMERAS GUÍAS
+    # BUSCAR GUIAS QUE TENGAN SOURCES
     # --------------------------------------------------
 
     print("")
-    print("========== PRIMERAS GUIAS ==========")
+    print("========== GUIAS CON SOURCES ==========")
 
-    for guide in guides[:10]:
+    count = 0
 
-        print(guide)
+    for guide in guides:
 
-    print("====================================")
+        if guide.get("sources"):
+
+            print(guide)
+
+            count += 1
+
+            if count >= 10:
+                break
+
+    print(
+        f"Guias con sources encontradas: {count}"
+    )
+
+    print("========================================")
     print("")
 
     # --------------------------------------------------
-    # OBTENER FUENTES EPG
+    # OBTENER FUENTES EPG DEPORTIVAS
     # --------------------------------------------------
 
     guide_sources = {}
@@ -143,9 +156,15 @@ def download_epg():
 
         for source in sources:
 
-            url = source.get(
-                "url"
-            )
+            if isinstance(source, str):
+
+                url = source
+
+            else:
+
+                url = source.get(
+                    "url"
+                )
 
             if not url:
                 continue
@@ -238,48 +257,6 @@ def download_epg():
             )
 
             # --------------------------------------------------
-            # MAPA DE CANALES DEL XML
-            # --------------------------------------------------
-
-            channel_map = {}
-
-            for channel_element in root.findall(
-                "channel"
-            ):
-
-                xml_channel_id = (
-                    channel_element.get(
-                        "id",
-                        ""
-                    )
-                )
-
-                if not xml_channel_id:
-                    continue
-
-                names = []
-
-                for display_name in (
-                    channel_element.findall(
-                        "display-name"
-                    )
-                ):
-
-                    name = (
-                        display_name.text
-                        or ""
-                    ).strip()
-
-                    if name:
-                        names.append(
-                            name
-                        )
-
-                channel_map[
-                    xml_channel_id
-                ] = names
-
-            # --------------------------------------------------
             # PROGRAMAS
             # --------------------------------------------------
 
@@ -353,7 +330,7 @@ def download_epg():
                     ).strip()
 
                 # ------------------------------
-                # BUSCAR GUÍA
+                # GUÍA ASOCIADA
                 # ------------------------------
 
                 matched_guide = None
@@ -376,15 +353,9 @@ def download_epg():
 
                         break
 
-                # ------------------------------
-                # SI NO HAY COINCIDENCIA
-                # ------------------------------
-
                 if matched_guide is None:
 
-                    matched_guide = (
-                        guide_info[0]
-                    )
+                    matched_guide = guide_info[0]
 
                 # ------------------------------
                 # GUARDAR PROGRAMA
@@ -423,144 +394,3 @@ def download_epg():
 
                     "description":
                         description
-
-                })
-
-        except Exception as error:
-
-            print(
-                f" Error leyendo EPG: "
-                f"{error}"
-            )
-
-    print(
-        f"Programas EPG obtenidos: "
-        f"{len(all_programmes)}"
-    )
-
-    return all_programmes
-
-
-def parse_epg(xml_data):
-    """
-    Compatibilidad con main.py.
-    """
-
-    return xml_data
-
-
-def get_sport_events(programs):
-    """
-    Filtra programas deportivos.
-    """
-
-    keywords = [
-
-        # -------------------------
-        # FÚTBOL
-        # -------------------------
-
-        "football",
-        "soccer",
-        "futbol",
-        "fútbol",
-        "premier league",
-        "la liga",
-        "champions",
-        "europa league",
-        "conference league",
-        "serie a",
-        "bundesliga",
-        "ligue 1",
-        "copa del rey",
-
-        # -------------------------
-        # TENIS
-        # -------------------------
-
-        "tennis",
-        "tenis",
-        "atp",
-        "wta",
-        "wimbledon",
-        "roland garros",
-        "us open",
-        "australian open",
-
-        # -------------------------
-        # BALONCESTO
-        # -------------------------
-
-        "basketball",
-        "baloncesto",
-        "nba",
-        "euroleague",
-        "eurobasket",
-        "fiba",
-        "acb",
-
-        # -------------------------
-        # FÓRMULA 1
-        # -------------------------
-
-        "formula 1",
-        "formula1",
-        "f1",
-        "grand prix",
-        "grandprix",
-
-        # -------------------------
-        # MOTOGP
-        # -------------------------
-
-        "motogp",
-        "moto gp",
-        "moto2",
-        "moto3",
-        "motorcycle gp"
-
-    ]
-
-    events = []
-
-    for program in programs:
-
-        text = (
-
-            str(
-                program.get(
-                    "title",
-                    ""
-                )
-            )
-
-            + " "
-
-            + str(
-                program.get(
-                    "description",
-                    ""
-                )
-            )
-
-            + " "
-
-            + str(
-                program.get(
-                    "channel_name",
-                    ""
-                )
-            )
-
-        ).lower()
-
-        if any(
-            keyword in text
-            for keyword in keywords
-        ):
-
-            events.append(
-                program
-            )
-
-    return events
