@@ -1,4 +1,5 @@
 import gzip
+import io
 import xml.etree.ElementTree as ET
 
 import requests
@@ -12,6 +13,8 @@ API_BASE = "https://iptv-org.github.io/api"
 
 CHANNELS_URL = f"{API_BASE}/channels.json"
 GUIDES_URL = f"{API_BASE}/guides.json"
+
+EPG_BASE = "https://iptv-org.github.io/epg/guides"
 
 
 SPORT_KEYWORDS = {
@@ -29,6 +32,8 @@ SPORT_KEYWORDS = {
         "serie a",
         "bundesliga",
         "ligue 1",
+        "liga portugal",
+        "eredivisie",
     ],
 
     "tennis": [
@@ -40,15 +45,20 @@ SPORT_KEYWORDS = {
         "roland garros",
         "us open",
         "australian open",
+        "masters 1000",
+        "masters",
     ],
 
     "basketball": [
         "basketball",
         "baloncesto",
         "nba",
+        "wnba",
         "euroleague",
+        "eurocup",
         "acb",
         "fiba",
+        "ncaa",
     ],
 
     "formula1": [
@@ -56,7 +66,9 @@ SPORT_KEYWORDS = {
         "formula1",
         "f1",
         "grand prix",
+        "grand prix",
         "gp ",
+        "formula one",
     ],
 
     "motogp": [
@@ -65,8 +77,28 @@ SPORT_KEYWORDS = {
         "moto2",
         "moto3",
         "motorcycle gp",
+        "motorcycle grand prix",
     ],
 }
+
+
+# ============================================================
+# SESIÓN HTTP
+# ============================================================
+
+SESSION = requests.Session()
+
+SESSION.headers.update(
+    {
+        "User-Agent": (
+            "Mozilla/5.0 "
+            "(Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 "
+            "(KHTML, like Gecko) "
+            "Chrome/139.0 Safari/537.36"
+        )
+    }
+)
 
 
 # ============================================================
@@ -74,16 +106,9 @@ SPORT_KEYWORDS = {
 # ============================================================
 
 def download_json(url):
-    """
-    Descarga un JSON desde una URL.
-    """
-
-    response = requests.get(
+    response = SESSION.get(
         url,
         timeout=120,
-        headers={
-            "User-Agent": "Mozilla/5.0"
-        }
     )
 
     response.raise_for_status()
@@ -96,9 +121,6 @@ def download_json(url):
 # ============================================================
 
 def detect_sport(text):
-    """
-    Detecta el deporte a partir del texto.
-    """
 
     text = str(text or "").lower()
 
@@ -113,51 +135,426 @@ def detect_sport(text):
 
 
 # ============================================================
-# DESCARGA EPG
+# NORMALIZAR TEXTO
+# ============================================================
+
+def clean_text(value):
+
+    return str(value or "").strip()
+
+
+# ============================================================
+# OBTENER URLs EPG DE UNA GUÍA
+# ============================================================
+
+def get_guide_urls(guide):
+
+    urls = []
+
+    if not isinstance(guide, dict):
+        return urls
+
+    # --------------------------------------------------------
+    # FORMATO ANTIGUO / DIRECTO
+    # --------------------------------------------------------
+
+    direct_url = guide.get("url")
+
+    if direct_url:
+
+        direct_url = clean_text(direct_url)
+
+        if direct_url:
+            urls.append(direct_url)
+
+    # --------------------------------------------------------
+    # FORMATO ACTUAL: sources[]
+    # --------------------------------------------------------
+
+    sources = guide.get("sources", [])
+
+    if isinstance(sources, list):
+
+        for source in sources:
+
+            if not isinstance(source, dict):
+                continue
+
+            source_url = source.get("url")
+
+            if source_url:
+
+                source_url = clean_text(source_url)
+
+                if source_url:
+                    urls.append(source_url)
+
+    # --------------------------------------------------------
+    # ELIMINAR DUPLICADOS
+    # --------------------------------------------------------
+
+    result = []
+
+    seen = set()
+
+    for url in urls:
+
+        if url in seen:
+            continue
+
+        seen.add(url)
+        result.append(url)
+
+    return result
+
+
+# ============================================================
+# CREAR URL EPG PÚBLICA DE IPTVO-RG
+# ============================================================
+
+def build_public_epg_urls(guide):
+
+    urls = []
+
+    if not isinstance(guide, dict):
+        return urls
+
+    site = clean_text(
+        guide.get("site")
+    )
+
+    lang = clean_text(
+        guide.get("lang")
+    )
+
+    if not site or not lang:
+        return urls
+
+    # --------------------------------------------------------
+    # GUÍA XML NORMAL
+    # --------------------------------------------------------
+
+    urls.append(
+        f"{EPG_BASE}/{lang}/{site}.xml"
+    )
+
+    # --------------------------------------------------------
+    # GUÍA GZIP
+    # --------------------------------------------------------
+
+    urls.append(
+        f"{EPG_BASE}/{lang}/{site}.xml.gz"
+    )
+
+    return urls
+
+
+# ============================================================
+# OBTENER TODAS LAS POSIBLES URLs
+# ============================================================
+
+def collect_guide_urls(guide):
+
+    urls = []
+
+    # URLs declaradas por la API
+    urls.extend(
+        get_guide_urls(guide)
+    )
+
+    # URLs públicas estándar de iptv-org/epg
+    urls.extend(
+        build_public_epg_urls(guide)
+    )
+
+    # --------------------------------------------------------
+    # DEDUPLICAR
+    # --------------------------------------------------------
+
+    result = []
+
+    seen = set()
+
+    for url in urls:
+
+        if not url:
+            continue
+
+        url = clean_text(url)
+
+        if not url:
+            continue
+
+        if url in seen:
+            continue
+
+        seen.add(url)
+
+        result.append(url)
+
+    return result
+
+
+# ============================================================
+# DESCARGAR XML EPG
+# ============================================================
+
+def download_xml(url):
+
+    response = SESSION.get(
+        url,
+        timeout=45,
+    )
+
+    if response.status_code != 200:
+
+        return None
+
+    data = response.content
+
+    if not data:
+        return None
+
+    # --------------------------------------------------------
+    # DETECTAR GZIP POR EXTENSIÓN
+    # --------------------------------------------------------
+
+    if url.lower().endswith(".gz"):
+
+        try:
+
+            data = gzip.decompress(
+                data
+            )
+
+        except Exception:
+
+            return None
+
+    else:
+
+        # ----------------------------------------------------
+        # DETECTAR GZIP POR LOS BYTES
+        # ----------------------------------------------------
+
+        if data[:2] == b"\x1f\x8b":
+
+            try:
+
+                data = gzip.decompress(
+                    data
+                )
+
+            except Exception:
+
+                return None
+
+    return data
+
+
+# ============================================================
+# PARSEAR XML
+# ============================================================
+
+def parse_xml(data):
+
+    if not data:
+        return None
+
+    try:
+
+        return ET.fromstring(
+            data
+        )
+
+    except Exception:
+
+        return None
+
+
+# ============================================================
+# CREAR MAPA DE CANALES XML
+# ============================================================
+
+def build_xml_channel_map(root):
+
+    result = {}
+
+    if root is None:
+        return result
+
+    for xml_channel in root.findall(
+        "channel"
+    ):
+
+        xml_id = clean_text(
+            xml_channel.get(
+                "id",
+                ""
+            )
+        )
+
+        if not xml_id:
+            continue
+
+        channel_name = ""
+
+        display_name = (
+            xml_channel.find(
+                "display-name"
+            )
+        )
+
+        if display_name is not None:
+
+            channel_name = clean_text(
+                display_name.text
+            )
+
+        result[
+            xml_id
+        ] = channel_name
+
+    return result
+
+
+# ============================================================
+# BUSCAR GUÍA QUE CORRESPONDE A UN CANAL XML
+# ============================================================
+
+def match_guide(
+    xml_channel,
+    guide_info
+):
+
+    for guide in guide_info:
+
+        if not isinstance(
+            guide,
+            dict
+        ):
+            continue
+
+        site_id = clean_text(
+            guide.get(
+                "site_id",
+                ""
+            )
+        )
+
+        channel_id = clean_text(
+            guide.get(
+                "channel",
+                ""
+            )
+        )
+
+        # Caso habitual:
+        # XML channel == site_id
+        if (
+            site_id
+            and
+            xml_channel == site_id
+        ):
+
+            return guide
+
+        # Compatibilidad:
+        # XML channel == API channel
+        if (
+            channel_id
+            and
+            xml_channel == channel_id
+        ):
+
+            return guide
+
+    # --------------------------------------------------------
+    # Si solo hay una guía asociada, usarla
+    # --------------------------------------------------------
+
+    if len(guide_info) == 1:
+
+        return guide_info[0]
+
+    return None
+
+
+# ============================================================
+# EXTRAER TEXTO XML
+# ============================================================
+
+def get_xml_text(
+    programme,
+    tag
+):
+
+    element = programme.find(
+        tag
+    )
+
+    if element is None:
+        return ""
+
+    return clean_text(
+        element.text
+    )
+
+
+# ============================================================
+# DESCARGA EPG PRINCIPAL
 # ============================================================
 
 def download_epg():
-    """
-    Descarga la información EPG de los canales deportivos.
-
-    Utiliza:
-        channels.json
-        guides.json
-
-    Después descarga todas las guías EPG asociadas
-    a canales deportivos.
-    """
 
     print("")
-    print("==========================================")
-    print(" OBTENIENDO PROGRAMACIÓN")
-    print("==========================================")
+    print(
+        "=========================================="
+    )
+    print(
+        " OBTENIENDO PROGRAMACIÓN"
+    )
+    print(
+        "=========================================="
+    )
     print("")
 
-    # --------------------------------------------------------
+    # ========================================================
     # 1. CANALES
-    # --------------------------------------------------------
+    # ========================================================
 
-    print("Descargando información de canales...")
+    print(
+        "Descargando información de canales..."
+    )
 
     channels = download_json(
         CHANNELS_URL
     )
 
     print(
-        f"Canales recibidos: {len(channels)}"
+        f"Canales recibidos: "
+        f"{len(channels)}"
     )
 
-    # --------------------------------------------------------
-    # CANALES DEPORTIVOS
-    # --------------------------------------------------------
+    # ========================================================
+    # 2. CANALES DEPORTIVOS
+    # ========================================================
 
     sports_channels = {}
 
     for channel in channels:
 
-        channel_id = channel.get(
-            "id"
+        if not isinstance(
+            channel,
+            dict
+        ):
+            continue
+
+        channel_id = clean_text(
+            channel.get(
+                "id",
+                ""
+            )
         )
 
         if not channel_id:
@@ -169,11 +566,15 @@ def download_epg():
         )
 
         categories_normalized = {
-            str(category).lower()
+            clean_text(category).lower()
             for category in categories
         }
 
-        if "sports" in categories_normalized:
+        if (
+            "sports"
+            in
+            categories_normalized
+        ):
 
             sports_channels[
                 channel_id
@@ -192,12 +593,14 @@ def download_epg():
 
         return []
 
-    # --------------------------------------------------------
-    # 2. GUÍAS
-    # --------------------------------------------------------
+    # ========================================================
+    # 3. GUÍAS
+    # ========================================================
 
     print("")
-    print("Descargando índice de EPG...")
+    print(
+        "Descargando índice de EPG..."
+    )
 
     guides = download_json(
         GUIDES_URL
@@ -208,12 +611,14 @@ def download_epg():
         f"{len(guides)}"
     )
 
-    # --------------------------------------------------------
-    # MOSTRAR ALGUNAS GUÍAS PARA DEBUG
-    # --------------------------------------------------------
+    # ========================================================
+    # DEBUG
+    # ========================================================
 
     print("")
-    print("========== PRIMERAS GUÍAS ==========")
+    print(
+        "========== PRIMERAS GUÍAS =========="
+    )
 
     for guide in guides[:10]:
 
@@ -226,11 +631,15 @@ def download_epg():
     )
     print("")
 
-    # --------------------------------------------------------
-    # 3. BUSCAR TODAS LAS GUÍAS DEPORTIVAS
-    # --------------------------------------------------------
+    # ========================================================
+    # 4. CREAR MAPA DE GUÍAS
+    # ========================================================
 
     guide_map = {}
+
+    guides_without_direct_url = 0
+
+    guides_with_fallback = 0
 
     for guide in guides:
 
@@ -240,60 +649,117 @@ def download_epg():
         ):
             continue
 
-        channel_id = guide.get(
-            "channel"
+        channel_id = clean_text(
+            guide.get(
+                "channel",
+                ""
+            )
         )
 
-        url = guide.get(
-            "url"
-        )
+        # ----------------------------------------------------
+        # SI LA GUÍA TIENE CANAL, FILTRAR POR DEPORTIVO
+        # ----------------------------------------------------
 
-        if not url:
-            continue
-
-        # Solo nos interesan canales deportivos.
         if (
             channel_id
-            and channel_id not in sports_channels
+            and
+            channel_id not in sports_channels
         ):
+
             continue
 
-        # Guardamos todas las guías.
-        if url not in guide_map:
-
-            guide_map[url] = []
-
-        guide_map[url].append(
+        direct_urls = get_guide_urls(
             guide
         )
+
+        if not direct_urls:
+
+            guides_without_direct_url += 1
+
+        # ----------------------------------------------------
+        # TODAS LAS POSIBLES URL
+        # ----------------------------------------------------
+
+        urls = collect_guide_urls(
+            guide
+        )
+
+        if not urls:
+            continue
+
+        if not direct_urls:
+
+            guides_with_fallback += 1
+
+        # ----------------------------------------------------
+        # GUARDAR CADA URL
+        # ----------------------------------------------------
+
+        for url in urls:
+
+            if url not in guide_map:
+
+                guide_map[
+                    url
+                ] = []
+
+            guide_map[
+                url
+            ].append(
+                guide
+            )
+
+    print(
+        f"Guías deportivas sin URL directa: "
+        f"{guides_without_direct_url}"
+    )
+
+    print(
+        f"Guías a las que se aplicó URL pública alternativa: "
+        f"{guides_with_fallback}"
+    )
 
     print(
         f"Fuentes EPG deportivas únicas: "
         f"{len(guide_map)}"
     )
 
+    # ========================================================
+    # 5. SI NO HAY GUÍAS
+    # ========================================================
+
     if not guide_map:
 
         print("")
         print(
             "ATENCIÓN: no se encontraron "
-            "URLs EPG para los canales deportivos."
+            "fuentes EPG."
         )
+
         print(
             "Se devolverán 0 programas."
         )
 
         return []
 
-    # --------------------------------------------------------
-    # 4. DESCARGAR TODAS LAS GUÍAS
-    # --------------------------------------------------------
+    # ========================================================
+    # 6. DESCARGAR GUÍAS
+    # ========================================================
 
     all_programmes = []
 
     total_guides = len(
         guide_map
     )
+
+    successful_guides = 0
+
+    failed_guides = 0
+
+    # --------------------------------------------------------
+    # IMPORTANTE:
+    # No ponemos límite artificial al número de fuentes.
+    # --------------------------------------------------------
 
     for index, (
         url,
@@ -312,396 +778,269 @@ def download_epg():
             url
         )
 
-        try:
+        data = download_xml(
+            url
+        )
 
-            response = requests.get(
-                url,
-                timeout=90,
-                headers={
-                    "User-Agent":
-                        "Mozilla/5.0"
-                }
-            )
-
-            if response.status_code != 200:
-
-                print(
-                    f" Saltada: HTTP "
-                    f"{response.status_code}"
-                )
-
-                continue
-
-            data = response.content
-
-            # ------------------------------------------------
-            # DESCOMPRESIÓN
-            # ------------------------------------------------
-
-            if (
-                url.lower().endswith(
-                    ".gz"
-                )
-            ):
-
-                try:
-
-                    data = gzip.decompress(
-                        data
-                    )
-
-                except Exception:
-
-                    print(
-                        " No se pudo "
-                        "descomprimir como gzip."
-                    )
-
-                    continue
-
-            # ------------------------------------------------
-            # XML
-            # ------------------------------------------------
-
-            root = ET.fromstring(
-                data
-            )
-
-            # ------------------------------------------------
-            # MAPA DE CANALES XML
-            # ------------------------------------------------
-
-            xml_channels = {}
-
-            for xml_channel in root.findall(
-                "channel"
-            ):
-
-                xml_id = (
-                    xml_channel.get(
-                        "id",
-                        ""
-                    )
-                    or ""
-                ).strip()
-
-                if not xml_id:
-                    continue
-
-                channel_name = ""
-
-                display_name = (
-                    xml_channel.find(
-                        "display-name"
-                    )
-                )
-
-                if (
-                    display_name
-                    is not None
-                ):
-
-                    channel_name = (
-                        display_name.text
-                        or ""
-                    ).strip()
-
-                xml_channels[
-                    xml_id
-                ] = channel_name
+        if data is None:
 
             print(
-                f" Canales XML: "
-                f"{len(xml_channels)}"
+                " Saltada: no se pudo descargar."
             )
 
-            # ------------------------------------------------
-            # BUSCAR PROGRAMAS
-            # ------------------------------------------------
-
-            programmes_in_guide = 0
-
-            for programme in root.findall(
-                "programme"
-            ):
-
-                xml_channel = (
-                    programme.get(
-                        "channel",
-                        ""
-                    )
-                    or ""
-                ).strip()
-
-                if not xml_channel:
-                    continue
-
-                # --------------------------------------------
-                # BUSCAR LA GUÍA ASOCIADA
-                # --------------------------------------------
-
-                matched_guide = None
-
-                for guide in guide_info:
-
-                    guide_site_id = str(
-                        guide.get(
-                            "site_id",
-                            ""
-                        )
-                        or ""
-                    ).strip()
-
-                    guide_channel = str(
-                        guide.get(
-                            "channel",
-                            ""
-                        )
-                        or ""
-                    ).strip()
-
-                    # Caso habitual:
-                    # XML channel == site_id
-                    if (
-                        guide_site_id
-                        and
-                        xml_channel
-                        == guide_site_id
-                    ):
-
-                        matched_guide = guide
-
-                        break
-
-                    # Compatibilidad:
-                    # XML channel == API channel
-                    if (
-                        guide_channel
-                        and
-                        xml_channel
-                        == guide_channel
-                    ):
-
-                        matched_guide = guide
-
-                        break
-
-                # --------------------------------------------
-                # Si no hemos encontrado coincidencia,
-                # utilizamos la primera guía asociada.
-                # --------------------------------------------
-
-                if (
-                    matched_guide
-                    is None
-                    and guide_info
-                ):
-
-                    matched_guide = (
-                        guide_info[0]
-                    )
-
-                # --------------------------------------------
-                # START
-                # --------------------------------------------
-
-                start = (
-                    programme.get(
-                        "start",
-                        ""
-                    )
-                    or ""
-                ).strip()
-
-                # --------------------------------------------
-                # STOP
-                # --------------------------------------------
-
-                stop = (
-                    programme.get(
-                        "stop",
-                        ""
-                    )
-                    or ""
-                ).strip()
-
-                # --------------------------------------------
-                # TÍTULO
-                # --------------------------------------------
-
-                title_element = (
-                    programme.find(
-                        "title"
-                    )
-                )
-
-                title = ""
-
-                if (
-                    title_element
-                    is not None
-                ):
-
-                    title = (
-                        title_element.text
-                        or ""
-                    ).strip()
-
-                if not title:
-                    continue
-
-                # --------------------------------------------
-                # DESCRIPCIÓN
-                # --------------------------------------------
-
-                desc_element = (
-                    programme.find(
-                        "desc"
-                    )
-                )
-
-                description = ""
-
-                if (
-                    desc_element
-                    is not None
-                ):
-
-                    description = (
-                        desc_element.text
-                        or ""
-                    ).strip()
-
-                # --------------------------------------------
-                # NOMBRE DEL CANAL
-                # --------------------------------------------
-
-                channel_name = (
-                    xml_channels.get(
-                        xml_channel,
-                        ""
-                    )
-                )
-
-                if (
-                    not channel_name
-                    and matched_guide
-                ):
-
-                    channel_name = str(
-                        matched_guide.get(
-                            "site_name",
-                            ""
-                        )
-                        or ""
-                    )
-
-                # --------------------------------------------
-                # ID DEL CANAL
-                # --------------------------------------------
-
-                api_channel = ""
-
-                if matched_guide:
-
-                    api_channel = str(
-                        matched_guide.get(
-                            "channel",
-                            ""
-                        )
-                        or ""
-                    ).strip()
-
-                # --------------------------------------------
-                # FEED
-                # --------------------------------------------
-
-                feed = ""
-
-                if matched_guide:
-
-                    feed = str(
-                        matched_guide.get(
-                            "feed",
-                            ""
-                        )
-                        or ""
-                    ).strip()
-
-                # --------------------------------------------
-                # DEPORTE
-                # --------------------------------------------
-
-                sport_text = (
-                    f"{title} "
-                    f"{description} "
-                    f"{channel_name}"
-                )
-
-                sport = detect_sport(
-                    sport_text
-                )
-
-                # --------------------------------------------
-                # GUARDAR PROGRAMA
-                # --------------------------------------------
-
-                all_programmes.append({
-
-                    "channel":
-                        api_channel,
-
-                    "feed":
-                        feed,
-
-                    "epg_channel":
-                        xml_channel,
-
-                    "channel_name":
-                        channel_name,
-
-                    "start":
-                        start,
-
-                    "stop":
-                        stop,
-
-                    "title":
-                        title,
-
-                    "description":
-                        description,
-
-                    "sport":
-                        sport,
-
-                    "source":
-                        url,
-                })
-
-                programmes_in_guide += 1
-
-            print(
-                f" Programas obtenidos: "
-                f"{programmes_in_guide}"
-            )
-
-        except Exception as error:
-
-            print(
-                f" Error leyendo EPG: "
-                f"{error}"
-            )
+            failed_guides += 1
 
             continue
 
-    # --------------------------------------------------------
+        root = parse_xml(
+            data
+        )
+
+        if root is None:
+
+            print(
+                " Saltada: XML inválido."
+            )
+
+            failed_guides += 1
+
+            continue
+
+        successful_guides += 1
+
+        # ----------------------------------------------------
+        # MAPA DE CANALES
+        # ----------------------------------------------------
+
+        xml_channels = (
+            build_xml_channel_map(
+                root
+            )
+        )
+
+        print(
+            f" Canales XML: "
+            f"{len(xml_channels)}"
+        )
+
+        programmes_in_guide = 0
+
+        # ----------------------------------------------------
+        # PROGRAMAS
+        # ----------------------------------------------------
+
+        for programme in root.findall(
+            "programme"
+        ):
+
+            xml_channel = clean_text(
+                programme.get(
+                    "channel",
+                    ""
+                )
+            )
+
+            if not xml_channel:
+                continue
+
+            # ------------------------------------------------
+            # GUÍA CORRESPONDIENTE
+            # ------------------------------------------------
+
+            matched_guide = match_guide(
+                xml_channel,
+                guide_info
+            )
+
+            # ------------------------------------------------
+            # START
+            # ------------------------------------------------
+
+            start = clean_text(
+                programme.get(
+                    "start",
+                    ""
+                )
+            )
+
+            # ------------------------------------------------
+            # STOP
+            # ------------------------------------------------
+
+            stop = clean_text(
+                programme.get(
+                    "stop",
+                    ""
+                )
+            )
+
+            # ------------------------------------------------
+            # TITLE
+            # ------------------------------------------------
+
+            title = get_xml_text(
+                programme,
+                "title"
+            )
+
+            if not title:
+                continue
+
+            # ------------------------------------------------
+            # DESCRIPTION
+            # ------------------------------------------------
+
+            description = get_xml_text(
+                programme,
+                "desc"
+            )
+
+            # ------------------------------------------------
+            # CANAL
+            # ------------------------------------------------
+
+            channel_name = (
+                xml_channels.get(
+                    xml_channel,
+                    ""
+                )
+            )
+
+            # ------------------------------------------------
+            # DATOS DE LA GUÍA
+            # ------------------------------------------------
+
+            api_channel = ""
+
+            feed = ""
+
+            site_name = ""
+
+            site = ""
+
+            lang = ""
+
+            if matched_guide:
+
+                api_channel = clean_text(
+                    matched_guide.get(
+                        "channel",
+                        ""
+                    )
+                )
+
+                feed = clean_text(
+                    matched_guide.get(
+                        "feed",
+                        ""
+                    )
+                )
+
+                site_name = clean_text(
+                    matched_guide.get(
+                        "site_name",
+                        ""
+                    )
+                )
+
+                site = clean_text(
+                    matched_guide.get(
+                        "site",
+                        ""
+                    )
+                )
+
+                lang = clean_text(
+                    matched_guide.get(
+                        "lang",
+                        ""
+                    )
+                )
+
+            if not channel_name:
+
+                channel_name = (
+                    site_name
+                    or
+                    xml_channel
+                )
+
+            # ------------------------------------------------
+            # DEPORTE
+            # ------------------------------------------------
+
+            sport_text = (
+                f"{title} "
+                f"{description} "
+                f"{channel_name}"
+            )
+
+            sport = detect_sport(
+                sport_text
+            )
+
+            # ------------------------------------------------
+            # SI EL CANAL ES DEPORTIVO PERO EL TÍTULO
+            # NO CONTIENE EL DEPORTE, BUSCAR POR NOMBRE
+            # ------------------------------------------------
+
+            if not sport:
+
+                channel_lower = (
+                    channel_name.lower()
+                )
+
+                sport = detect_sport(
+                    channel_lower
+                )
+
+            # ------------------------------------------------
+            # GUARDAR
+            # ------------------------------------------------
+
+            all_programmes.append(
+                {
+                    "channel": api_channel,
+                    "feed": feed,
+                    "epg_channel": xml_channel,
+                    "channel_name": channel_name,
+                    "start": start,
+                    "stop": stop,
+                    "title": title,
+                    "description": description,
+                    "sport": sport,
+                    "source": url,
+                    "site": site,
+                    "lang": lang,
+                    "live": False,
+                    "servers": [],
+                }
+            )
+
+            programmes_in_guide += 1
+
+        print(
+            f" Programas obtenidos: "
+            f"{programmes_in_guide}"
+        )
+
+    # ========================================================
     # RESULTADO
-    # --------------------------------------------------------
+    # ========================================================
 
     print("")
     print(
         "=========================================="
+    )
+
+    print(
+        f"Fuentes EPG descargadas correctamente: "
+        f"{successful_guides}"
+    )
+
+    print(
+        f"Fuentes EPG fallidas: "
+        f"{failed_guides}"
     )
 
     print(
@@ -721,12 +1060,6 @@ def download_epg():
 # ============================================================
 
 def parse_epg(xml_data):
-    """
-    Compatibilidad con main.py.
-
-    download_epg() ya devuelve los programas
-    preparados.
-    """
 
     return xml_data
 
@@ -736,17 +1069,10 @@ def parse_epg(xml_data):
 # ============================================================
 
 def get_sport_events(programs):
-    """
-    Devuelve únicamente programas relacionados
-    con los cinco deportes configurados.
-    """
 
     events = []
 
     for program in programs:
-
-        # Si ya tenemos deporte detectado,
-        # lo utilizamos directamente.
 
         sport = program.get(
             "sport"
@@ -760,33 +1086,25 @@ def get_sport_events(programs):
 
             continue
 
-        # ----------------------------------------------------
-        # Si no estaba detectado, volvemos a comprobar
-        # título + descripción + canal.
-        # ----------------------------------------------------
-
-        title = str(
+        title = clean_text(
             program.get(
                 "title",
                 ""
             )
-            or ""
         )
 
-        description = str(
+        description = clean_text(
             program.get(
                 "description",
                 ""
             )
-            or ""
         )
 
-        channel_name = str(
+        channel_name = clean_text(
             program.get(
                 "channel_name",
                 ""
             )
-            or ""
         )
 
         text = (
@@ -795,7 +1113,7 @@ def get_sport_events(programs):
             + description
             + " "
             + channel_name
-        ).lower()
+        )
 
         detected = detect_sport(
             text
@@ -819,15 +1137,6 @@ def get_sport_events(programs):
 # ============================================================
 
 def group_events_by_sport(events):
-    """
-    Agrupa los eventos en este orden:
-
-    1. Fútbol
-    2. Tenis
-    3. Baloncesto
-    4. Fórmula 1
-    5. MotoGP
-    """
 
     order = [
         "football",
@@ -867,25 +1176,20 @@ def group_events_by_sport(events):
 # ============================================================
 
 def normalize_event(event):
-    """
-    Convierte un evento EPG en una estructura uniforme.
-    """
 
-    title = str(
+    title = clean_text(
         event.get(
             "title",
             ""
         )
-        or ""
-    ).strip()
+    )
 
-    description = str(
+    description = clean_text(
         event.get(
             "description",
             ""
         )
-        or ""
-    ).strip()
+    )
 
     sport = event.get(
         "sport"
@@ -897,98 +1201,76 @@ def normalize_event(event):
             f"{title} {description}"
         )
 
+    sport_names = {
+        "football": "FÚTBOL",
+        "tennis": "TENIS",
+        "basketball": "BALONCESTO",
+        "formula1": "FÓRMULA 1",
+        "motogp": "MOTOGP",
+    }
+
     return {
+        "id": event.get(
+            "id"
+        ),
 
-        "id":
-            event.get(
-                "id"
-            ),
+        "sport": sport,
 
-        "sport":
+        "sport_name": sport_names.get(
             sport,
+            "OTROS"
+        ),
 
-        "sport_name":
-            {
-                "football":
-                    "FÚTBOL",
+        "title": title,
 
-                "tennis":
-                    "TENIS",
+        "description": description,
 
-                "basketball":
-                    "BALONCESTO",
+        "channel": event.get(
+            "channel",
+            ""
+        ),
 
-                "formula1":
-                    "FÓRMULA 1",
+        "channel_name": event.get(
+            "channel_name",
+            ""
+        ),
 
-                "motogp":
-                    "MOTOGP",
-            }.get(
-                sport,
-                "OTROS"
-            ),
+        "epg_channel": event.get(
+            "epg_channel",
+            ""
+        ),
 
-        "title":
-            title,
+        "feed": event.get(
+            "feed",
+            ""
+        ),
 
-        "description":
-            description,
+        "start": event.get(
+            "start",
+            ""
+        ),
 
-        "channel":
+        "stop": event.get(
+            "stop",
+            ""
+        ),
+
+        "live": bool(
             event.get(
-                "channel",
-                ""
-            ),
+                "live",
+                False
+            )
+        ),
 
-        "channel_name":
-            event.get(
-                "channel_name",
-                ""
-            ),
+        "source": event.get(
+            "source",
+            ""
+        ),
 
-        "epg_channel":
-            event.get(
-                "epg_channel",
-                ""
-            ),
-
-        "feed":
-            event.get(
-                "feed",
-                ""
-            ),
-
-        "start":
-            event.get(
-                "start",
-                ""
-            ),
-
-        "stop":
-            event.get(
-                "stop",
-                ""
-            ),
-
-        "live":
-            bool(
-                event.get(
-                    "live",
-                    False
-                )
-            ),
-
-        "source":
-            event.get(
-                "source",
-                ""
-            ),
-
-        "servers":
-            event.get(
-                "servers",
-                []
-            ),
+        "servers": event.get(
+            "servers",
+            []
+        ),
     }
 
 
@@ -997,9 +1279,6 @@ def normalize_event(event):
 # ============================================================
 
 def get_live_events(events):
-    """
-    Devuelve únicamente los eventos marcados como directos.
-    """
 
     result = []
 
@@ -1023,15 +1302,6 @@ def get_live_events(events):
 # ============================================================
 
 def filter_sports_events(events):
-    """
-    Conserva únicamente:
-
-    - Fútbol
-    - Tenis
-    - Baloncesto
-    - Fórmula 1
-    - MotoGP
-    """
 
     result = []
 
@@ -1057,11 +1327,10 @@ def filter_sports_events(events):
 # AÑADIR SERVIDOR
 # ============================================================
 
-def add_server(event, server):
-    """
-    Añade una fuente/servidor a un evento
-    sin duplicarlo.
-    """
+def add_server(
+    event,
+    server
+):
 
     normalized = normalize_event(
         event
@@ -1078,8 +1347,8 @@ def add_server(event, server):
             server
         )
 
-    normalized["servers"] = (
-        servers
-    )
+    normalized[
+        "servers"
+    ] = servers
 
     return normalized
