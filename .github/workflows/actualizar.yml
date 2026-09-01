@@ -1,8 +1,8 @@
 name: Actualizar Canales Deportes
 on:
   schedule:
-    - cron: '*/30 * * * *' # El robot se despierta solo cada 30 minutos en punto
-  workflow_dispatch: # Activa el botón de "Play Manual" de emergencia
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,11 +21,3 @@ jobs:
 
       - name: Ejecutar Buscador de Canales
         run: python script.py
-
-      - name: Guardar cambios en GitHub
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add parrilla_deportes_automatica.m3u
-          git commit -m "Lista actualizada automáticamente según la hora" || exit 0
-          git push
