@@ -58,27 +58,33 @@ m3u_final = "#EXTM3U\n"
 
 # 1. MOTOR (F1 / MotoGP)
 for meta, link in canales_motor:
-    m3u_final += f'#EXTINF:-1 group-title="1. MOTOR (F1 / MotoGP)",{meta.split(",")[-1]}\n{link}\n'
+    nombre_canal = meta.split(",")[-1] if "," in meta else "Canal Motor"
+    m3u_final += f'#EXTINF:-1 group-title="1. MOTOR (F1 / MotoGP)",{nombre_canal}\n{link}\n'
 
 # 2. FÚTBOL MUNDIAL
 for meta, link in canales_futbol:
-    m3u_final += f'#EXTINF:-1 group-title="2. FÚTBOL MUNDIAL",{meta.split(",")[-1]}\n{link}\n'
+    nombre_canal = meta.split(",")[-1] if "," in meta else "Canal Futbol"
+    m3u_final += f'#EXTINF:-1 group-title="2. FÚTBOL MUNDIAL",{nombre_canal}\n{link}\n'
 
 # 3. TENIS INTERNACIONAL (Alcaraz / ATP / WTA)
 for meta, link in canales_tenis:
-    m3u_final += f'#EXTINF:-1 group-title="3. TENIS (Alcaraz/ATP/WTA)",{meta.split(",")[-1]}\n{link}\n'
+    nombre_canal = meta.split(",")[-1] if "," in meta else "Canal Tenis"
+    m3u_final += f'#EXTINF:-1 group-title="3. TENIS (Alcaraz/ATP/WTA)",{nombre_canal}\n{link}\n'
 
 # 4. BALONCESTO TOTAL
 for meta, link in canales_basket:
-    m3u_final += f'#EXTINF:-1 group-title="4. BALONCESTO MUNDIAL",{meta.split(",")[-1]}\n{link}\n'
+    nombre_canal = meta.split(",")[-1] if "," in meta else "Canal Baloncesto"
+    m3u_final += f'#EXTINF:-1 group-title="4. BALONCESTO MUNDIAL",{nombre_canal}\n{link}\n'
 
 # 5. MMA Y COMBATE
 for meta, link in canales_combate:
-    m3u_final += f'#EXTINF:-1 group-title="5. MMA Y COMBATE",{meta.split(",")[-1]}\n{link}\n'
+    nombre_canal = meta.split(",")[-1] if "," in meta else "Canal Combate"
+    m3u_final += f'#EXTINF:-1 group-title="5. MMA Y COMBATE",{nombre_canal}\n{link}\n'
 
 # 6. BALONMANO
 for meta, link in canales_balonmano:
-    m3u_final += f'#EXTINF:-1 group-title="6. BALONMAO",{meta.split(",")[-1]}\n{link}\n'
+    nombre_canal = meta.split(",")[-1] if "," in meta else "Canal Balonmano"
+    m3u_final += f'#EXTINF:-1 group-title="6. BALONMANO",{nombre_canal}\n{link}\n'
 
 # Guardar el archivo limpio resultante
 with open("parrilla_deportes_automatica.m3u", "w", encoding="utf-8") as f:
