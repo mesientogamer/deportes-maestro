@@ -1,107 +1,102 @@
 import requests
+import re
 
-SOURCE_URL = "https://iptv-org.github.io/iptv/index.m3u"
 OUTPUT_FILE = "parrilla_deportes_automatica.m3u"
 
-# Idiomas permitidos.
-# Esto es un filtro de idioma, no un mecanismo para eludir
-# restricciones geográficas o de emisión.
-ALLOWED_LANGUAGES = {
-    "ara",
-    "rus",
-    "tur",
-    "fas",
-    "per",
+# Fuentes públicas de IPTV-org agrupadas por idioma.
+LANGUAGE_PLAYLISTS = {
+    "Árabe": "https://iptv-org.github.io/iptv/languages/ara.m3u",
+    "Persa": "https://iptv-org.github.io/iptv/languages/fas.m3u",
+    "Ruso": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+    "Turco": "https://iptv-org.github.io/iptv/languages/tur.m3u",
+    "Urdu": "https://iptv-org.github.io/iptv/languages/urd.m3u",
+    "Vietnamita": "https://iptv-org.github.io/iptv/languages/vie.m3u",
+    "Ucraniano": "https://iptv-org.github.io/iptv/languages/ukr.m3u",
+    "Uzbeko": "https://iptv-org.github.io/iptv/languages/uzb.m3u",
+    "Kazajo": "https://iptv-org.github.io/iptv/languages/kaz.m3u",
+    "Kurdo": "https://iptv-org.github.io/iptv/languages/kur.m3u",
+    "Azerí": "https://iptv-org.github.io/iptv/languages/aze.m3u",
+    "Georgiano": "https://iptv-org.github.io/iptv/languages/kat.m3u",
+    "Armenio": "https://iptv-org.github.io/iptv/languages/hye.m3u",
 }
 
-SPORT_ORDER = [
-    ("Motor", {"motor", "motorsport", "formula 1", "formula1", "f1"}),
-    ("Fútbol", {"football", "soccer", "futbol"}),
-    ("Tenis", {"tennis"}),
-    ("Baloncesto", {"basketball"}),
-    ("MMA", {"mma", "ufc", "mixed martial arts"}),
-    ("Balonmano", {"handball"}),
+# Orden estricto de la parrilla.
+SPORTS = [
+    (
+        "1. FÚTBOL",
+        [
+            "football", "soccer", "futbol", "fútbol",
+            "bein", "ssc", "alkass", "laliga",
+            "champions", "premier league"
+        ],
+    ),
+    (
+        "2. TENIS",
+        [
+            "tennis", "tenis", "atp", "wta",
+            "wimbledon", "roland garros",
+            "us open", "australian open"
+        ],
+    ),
+    (
+        "3. BALONCESTO",
+        [
+            "basketball", "baloncesto", "nba",
+            "euroleague", "eurocup", "acb"
+        ],
+    ),
+    (
+        "4. MMA",
+        [
+            "mma", "ufc", "mixed martial arts",
+            "boxing", "boxeo", "fight"
+        ],
+    ),
+    (
+        "5. BALONMANO",
+        [
+            "handball", "balonmano"
+        ],
+    ),
+    (
+        "6. MOTOR",
+        [
+            "formula 1", "formula1", "f1",
+            "motogp", "moto gp", "motorsport",
+            "racing", "motor"
+        ],
+    ),
 ]
 
 
-def download_playlist():
-    response = requests.get(
-        SOURCE_URL,
-        timeout=60,
-        headers={"User-Agent": "Mozilla/5.0"},
-    )
-    response.raise_for_status()
-    response.encoding = "utf-8"
-    return response.text
+def normalize(text):
+    return text.lower().strip()
 
 
-def parse_m3u(text):
-    channels = []
-    current_info = None
+def get_attribute(metadata, attribute):
+    pattern = rf'{re.escape(attribute)}="([^"]*)"'
+    match = re.search(pattern, metadata, re.IGNORECASE)
 
-    for line in text.splitlines():
-        line = line.strip()
+    if match:
+        return match.group(1)
 
-        if not line:
-            continue
-
-        if line.startswith("#EXTINF:"):
-            current_info = line
-
-        elif current_info and not line.startswith("#"):
-            channels.append((current_info, line))
-            current_info = None
-
-    return channels
+    return ""
 
 
-def get_attribute(extinf, attribute):
-    prefix = f'{attribute}="'
+def get_channel_name(metadata):
+    # No usamos split(",") para analizar toda la línea.
+    position = metadata.rfind(",")
 
-    start = extinf.find(prefix)
+    if position >= 0:
+        return metadata[position + 1:].strip()
 
-    if start == -1:
-        return ""
-
-    start += len(prefix)
-    end = extinf.find('"', start)
-
-    if end == -1:
-        return ""
-
-    return extinf[start:end]
+    return "Canal deportivo"
 
 
-def channel_name(extinf):
-    if "," in extinf:
-        return extinf.rsplit(",", 1)[1].strip()
+def detect_sport(metadata):
+    text = normalize(metadata)
 
-    return extinf.strip()
-
-
-def normalize(value):
-    return value.lower().strip()
-
-
-def language_allowed(extinf):
-    language = get_attribute(extinf, "tvg-language")
-
-    if not language:
-        return False
-
-    languages = {
-        normalize(item)
-        for item in language.replace(";", ",").split(",")
-        if item.strip()
-    }
-
-    return bool(languages & ALLOWED_LANGUAGES)
-
-
-def detect_sport(extinf):
-    text = normalize(extinf)
-
-    for sport, keywords in SPORT_ORDER:
+    for sport, keywords in SPORTS:
         for keyword in keywords:
             if keyword in text:
                 return sport
@@ -109,43 +104,142 @@ def detect_sport(extinf):
     return None
 
 
-def build_playlist(channels):
-    grouped = {sport: [] for sport, _ in SPORT_ORDER}
+def parse_m3u(text):
+    channels = []
+    metadata = None
 
-    for extinf, url in channels:
-        if not language_allowed(extinf):
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+
+        if not line:
             continue
 
-        sport = detect_sport(extinf)
+        if line.startswith("#EXTINF:"):
+            metadata = line
+            continue
+
+        if metadata and line.startswith(("http://", "https://")):
+            channels.append((metadata, line))
+            metadata = None
+
+    return channels
+
+
+def download_language_playlist(language, url):
+    print(f"Descargando {language}...")
+
+    response = requests.get(
+        url,
+        timeout=60,
+        headers={
+            "User-Agent": "Mozilla/5.0"
+        },
+    )
+
+    response.raise_for_status()
+    response.encoding = "utf-8"
+
+    return response.text
+
+
+def main():
+    all_channels = []
+    seen_urls = set()
+
+    # Descargar todas las listas de idiomas.
+    for language, url in LANGUAGE_PLAYLISTS.items():
+
+        try:
+            text = download_language_playlist(language, url)
+            channels = parse_m3u(text)
+
+            print(
+                f" {language}: "
+                f"{len(channels)} canales encontrados"
+            )
+
+            for metadata, stream_url in channels:
+
+                # Evitar duplicados.
+                if stream_url in seen_urls:
+                    continue
+
+                seen_urls.add(stream_url)
+
+                all_channels.append(
+                    (language, metadata, stream_url)
+                )
+
+        except requests.RequestException as error:
+            print(
+                f" ERROR descargando {language}: {error}"
+            )
+
+    print()
+    print(
+        f"Total de canales únicos: "
+        f"{len(all_channels)}"
+    )
+
+    # Agrupar por deporte.
+    grouped = {
+        sport: []
+        for sport, _ in SPORTS
+    }
+
+    for language, metadata, stream_url in all_channels:
+
+        sport = detect_sport(metadata)
 
         if sport is None:
             continue
 
-        grouped[sport].append((extinf, url))
+        grouped[sport].append(
+            (
+                language,
+                metadata,
+                stream_url
+            )
+        )
 
+    # Crear M3U.
     output = ["#EXTM3U"]
 
-    for sport, _ in SPORT_ORDER:
+    total = 0
+
+    for sport, _ in SPORTS:
+
         output.append("")
-        output.append(f"# ===== {sport} =====")
+        output.append(
+            f"# ===== {sport} ====="
+        )
 
-        for extinf, url in grouped[sport]:
-            output.append(extinf)
-            output.append(url)
+        for language, metadata, stream_url in grouped[sport]:
 
-    return "\n".join(output) + "\n"
+            name = get_channel_name(metadata)
 
+            # Añadimos el idioma al nombre para identificar
+            # fácilmente la procedencia lingüística.
+            display_name = (
+                f"[{language}] {name}"
+            )
 
-def main():
-    print("Descargando lista IPTV...")
-    playlist = download_playlist()
+            output.append(
+                f'#EXTINF:-1 '
+                f'group-title="{sport}",'
+                f'{display_name}'
+            )
 
-    print("Analizando canales...")
-    channels = parse_m3u(playlist)
+            output.append(stream_url)
 
-    print(f"Canales encontrados: {len(channels)}")
+            total += 1
 
-    result = build_playlist(channels)
+        print(
+            f"{sport}: "
+            f"{len(grouped[sport])} canales"
+        )
+
+    output_text = "\n".join(output) + "\n"
 
     with open(
         OUTPUT_FILE,
@@ -153,9 +247,16 @@ def main():
         encoding="utf-8",
         newline="\n",
     ) as file:
-        file.write(result)
+        file.write(output_text)
 
-    print(f"Archivo generado: {OUTPUT_FILE}")
+    print()
+    print(
+        f"Total incluidos en la parrilla: {total}"
+    )
+
+    print(
+        f"Archivo creado: {OUTPUT_FILE}"
+    )
 
 
 if __name__ == "__main__":
