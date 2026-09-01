@@ -15,7 +15,7 @@ jobs:
     steps:
 
       # =====================================================
-      # 1. DESCARGAR NUESTRO REPOSITORIO
+      # 1. DESCARGAR REPOSITORIO
       # =====================================================
 
       - name: Descargar repositorio
@@ -33,13 +33,13 @@ jobs:
 
 
       # =====================================================
-      # 3. CONFIGURAR NODE
+      # 3. CONFIGURAR NODE.JS
       # =====================================================
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "20"
 
 
       # =====================================================
@@ -53,16 +53,20 @@ jobs:
 
 
       # =====================================================
-      # 5. DESCARGAR IPT V-ORG/EPG
+      # 5. DESCARGAR SISTEMA EPG OFICIAL
       # =====================================================
 
       - name: Descargar sistema EPG oficial
         run: |
-          git clone --depth 1 -b master https://github.com/iptv-org/epg.git .epg
+          rm -rf .epg
+
+          git clone --depth 1 \
+            https://github.com/iptv-org/epg.git \
+            .epg
 
 
       # =====================================================
-      # 6. INSTALAR DEPENDENCIAS DEL EPG
+      # 6. INSTALAR DEPENDENCIAS EPG
       # =====================================================
 
       - name: Instalar dependencias EPG
@@ -72,7 +76,7 @@ jobs:
 
 
       # =====================================================
-      # 7. CREAR LISTA DE CANALES DEPORTIVOS CON EPG
+      # 7. BUSCAR TODAS LAS FUENTES EPG DEPORTIVAS
       # =====================================================
 
       - name: Buscar canales deportivos con EPG
@@ -83,27 +87,113 @@ jobs:
           import xml.etree.ElementTree as ET
           from pathlib import Path
           import requests
+          import re
+          from difflib import SequenceMatcher
 
           API_URL = "https://iptv-org.github.io/api/channels.json"
 
-          print("=" * 60)
-          print("BUSCANDO CANALES DEPORTIVOS CON EPG")
-          print("=" * 60)
+          print("=" * 70)
+          print("BUSCANDO TODAS LAS FUENTES EPG DEPORTIVAS")
+          print("=" * 70)
 
-          # -------------------------------------------------
-          # Descargar canales
-          # -------------------------------------------------
+          # =================================================
+          # NORMALIZAR NOMBRES
+          # =================================================
+
+          def normalize(text):
+              text = str(text or "").lower()
+
+              replacements = {
+                  "á": "a",
+                  "é": "e",
+                  "í": "i",
+                  "ó": "o",
+                  "ú": "u",
+                  "ü": "u",
+                  "ñ": "n",
+              }
+
+              for old, new in replacements.items():
+                  text = text.replace(old, new)
+
+              text = re.sub(r"[^a-z0-9]+", " ", text)
+              text = re.sub(r"\s+", " ", text).strip()
+
+              return text
+
+          # =================================================
+          # PALABRAS DEPORTIVAS
+          # =================================================
+
+          SPORT_CHANNEL_WORDS = [
+              "sport",
+              "sports",
+              "bein",
+              "espn",
+              "eurosport",
+              "tennis",
+              "tenis",
+              "nba",
+              "wnba",
+              "fiba",
+              "basket",
+              "basketball",
+              "baloncesto",
+              "football",
+              "soccer",
+              "futbol",
+              "formula",
+              "formula 1",
+              "formula1",
+              "f1",
+              "motogp",
+              "moto gp",
+              "moto2",
+              "moto3",
+              "racing",
+              "rally",
+              "golf",
+              "cricket",
+              "rugby",
+              "hockey",
+              "nfl",
+              "nhl",
+              "mlb",
+              "nascar",
+              "ufc",
+              "boxing",
+              "boxeo",
+              "wrestling",
+              "olympic",
+              "olympics",
+              "arena",
+              "stadium",
+              "espn deportes",
+              "fox sports",
+              "sky sport",
+              "sportklub",
+              "super sport",
+          ]
+
+          print("")
+          print("Descargando canales de IPTV-ORG...")
 
           response = requests.get(
               API_URL,
-              timeout=120
+              timeout=120,
+              headers={"User-Agent": "Mozilla/5.0"}
           )
 
           response.raise_for_status()
 
           channels = response.json()
 
-          sports_ids = set()
+          # =================================================
+          # INDEXAR TODOS LOS CANALES DEPORTIVOS
+          # =================================================
+
+          sports_channels = {}
+          sports_names = {}
 
           for channel in channels:
 
@@ -125,19 +215,30 @@ jobs:
                   )
               }
 
+              name = str(
+                  channel.get("name", "")
+              ).strip()
+
               if "sports" in categories:
-                  sports_ids.add(channel_id)
+
+                  sports_channels[channel_id] = channel
+
+                  normalized_name = normalize(name)
+
+                  if normalized_name:
+                      sports_names.setdefault(
+                          normalized_name,
+                          set()
+                      ).add(channel_id)
 
           print(
               f"Canales deportivos detectados: "
-              f"{len(sports_ids)}"
+              f"{len(sports_channels)}"
           )
 
-          # -------------------------------------------------
-          # Buscar configuraciones EPG
-          # -------------------------------------------------
-
-          matches = {}
+          # =================================================
+          # BUSCAR TODOS LOS ARCHIVOS EPG
+          # =================================================
 
           files = glob.glob(
               ".epg/sites/**/*.channels.xml",
@@ -149,6 +250,17 @@ jobs:
               f"{len(files)}"
           )
 
+          matches = {}
+
+          exact_matches = 0
+          name_matches = 0
+          fuzzy_matches = 0
+          sport_sources = 0
+
+          # =================================================
+          # PROCESAR TODOS LOS ARCHIVOS EPG
+          # =================================================
+
           for filename in files:
 
               try:
@@ -156,12 +268,7 @@ jobs:
                       filename
                   ).getroot()
 
-              except Exception as error:
-
-                  print(
-                      f"No se pudo leer: {filename}"
-                  )
-
+              except Exception:
                   continue
 
               for channel in root.findall(
@@ -174,12 +281,6 @@ jobs:
                           ""
                       )
                   ).strip()
-
-                  if not xmltv_id:
-                      continue
-
-                  if xmltv_id not in sports_ids:
-                      continue
 
                   site = str(
                       channel.get(
@@ -202,32 +303,161 @@ jobs:
                       )
                   ).strip()
 
+                  name = str(
+                      channel.text or ""
+                  ).strip()
+
                   if not site or not site_id:
                       continue
 
-                  key = (
-                      site,
-                      site_id,
-                      lang,
-                      xmltv_id
+                  normalized_name = normalize(
+                      name
                   )
 
-                  matches[key] = {
-                      "site": site,
-                      "site_id": site_id,
-                      "lang": lang,
-                      "xmltv_id": xmltv_id,
-                      "name": (
-                          channel.text or ""
-                      ).strip()
-                  }
+                  # =================================================
+                  # 1. COINCIDENCIA DIRECTA POR XMLTV_ID
+                  # =================================================
 
-          # -------------------------------------------------
-          # Crear XML personalizado
-          # -------------------------------------------------
+                  if (
+                      xmltv_id
+                      and
+                      xmltv_id in sports_channels
+                  ):
+
+                      key = (
+                          site,
+                          site_id,
+                          lang,
+                          xmltv_id
+                      )
+
+                      matches[key] = {
+                          "site": site,
+                          "site_id": site_id,
+                          "lang": lang,
+                          "xmltv_id": xmltv_id,
+                          "name": name
+                      }
+
+                      exact_matches += 1
+
+                      continue
+
+                  # =================================================
+                  # 2. DETECTAR CANAL DEPORTIVO POR NOMBRE
+                  # =================================================
+
+                  name_lower = normalized_name
+
+                  is_sport_channel = False
+
+                  for word in SPORT_CHANNEL_WORDS:
+
+                      if normalize(word) in name_lower:
+
+                          is_sport_channel = True
+                          break
+
+                  if not is_sport_channel:
+                      continue
+
+                  sport_sources += 1
+
+                  # =================================================
+                  # 3. COINCIDENCIA EXACTA POR NOMBRE
+                  # =================================================
+
+                  possible_ids = sports_names.get(
+                      normalized_name,
+                      set()
+                  )
+
+                  if len(possible_ids) == 1:
+
+                      matched_id = next(
+                          iter(possible_ids)
+                      )
+
+                      key = (
+                          site,
+                          site_id,
+                          lang,
+                          matched_id
+                      )
+
+                      matches[key] = {
+                          "site": site,
+                          "site_id": site_id,
+                          "lang": lang,
+                          "xmltv_id": matched_id,
+                          "name": name
+                      }
+
+                      name_matches += 1
+
+                      continue
+
+                  # =================================================
+                  # 4. COINCIDENCIA PARECIDA
+                  # =================================================
+
+                  best_id = None
+                  best_score = 0.0
+
+                  for api_name, ids in sports_names.items():
+
+                      if not api_name:
+                          continue
+
+                      score = SequenceMatcher(
+                          None,
+                          normalized_name,
+                          api_name
+                      ).ratio()
+
+                      if score > best_score:
+
+                          best_score = score
+
+                          if len(ids) == 1:
+                              best_id = next(
+                                  iter(ids)
+                              )
+
+                  if (
+                      best_id
+                      and
+                      best_score >= 0.90
+                  ):
+
+                      key = (
+                          site,
+                          site_id,
+                          lang,
+                          best_id
+                      )
+
+                      matches[key] = {
+                          "site": site,
+                          "site_id": site_id,
+                          "lang": lang,
+                          "xmltv_id": best_id,
+                          "name": name
+                      }
+
+                      fuzzy_matches += 1
+
+          # =================================================
+          # CREAR CUSTOM.CHANNELS.XML
+          # =================================================
 
           output = Path(
               ".epg/custom.channels.xml"
+          )
+
+          output.parent.mkdir(
+              parents=True,
+              exist_ok=True
           )
 
           root = ET.Element(
@@ -237,8 +467,10 @@ jobs:
           for item in sorted(
               matches.values(),
               key=lambda x: (
+                  x["xmltv_id"],
                   x["site"],
-                  x["xmltv_id"]
+                  x["site_id"],
+                  x["lang"]
               )
           ):
 
@@ -279,41 +511,73 @@ jobs:
               xml_declaration=True
           )
 
+          # =================================================
+          # RESULTADO
+          # =================================================
+
+          print("")
+          print("=" * 70)
+          print("RESULTADO DE LA BUSQUEDA EPG")
+          print("=" * 70)
+
           print(
-              f"Canales deportivos con "
-              f"configuración EPG: "
+              f"Canales deportivos IPTV-ORG: "
+              f"{len(sports_channels)}"
+          )
+
+          print(
+              f"Coincidencias directas: "
+              f"{exact_matches}"
+          )
+
+          print(
+              f"Coincidencias por nombre: "
+              f"{name_matches}"
+          )
+
+          print(
+              f"Coincidencias aproximadas: "
+              f"{fuzzy_matches}"
+          )
+
+          print(
+              f"Fuentes deportivas detectadas: "
+              f"{sport_sources}"
+          )
+
+          print(
+              f"TOTAL CONFIGURACIONES EPG: "
               f"{len(matches)}"
           )
 
           print(
-              f"Archivo creado: {output}"
+              f"Archivo creado: "
+              f"{output}"
           )
 
-          if not matches:
-              print(
-                  "AVISO: No se encontró "
-                  "ninguna configuración EPG."
-              )
+          print("=" * 70)
 
-          print("=" * 60)
+          if not matches:
+              print("")
+              print(
+                  "ERROR: no se encontró ninguna "
+                  "fuente EPG deportiva."
+              )
+              raise SystemExit(1)
+
           PY
 
 
       # =====================================================
-      # 8. GENERAR GUIDE.XML
+      # 8. GENERAR EPG
       # =====================================================
 
       - name: Generar EPG
         working-directory: .epg
         run: |
-          echo "=========================================="
+          echo "============================================================"
           echo "GENERANDO EPG"
-          echo "=========================================="
-
-          if [ ! -s custom.channels.xml ]; then
-            echo "No existe custom.channels.xml"
-            exit 1
-          fi
+          echo "============================================================"
 
           npm run grab -- \
             --channels=custom.channels.xml \
@@ -324,16 +588,11 @@ jobs:
             --maxConnections=3
 
           echo ""
-          echo "=========================================="
+          echo "============================================================"
           echo "EPG GENERADO"
-          echo "=========================================="
+          echo "============================================================"
 
-          if [ -f ../output/guide.xml ]; then
-            ls -lh ../output/guide.xml
-          else
-            echo "ERROR: No se creó guide.xml"
-            exit 1
-          fi
+          ls -lh ../output/guide.xml
 
 
       # =====================================================
@@ -342,11 +601,16 @@ jobs:
 
       - name: Ejecutar Deportes Maestro
         run: |
+          echo "============================================================"
           echo "=== EJECUTANDO DEPORTES MAESTRO ==="
+          echo "============================================================"
 
           python -u src/main.py
 
+          echo ""
+          echo "============================================================"
           echo "=== FIN PYTHON ==="
+          echo "============================================================"
 
 
       # =====================================================
@@ -359,7 +623,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add output/parrilla_deportes_automatica.m3u
-          git add output/guide.xml
 
           if git diff --cached --quiet; then
             echo "No hay cambios en la parrilla."
