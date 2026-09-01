@@ -13,24 +13,345 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      # =====================================================
+      # 1. DESCARGAR NUESTRO REPOSITORIO
+      # =====================================================
+
       - name: Descargar repositorio
         uses: actions/checkout@v4
+
+
+      # =====================================================
+      # 2. CONFIGURAR PYTHON
+      # =====================================================
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Instalar dependencias y ejecutar sistema
+
+      # =====================================================
+      # 3. CONFIGURAR NODE
+      # =====================================================
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+
+      # =====================================================
+      # 4. INSTALAR DEPENDENCIAS PYTHON
+      # =====================================================
+
+      - name: Instalar dependencias Python
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+
+      # =====================================================
+      # 5. DESCARGAR IPT V-ORG/EPG
+      # =====================================================
+
+      - name: Descargar sistema EPG oficial
+        run: |
+          git clone --depth 1 -b master https://github.com/iptv-org/epg.git .epg
+
+
+      # =====================================================
+      # 6. INSTALAR DEPENDENCIAS DEL EPG
+      # =====================================================
+
+      - name: Instalar dependencias EPG
+        working-directory: .epg
+        run: |
+          npm install
+
+
+      # =====================================================
+      # 7. CREAR LISTA DE CANALES DEPORTIVOS CON EPG
+      # =====================================================
+
+      - name: Buscar canales deportivos con EPG
+        run: |
+          python - <<'PY'
+          import json
+          import glob
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          import requests
+
+          API_URL = "https://iptv-org.github.io/api/channels.json"
+
+          print("=" * 60)
+          print("BUSCANDO CANALES DEPORTIVOS CON EPG")
+          print("=" * 60)
+
+          # -------------------------------------------------
+          # Descargar canales
+          # -------------------------------------------------
+
+          response = requests.get(
+              API_URL,
+              timeout=120
+          )
+
+          response.raise_for_status()
+
+          channels = response.json()
+
+          sports_ids = set()
+
+          for channel in channels:
+
+              if not isinstance(channel, dict):
+                  continue
+
+              channel_id = str(
+                  channel.get("id", "")
+              ).strip()
+
+              if not channel_id:
+                  continue
+
+              categories = {
+                  str(x).strip().lower()
+                  for x in channel.get(
+                      "categories",
+                      []
+                  )
+              }
+
+              if "sports" in categories:
+                  sports_ids.add(channel_id)
+
+          print(
+              f"Canales deportivos detectados: "
+              f"{len(sports_ids)}"
+          )
+
+          # -------------------------------------------------
+          # Buscar configuraciones EPG
+          # -------------------------------------------------
+
+          matches = {}
+
+          files = glob.glob(
+              ".epg/sites/**/*.channels.xml",
+              recursive=True
+          )
+
+          print(
+              f"Archivos EPG examinados: "
+              f"{len(files)}"
+          )
+
+          for filename in files:
+
+              try:
+                  root = ET.parse(
+                      filename
+                  ).getroot()
+
+              except Exception as error:
+
+                  print(
+                      f"No se pudo leer: {filename}"
+                  )
+
+                  continue
+
+              for channel in root.findall(
+                  ".//channel"
+              ):
+
+                  xmltv_id = str(
+                      channel.get(
+                          "xmltv_id",
+                          ""
+                      )
+                  ).strip()
+
+                  if not xmltv_id:
+                      continue
+
+                  if xmltv_id not in sports_ids:
+                      continue
+
+                  site = str(
+                      channel.get(
+                          "site",
+                          ""
+                      )
+                  ).strip()
+
+                  site_id = str(
+                      channel.get(
+                          "site_id",
+                          ""
+                      )
+                  ).strip()
+
+                  lang = str(
+                      channel.get(
+                          "lang",
+                          ""
+                      )
+                  ).strip()
+
+                  if not site or not site_id:
+                      continue
+
+                  key = (
+                      site,
+                      site_id,
+                      lang,
+                      xmltv_id
+                  )
+
+                  matches[key] = {
+                      "site": site,
+                      "site_id": site_id,
+                      "lang": lang,
+                      "xmltv_id": xmltv_id,
+                      "name": (
+                          channel.text or ""
+                      ).strip()
+                  }
+
+          # -------------------------------------------------
+          # Crear XML personalizado
+          # -------------------------------------------------
+
+          output = Path(
+              ".epg/custom.channels.xml"
+          )
+
+          root = ET.Element(
+              "channels"
+          )
+
+          for item in sorted(
+              matches.values(),
+              key=lambda x: (
+                  x["site"],
+                  x["xmltv_id"]
+              )
+          ):
+
+              element = ET.SubElement(
+                  root,
+                  "channel"
+              )
+
+              element.set(
+                  "site",
+                  item["site"]
+              )
+
+              element.set(
+                  "site_id",
+                  item["site_id"]
+              )
+
+              element.set(
+                  "lang",
+                  item["lang"]
+              )
+
+              element.set(
+                  "xmltv_id",
+                  item["xmltv_id"]
+              )
+
+              element.text = item["name"]
+
+          tree = ET.ElementTree(
+              root
+          )
+
+          tree.write(
+              output,
+              encoding="utf-8",
+              xml_declaration=True
+          )
+
+          print(
+              f"Canales deportivos con "
+              f"configuración EPG: "
+              f"{len(matches)}"
+          )
+
+          print(
+              f"Archivo creado: {output}"
+          )
+
+          if not matches:
+              print(
+                  "AVISO: No se encontró "
+                  "ninguna configuración EPG."
+              )
+
+          print("=" * 60)
+          PY
+
+
+      # =====================================================
+      # 8. GENERAR GUIDE.XML
+      # =====================================================
+
+      - name: Generar EPG
+        working-directory: .epg
+        run: |
+          echo "=========================================="
+          echo "GENERANDO EPG"
+          echo "=========================================="
+
+          if [ ! -s custom.channels.xml ]; then
+            echo "No existe custom.channels.xml"
+            exit 1
+          fi
+
+          npm run grab -- \
+            --channels=custom.channels.xml \
+            --output=../output/guide.xml \
+            --days=1 \
+            --timeout=30000 \
+            --delay=100 \
+            --maxConnections=3
+
+          echo ""
+          echo "=========================================="
+          echo "EPG GENERADO"
+          echo "=========================================="
+
+          if [ -f ../output/guide.xml ]; then
+            ls -lh ../output/guide.xml
+          else
+            echo "ERROR: No se creó guide.xml"
+            exit 1
+          fi
+
+
+      # =====================================================
+      # 9. EJECUTAR DEPORTES MAESTRO
+      # =====================================================
+
+      - name: Ejecutar Deportes Maestro
+        run: |
           echo "=== EJECUTANDO DEPORTES MAESTRO ==="
 
           python -u src/main.py
 
           echo "=== FIN PYTHON ==="
+
+
+      # =====================================================
+      # 10. GUARDAR PARRILLA
+      # =====================================================
 
       - name: Guardar parrilla actualizada
         run: |
@@ -38,6 +359,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add output/parrilla_deportes_automatica.m3u
+          git add output/guide.xml
 
           if git diff --cached --quiet; then
             echo "No hay cambios en la parrilla."
