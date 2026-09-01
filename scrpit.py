@@ -1,52 +1,162 @@
 import requests
 
-# Base de datos global de canales abiertos
-URL_MUNDIAL = "https://github.io"
+SOURCE_URL = "https://iptv-org.github.io/iptv/index.m3u"
+OUTPUT_FILE = "parrilla_deportes_automatica.m3u"
 
-# Idiomas estables inmunes a bloqueos en España
-IDIOMAS_INMUNES = ["lang=\"ara\"", "lang=\"fas\"", "lang=\"tur\"", "lang=\"rus\"", "lang=\"vie\"", "-ara", "-tur", "arabic"]
+# Idiomas permitidos.
+# Esto es un filtro de idioma, no un mecanismo para eludir
+# restricciones geográficas o de emisión.
+ALLOWED_LANGUAGES = {
+    "ara",
+    "rus",
+    "tur",
+    "fas",
+    "per",
+}
 
-# Palabras clave por deporte
-KW_MOTOR = ["f1", "formula 1", "motogp", "moto gp", "racing", "servustv", "orfsport"]
-KW_FUTBOL = ["futbol", "football", "soccer", "match", "kick", "ssc", "alkass", "bein", "laliga", "champions"]
-KW_TENIS = ["tennis", "tenis", "atp", "wta", "wimbledon", "alcaraz", "sinner", "djokovic", "open"]
-KW_BASKET = ["basket", "basketball", "nba", "acb", "euroleague"]
-KW_COMBATE = ["mma", "ufc", "boxeo", "boxing", "wwe"]
-KW_BALONMANO = ["balonmano", "handball", "ehf"]
+SPORT_ORDER = [
+    ("Motor", {"motor", "motorsport", "formula 1", "formula1", "f1"}),
+    ("Fútbol", {"football", "soccer", "futbol"}),
+    ("Tenis", {"tennis"}),
+    ("Baloncesto", {"basketball"}),
+    ("MMA", {"mma", "ufc", "mixed martial arts"}),
+    ("Balonmano", {"handball"}),
+]
 
-m3u_final = "#EXTM3U\n"
 
-try:
-    respuesta = requests.get(URL_MUNDIAL, timeout=25)
-    if respuesta.status_code == 200:
-        lineas = respuesta.text.splitlines()
-        metadata = ""
-        
-        for linea in lineas:
-            if linea.startswith("#EXTINF"):
-                metadata = linea
-            elif linea.startswith("http") and metadata != "":
-                meta_low = metadata.lower()
-                
-                # Filtro de idioma anti-bloqueo
-                if any(lang in metadata for lang in IDIOMAS_INMUNES) or "arabic" in meta_low:
-                    # Clasificación directa según tu orden de deportes preferido
-                    if any(kw in meta_low for kw in KW_MOTOR):
-                        m3u_final += f'#EXTINF:-1 group-title="1. MOTOR (F1 / MotoGP)",Canal Motor\n{linea}\n'
-                    elif any(kw in meta_low for kw in KW_FUTBOL):
-                        m3u_final += f'#EXTINF:-1 group-title="2. FÚTBOL MUNDIAL",Canal Futbol\n{linea}\n'
-                    elif any(kw in meta_low for kw in KW_TENIS):
-                        m3u_final += f'#EXTINF:-1 group-title="3. TENIS (Alcaraz/ATP/WTA)",Canal Tenis\n{linea}\n'
-                    elif any(kw in meta_low for kw in KW_BASKET):
-                        m3u_final += f'#EXTINF:-1 group-title="4. BALONCESTO MUNDIAL",Canal Baloncesto\n{linea}\n'
-                    elif any(kw in meta_low for kw in KW_COMBATE):
-                        m3u_final += f'#EXTINF:-1 group-title="5. MMA Y COMBATE",Canal Combate\n{linea}\n'
-                    elif any(kw in meta_low for kw in KW_BALONMANO):
-                        m3u_final += f'#EXTINF:-1 group-title="6. BALONMANO",Canal Balonmano\n{linea}\n'
-                metadata = ""
-except Exception:
-    pass
+def download_playlist():
+    response = requests.get(
+        SOURCE_URL,
+        timeout=60,
+        headers={"User-Agent": "Mozilla/5.0"},
+    )
+    response.raise_for_status()
+    response.encoding = "utf-8"
+    return response.text
 
-# Escribir el archivo final de forma directa
-with open("parrilla_deportes_automatica.m3u", "w", encoding="utf-8") as f:
-    f.write(m3u_final)
+
+def parse_m3u(text):
+    channels = []
+    current_info = None
+
+    for line in text.splitlines():
+        line = line.strip()
+
+        if not line:
+            continue
+
+        if line.startswith("#EXTINF:"):
+            current_info = line
+
+        elif current_info and not line.startswith("#"):
+            channels.append((current_info, line))
+            current_info = None
+
+    return channels
+
+
+def get_attribute(extinf, attribute):
+    prefix = f'{attribute}="'
+
+    start = extinf.find(prefix)
+
+    if start == -1:
+        return ""
+
+    start += len(prefix)
+    end = extinf.find('"', start)
+
+    if end == -1:
+        return ""
+
+    return extinf[start:end]
+
+
+def channel_name(extinf):
+    if "," in extinf:
+        return extinf.rsplit(",", 1)[1].strip()
+
+    return extinf.strip()
+
+
+def normalize(value):
+    return value.lower().strip()
+
+
+def language_allowed(extinf):
+    language = get_attribute(extinf, "tvg-language")
+
+    if not language:
+        return False
+
+    languages = {
+        normalize(item)
+        for item in language.replace(";", ",").split(",")
+        if item.strip()
+    }
+
+    return bool(languages & ALLOWED_LANGUAGES)
+
+
+def detect_sport(extinf):
+    text = normalize(extinf)
+
+    for sport, keywords in SPORT_ORDER:
+        for keyword in keywords:
+            if keyword in text:
+                return sport
+
+    return None
+
+
+def build_playlist(channels):
+    grouped = {sport: [] for sport, _ in SPORT_ORDER}
+
+    for extinf, url in channels:
+        if not language_allowed(extinf):
+            continue
+
+        sport = detect_sport(extinf)
+
+        if sport is None:
+            continue
+
+        grouped[sport].append((extinf, url))
+
+    output = ["#EXTM3U"]
+
+    for sport, _ in SPORT_ORDER:
+        output.append("")
+        output.append(f"# ===== {sport} =====")
+
+        for extinf, url in grouped[sport]:
+            output.append(extinf)
+            output.append(url)
+
+    return "\n".join(output) + "\n"
+
+
+def main():
+    print("Descargando lista IPTV...")
+    playlist = download_playlist()
+
+    print("Analizando canales...")
+    channels = parse_m3u(playlist)
+
+    print(f"Canales encontrados: {len(channels)}")
+
+    result = build_playlist(channels)
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8",
+        newline="\n",
+    ) as file:
+        file.write(result)
+
+    print(f"Archivo generado: {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
