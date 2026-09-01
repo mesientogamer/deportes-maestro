@@ -1,90 +1,93 @@
-import sys
 from pathlib import Path
+import sys
+import json
 
-# Permite importar los módulos que están dentro de src/
 SRC_DIR = Path(__file__).resolve().parent
 
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-
-from sports import SPORTS
 from epg import download_epg, parse_epg
 from streams import (
     download_streams,
     group_streams_by_channel,
     remove_duplicate_streams,
 )
+from events import (
+    detect_sport,
+    normalize_event,
+    filter_sports_events,
+    group_events_by_sport,
+)
 from m3u import save_m3u
 
 
-def normalize(text):
-    if not text:
-        return ""
+CONFIG_FILE = (
+    SRC_DIR.parent
+    / "config"
+    / "config.json"
+)
 
-    return str(text).lower().strip()
+
+def load_config():
+    """Carga la configuración del proyecto."""
+
+    if not CONFIG_FILE.exists():
+        print(
+            "No se encontró config/config.json."
+        )
+
+        return {}
+
+    with open(
+        CONFIG_FILE,
+        "r",
+        encoding="utf-8",
+    ) as file:
+
+        return json.load(file)
 
 
-def detect_sport_from_text(text):
+def create_events(programs, streams_by_channel):
     """
-    Detecta el deporte a partir del título y descripción
-    de la programación EPG.
-    """
+    Relaciona los programas de la EPG con los streams
+    disponibles para cada canal.
 
-    text = normalize(text)
-
-    for sport_id, sport_data in SPORTS.items():
-
-        for keyword in sport_data["keywords"]:
-
-            if keyword in text:
-                return sport_id
-
-    return None
-
-
-def build_events(programs, streams_by_channel):
-    """
-    Relaciona programas de la EPG con los streams del canal.
-
-    Importante:
-    La EPG identifica qué programa está anunciado para el canal.
-    El stream queda asociado al canal correspondiente.
+    Cada programa puede tener varias fuentes.
     """
 
     events = []
 
     for program in programs:
 
-        title = program.get(
-            "title",
-            ""
-        )
+        title = str(
+            program.get(
+                "title",
+                ""
+            )
+        ).strip()
 
-        description = program.get(
-            "description",
-            ""
-        )
-
-        text = (
-            title
-            + " "
-            + description
-        )
-
-        sport_id = detect_sport_from_text(
-            text
-        )
-
-        if sport_id is None:
-            continue
+        description = str(
+            program.get(
+                "description",
+                ""
+            )
+        ).strip()
 
         channel_id = program.get(
             "channel",
             ""
         )
 
-        if not channel_id:
+        if not title or not channel_id:
+            continue
+
+        sport = detect_sport(
+            title,
+            description
+        )
+
+        if sport is None:
             continue
 
         channel_streams = (
@@ -97,7 +100,7 @@ def build_events(programs, streams_by_channel):
         if not channel_streams:
             continue
 
-        stream_list = []
+        servers = []
 
         for stream in channel_streams:
 
@@ -108,7 +111,7 @@ def build_events(programs, streams_by_channel):
             if not url:
                 continue
 
-            stream_list.append({
+            servers.append({
                 "url": url,
                 "name": stream.get(
                     "title",
@@ -116,32 +119,23 @@ def build_events(programs, streams_by_channel):
                 ),
             })
 
-        stream_list = remove_duplicate_streams(
-            stream_list
+        servers = remove_duplicate_streams(
+            servers
         )
 
-        if not stream_list:
+        if not servers:
             continue
 
-        # Nombre del evento.
-        event_name = title
-
-        if description:
-            event_name = (
-                f"{title} - {description}"
-            )
-
-        # Convertir el identificador del deporte
-        # al nombre utilizado por m3u.py.
-        sport_name = SPORTS[
-            sport_id
-        ]["name"]
-
-        events.append({
-            "sport": sport_name,
-            "name": event_name,
+        event = {
+            "id": (
+                f"{channel_id}_"
+                f"{program.get('start', '')}_"
+                f"{title}"
+            ),
+            "sport": sport,
+            "title": title,
+            "description": description,
             "channel": channel_id,
-            "streams": stream_list,
             "start": program.get(
                 "start",
                 ""
@@ -150,7 +144,13 @@ def build_events(programs, streams_by_channel):
                 "stop",
                 ""
             ),
-        })
+            "live": True,
+            "servers": servers,
+        }
+
+        events.append(
+            normalize_event(event)
+        )
 
     return events
 
@@ -159,15 +159,31 @@ def main():
 
     print("=" * 60)
     print("DEPORTES MAESTRO")
-    print("Actualizador de eventos deportivos")
     print("=" * 60)
 
-    # --------------------------------------------------------
-    # 1. Descargar EPG
-    # --------------------------------------------------------
+    config = load_config()
 
     print()
-    print("1/4 - Descargando EPG...")
+    print(
+        "Deportes configurados:"
+    )
+
+    for sport in config.get(
+        "sports",
+        []
+    ):
+        print(
+            f" - {sport}"
+        )
+
+    # ------------------------------------------------------
+    # 1. EPG
+    # ------------------------------------------------------
+
+    print()
+    print(
+        "1/3 - Obteniendo programación..."
+    )
 
     epg_data = download_epg()
 
@@ -176,16 +192,18 @@ def main():
     )
 
     print(
-        f"Programas encontrados: "
+        f"Programas obtenidos: "
         f"{len(programs)}"
     )
 
-    # --------------------------------------------------------
-    # 2. Descargar streams
-    # --------------------------------------------------------
+    # ------------------------------------------------------
+    # 2. STREAMS
+    # ------------------------------------------------------
 
     print()
-    print("2/4 - Descargando streams...")
+    print(
+        "2/3 - Obteniendo fuentes..."
+    )
 
     streams = download_streams()
 
@@ -194,79 +212,81 @@ def main():
         f"{len(streams)}"
     )
 
-    # --------------------------------------------------------
-    # 3. Agrupar streams
-    # --------------------------------------------------------
-
-    print()
-    print("3/4 - Preparando fuentes...")
-
     streams_by_channel = (
         group_streams_by_channel(
             streams
         )
     )
 
-    # --------------------------------------------------------
-    # 4. Relacionar EPG + streams
-    # --------------------------------------------------------
+    # ------------------------------------------------------
+    # 3. EVENTOS
+    # ------------------------------------------------------
 
     print()
-    print("4/4 - Creando eventos...")
+    print(
+        "3/3 - Relacionando eventos "
+        "con fuentes..."
+    )
 
-    events = build_events(
+    events = create_events(
         programs,
         streams_by_channel
     )
 
-    print(
-        f"Eventos encontrados: "
-        f"{len(events)}"
+    events = filter_sports_events(
+        events
     )
 
-    # --------------------------------------------------------
-    # Mostrar resumen
-    # --------------------------------------------------------
+    grouped = group_events_by_sport(
+        events
+    )
+
+    # ------------------------------------------------------
+    # Mostrar resultados
+    # ------------------------------------------------------
 
     print()
 
-    for sport_id, sport_data in SPORTS.items():
+    total_events = 0
 
-        sport_name = sport_data[
-            "name"
-        ]
-
-        count = sum(
-            1
-            for event in events
-            if event.get("sport")
-            == sport_name
-        )
+    for sport, sport_events in grouped.items():
 
         print(
-            f"{sport_name}: "
-            f"{count} eventos"
+            f"{sport}: "
+            f"{len(sport_events)} eventos"
         )
 
-    # --------------------------------------------------------
-    # Generar M3U
-    # --------------------------------------------------------
+        total_events += len(
+            sport_events
+        )
 
     print()
-    print("Generando parrilla M3U...")
+    print(
+        f"TOTAL EVENTOS: "
+        f"{total_events}"
+    )
+
+    # ------------------------------------------------------
+    # Generar M3U
+    # ------------------------------------------------------
+
+    print()
+    print(
+        "Generando parrilla..."
+    )
 
     output_file = save_m3u(
         events
     )
 
-    print()
     print(
-        f"Archivo generado: "
+        f"Parrilla creada en: "
         f"{output_file}"
     )
 
+    print()
     print("=" * 60)
-    print("PROCESO TERMINADO")
+    print("PROCESO FINALIZADO")
     print("=" * 60)
 
 
