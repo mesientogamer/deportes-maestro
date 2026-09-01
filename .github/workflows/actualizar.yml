@@ -1,29 +1,42 @@
-name: Actualizar Canales Deportes
+name: Actualizar parrilla deportiva
+
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  actualizar:
     runs-on: ubuntu-latest
+
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Ejecutar Buscador de Canales
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Instalar dependencias y ejecutar script
         run: |
+          python -m pip install --upgrade pip
           python -m pip install requests
           python script.py
 
-      - name: Guardar cambios en GitHub
+      - name: Guardar cambios
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add -A
-          git commit -m "Lista actualizada" || exit 0
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          git add parrilla_deportes_automatica.m3u
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios que guardar."
+          else
+            git commit -m "Actualizar parrilla deportiva"
+            git push
+          fi
