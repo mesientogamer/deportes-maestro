@@ -30,7 +30,7 @@ SPORTS = {
         ]
     },
 
-    "f1": {
+    "formula1": {
         "name": "4. FÓRMULA 1",
         "keywords": [
             "formula 1",
