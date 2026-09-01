@@ -1,554 +1,319 @@
-import gzip
-import xml.etree.ElementTree as ET
+from pathlib import Path
+import sys
+import json
 
-import requests
+SRC_DIR = Path(__file__).resolve().parent
+
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
+from epg import download_epg, parse_epg
+from streams import (
+    download_streams,
+    group_streams_by_channel,
+    remove_duplicate_streams,
+)
+from events import (
+    detect_sport,
+    normalize_event,
+    filter_sports_events,
+    group_events_by_sport,
+)
+from m3u import save_m3u
 
 
-# ============================================================
-# FUENTES
-# ============================================================
-
-CHANNELS_URL = (
-    "https://iptv-org.github.io/api/channels.json"
+CONFIG_FILE = (
+    SRC_DIR.parent
+    / "config"
+    / "config.json"
 )
 
-# EPG XMLTV fusionado basado en iptv-org
-MERGED_EPG_URL = (
-    "https://dearbulut.github.io/"
-    "iptv/epg/guide.xml.gz"
-)
+
+def load_config():
+    if not CONFIG_FILE.exists():
+        print("No se encontró config/config.json.")
+        return {}
+
+    with open(
+        CONFIG_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+        return json.load(file)
 
 
-# ============================================================
-# HTTP
-# ============================================================
+def create_events(
+    programs,
+    streams_by_channel
+):
+    events = []
 
-SESSION = requests.Session()
+    for program in programs:
 
-SESSION.headers.update({
-    "User-Agent": "Mozilla/5.0"
-})
+        title = str(
+            program.get(
+                "title",
+                ""
+            )
+        ).strip()
 
+        description = str(
+            program.get(
+                "description",
+                ""
+            )
+        ).strip()
 
-# ============================================================
-# DESCARGAR JSON
-# ============================================================
+        channel_id = str(
+            program.get(
+                "channel",
+                ""
+            )
+        ).strip()
 
-def download_json(url):
-
-    response = SESSION.get(
-        url,
-        timeout=120
-    )
-
-    response.raise_for_status()
-
-    return response.json()
-
-
-# ============================================================
-# LIMPIAR TEXTO
-# ============================================================
-
-def clean(value):
-
-    if value is None:
-        return ""
-
-    return str(value).strip()
-
-
-# ============================================================
-# DESCARGAR EPG
-# ============================================================
-
-def download_epg():
-
-    print("")
-    print(
-        "=========================================="
-    )
-    print(
-        " OBTENIENDO PROGRAMACIÓN"
-    )
-    print(
-        "=========================================="
-    )
-    print("")
-
-    # --------------------------------------------------------
-    # 1. CANALES DE IPTVO-RG
-    # --------------------------------------------------------
-
-    print(
-        "Descargando información de canales..."
-    )
-
-    channels = download_json(
-        CHANNELS_URL
-    )
-
-    print(
-        f"Canales recibidos: "
-        f"{len(channels)}"
-    )
-
-    # --------------------------------------------------------
-    # 2. IDENTIFICAR CANALES DEPORTIVOS
-    # --------------------------------------------------------
-
-    sports_channels = {}
-
-    for channel in channels:
-
-        if not isinstance(
-            channel,
-            dict
-        ):
+        if not title or not channel_id:
             continue
 
-        channel_id = clean(
-            channel.get(
-                "id"
-            )
+        # Si EPG ya detectó el deporte,
+        # lo utilizamos directamente.
+        sport = program.get(
+            "sport"
         )
 
-        if not channel_id:
+        # Si no existe, lo detectamos.
+        if not sport:
+            sport = detect_sport(
+                title,
+                description
+            )
+
+        if sport is None:
             continue
 
-        categories = channel.get(
-            "categories",
-            []
+        channel_streams = (
+            streams_by_channel.get(
+                channel_id,
+                []
+            )
         )
 
-        categories = [
-            clean(category).lower()
-            for category in categories
-        ]
-
-        if "sports" not in categories:
+        if not channel_streams:
             continue
 
-        sports_channels[
-            channel_id
-        ] = channel
+        servers = []
 
-    print(
-        f"Canales deportivos: "
-        f"{len(sports_channels)}"
-    )
+        for stream in channel_streams:
 
-    # --------------------------------------------------------
-    # 3. DESCARGAR EPG XMLTV
-    # --------------------------------------------------------
-
-    print("")
-    print(
-        "Descargando EPG XMLTV fusionado..."
-    )
-
-    print(
-        MERGED_EPG_URL
-    )
-
-    try:
-
-        response = SESSION.get(
-            MERGED_EPG_URL,
-            timeout=300
-        )
-
-        response.raise_for_status()
-
-    except Exception as error:
-
-        print("")
-        print(
-            "ERROR descargando EPG:"
-        )
-
-        print(
-            error
-        )
-
-        return []
-
-    data = response.content
-
-    print(
-        f"EPG descargado: "
-        f"{len(data):,} bytes"
-    )
-
-    # --------------------------------------------------------
-    # 4. DESCOMPRIMIR
-    # --------------------------------------------------------
-
-    try:
-
-        data = gzip.decompress(
-            data
-        )
-
-        print(
-            f"EPG descomprimido: "
-            f"{len(data):,} bytes"
-        )
-
-    except Exception:
-
-        # Puede venir sin gzip
-        print(
-            "El archivo no estaba comprimido "
-            "o ya estaba descomprimido."
-        )
-
-    # --------------------------------------------------------
-    # 5. PARSEAR XML
-    # --------------------------------------------------------
-
-    print("")
-    print(
-        "Analizando XMLTV..."
-    )
-
-    try:
-
-        root = ET.fromstring(
-            data
-        )
-
-    except Exception as error:
-
-        print("")
-        print(
-            "ERROR leyendo XMLTV:"
-        )
-
-        print(
-            error
-        )
-
-        return []
-
-    # --------------------------------------------------------
-    # 6. MAPA DE CANALES DEL EPG
-    # --------------------------------------------------------
-
-    xml_channels = {}
-
-    for channel in root.findall(
-        "channel"
-    ):
-
-        channel_id = clean(
-            channel.get(
-                "id"
+            url = stream.get(
+                "url"
             )
+
+            if not url:
+                continue
+
+            servers.append({
+                "url": url,
+                "name": stream.get(
+                    "title",
+                    "Fuente"
+                ),
+            })
+
+        servers = remove_duplicate_streams(
+            servers
         )
 
-        if not channel_id:
+        if not servers:
             continue
 
-        display_name = ""
-
-        element = channel.find(
-            "display-name"
-        )
-
-        if element is not None:
-
-            display_name = clean(
-                element.text
-            )
-
-        xml_channels[
-            channel_id
-        ] = display_name
-
-    print(
-        f"Canales dentro del EPG: "
-        f"{len(xml_channels)}"
-    )
-
-    # --------------------------------------------------------
-    # 7. CRUZAR CON CANALES DEPORTIVOS
-    # --------------------------------------------------------
-
-    matched_channels = {}
-
-    for channel_id in sports_channels:
-
-        if channel_id in xml_channels:
-
-            matched_channels[
-                channel_id
-            ] = sports_channels[
-                channel_id
-            ]
-
-    print(
-        f"Canales deportivos con EPG: "
-        f"{len(matched_channels)}"
-    )
-
-    # --------------------------------------------------------
-    # 8. PROGRAMAS
-    # --------------------------------------------------------
-
-    programmes = []
-
-    for programme in root.findall(
-        "programme"
-    ):
-
-        channel_id = clean(
-            programme.get(
-                "channel"
-            )
-        )
-
-        if not channel_id:
-            continue
-
-        # Solo canales deportivos
-        if channel_id not in matched_channels:
-            continue
-
-        # ----------------------------------------------------
-        # TÍTULO
-        # ----------------------------------------------------
-
-        title_element = programme.find(
-            "title"
-        )
-
-        if title_element is None:
-            continue
-
-        title = clean(
-            title_element.text
-        )
-
-        if not title:
-            continue
-
-        # ----------------------------------------------------
-        # DESCRIPCIÓN
-        # ----------------------------------------------------
-
-        description_element = (
-            programme.find(
-                "desc"
-            )
-        )
-
-        description = ""
-
-        if description_element is not None:
-
-            description = clean(
-                description_element.text
-            )
-
-        # ----------------------------------------------------
-        # FECHAS
-        # ----------------------------------------------------
-
-        start = clean(
-            programme.get(
-                "start"
-            )
-        )
-
-        stop = clean(
-            programme.get(
-                "stop"
-            )
-        )
-
-        # ----------------------------------------------------
-        # DATOS DEL CANAL
-        # ----------------------------------------------------
-
-        channel_data = matched_channels[
-            channel_id
-        ]
-
-        channel_name = clean(
-            channel_data.get(
-                "name"
-            )
-        )
-
-        # ----------------------------------------------------
-        # DEPORTE
-        #
-        # No dependemos únicamente de esto porque
-        # main.py volverá a detectar el deporte.
-        # ----------------------------------------------------
-
-        programmes.append({
-
+        event = {
             "id": (
                 f"{channel_id}_"
-                f"{start}_"
+                f"{program.get('start', '')}_"
                 f"{title}"
             ),
 
-            # MUY IMPORTANTE:
-            # Este ID debe coincidir con streams.json
-            "channel": channel_id,
-
-            "feed": None,
-
-            "epg_channel": channel_id,
-
-            "channel_name": channel_name,
-
-            "start": start,
-
-            "stop": stop,
+            "sport": sport,
 
             "title": title,
 
             "description": description,
 
-            "sport": None,
+            "channel": channel_id,
+
+            "channel_name": program.get(
+                "channel_name",
+                ""
+            ),
+
+            "epg_channel": program.get(
+                "epg_channel",
+                ""
+            ),
+
+            "feed": program.get(
+                "feed",
+                ""
+            ),
+
+            "start": program.get(
+                "start",
+                ""
+            ),
+
+            "stop": program.get(
+                "stop",
+                ""
+            ),
 
             "live": True,
 
-            "servers": [],
+            "servers": servers,
+        }
 
-        })
-
-    # --------------------------------------------------------
-    # 9. RESULTADO
-    # --------------------------------------------------------
-
-    print("")
-    print(
-        "=========================================="
-    )
-
-    print(
-        f"Programas deportivos obtenidos: "
-        f"{len(programmes)}"
-    )
-
-    print(
-        "=========================================="
-    )
-
-    return programmes
-
-
-# ============================================================
-# PARSE_EPG
-# ============================================================
-
-def parse_epg(epg_data):
-
-    # download_epg() ya devuelve una lista
-    # de programas completamente procesada.
-
-    if epg_data is None:
-        return []
-
-    if isinstance(
-        epg_data,
-        list
-    ):
-        return epg_data
-
-    return []
-
-
-# ============================================================
-# FUNCIONES DE COMPATIBILIDAD
-# ============================================================
-
-def get_sport_events(
-    programs
-):
-
-    return programs
-
-
-def group_events_by_sport(
-    events
-):
-
-    groups = {
-        "football": [],
-        "tennis": [],
-        "basketball": [],
-        "formula1": [],
-        "motogp": [],
-    }
-
-    for event in events:
-
-        sport = event.get(
-            "sport"
-        )
-
-        if sport in groups:
-
-            groups[
-                sport
-            ].append(
+        events.append(
+            normalize_event(
                 event
             )
-
-    return groups
-
-
-def normalize_event(
-    event
-):
-
-    return event
-
-
-def get_live_events(
-    events
-):
-
-    return [
-        event
-        for event in events
-        if event.get(
-            "live",
-            False
         )
-    ]
-
-
-def filter_sports_events(
-    events
-):
 
     return events
 
 
-def add_server(
-    event,
-    server
-):
+def main():
 
-    if "servers" not in event:
+    print("=" * 60)
+    print("DEPORTES MAESTRO")
+    print("=" * 60)
 
-        event["servers"] = []
+    config = load_config()
 
-    if server not in event[
-        "servers"
-    ]:
+    print()
+    print("Deportes configurados:")
 
-        event[
-            "servers"
-        ].append(
-            server
+    for sport in config.get(
+        "sports",
+        []
+    ):
+        print(
+            f" - {sport}"
         )
 
-    return event
+    # ========================================================
+    # EPG
+    # ========================================================
+
+    print()
+    print(
+        "1/3 - Obteniendo programación..."
+    )
+
+    epg_data = download_epg()
+
+    programs = parse_epg(
+        epg_data
+    )
+
+    print(
+        f"Programas obtenidos: "
+        f"{len(programs)}"
+    )
+
+    # ========================================================
+    # STREAMS
+    # ========================================================
+
+    print()
+    print(
+        "2/3 - Obteniendo fuentes..."
+    )
+
+    streams = download_streams()
+
+    print(
+        f"Streams recibidos: "
+        f"{len(streams)}"
+    )
+
+    streams_by_channel = (
+        group_streams_by_channel(
+            streams
+        )
+    )
+
+    # ========================================================
+    # RELACIONAR
+    # ========================================================
+
+    print()
+    print(
+        "3/3 - Relacionando eventos "
+        "con fuentes..."
+    )
+
+    events = create_events(
+        programs,
+        streams_by_channel
+    )
+
+    events = filter_sports_events(
+        events
+    )
+
+    grouped = group_events_by_sport(
+        events
+    )
+
+    print()
+
+    total_events = 0
+
+    for sport, sport_events in (
+        grouped.items()
+    ):
+
+        print(
+            f"{sport}: "
+            f"{len(sport_events)} eventos"
+        )
+
+        total_events += len(
+            sport_events
+        )
+
+    print()
+
+    print(
+        f"TOTAL EVENTOS: "
+        f"{total_events}"
+    )
+
+    # ========================================================
+    # M3U
+    # ========================================================
+
+    print()
+    print(
+        "Generando parrilla..."
+    )
+
+    output_file = save_m3u(
+        events
+    )
+
+    print(
+        f"Parrilla creada en: "
+        f"{output_file}"
+    )
+
+    print()
+
+    print("=" * 60)
+    print(
+        "PROCESO FINALIZADO"
+    )
+    print("=" * 60)
+
+
+if __name__ == "__main__":
+    main()
