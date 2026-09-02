@@ -1,7 +1,6 @@
 from pathlib import Path
 import sys
 import json
-from datetime import datetime, timezone, timedelta
 
 SRC_DIR = Path(__file__).resolve().parent
 
@@ -35,118 +34,21 @@ def load_config():
         print("No se encontró config/config.json.")
         return {}
 
-    with open(CONFIG_FILE, "r", encoding="utf-8") as file:
+    with open(
+        CONFIG_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
         return json.load(file)
 
 
-def parse_xmltv_time(value):
-    """
-    Convierte una fecha XMLTV como:
-    20260902183000 +0000
-
-    a datetime UTC.
-    """
-    text = str(value or "").strip()
-
-    if not text:
-        return None
-
-    parts = text.split()
-
-    if not parts:
-        return None
-
-    base = parts[0]
-
-    try:
-        dt = datetime.strptime(
-            base,
-            "%Y%m%d%H%M%S"
-        )
-    except ValueError:
-        return None
-
-    if len(parts) > 1:
-        tz_text = parts[1].strip()
-
-        if (
-            len(tz_text) == 5
-            and tz_text[0] in "+-"
-            and tz_text[1:].isdigit()
-        ):
-            sign = (
-                1
-                if tz_text[0] == "+"
-                else -1
-            )
-
-            hours = int(tz_text[1:3])
-            minutes = int(tz_text[3:5])
-
-            offset = timedelta(
-                hours=hours,
-                minutes=minutes
-            )
-
-            if sign == -1:
-                offset = -offset
-
-            dt = dt.replace(
-                tzinfo=timezone(offset)
-            )
-        else:
-            dt = dt.replace(
-                tzinfo=timezone.utc
-            )
-    else:
-        dt = dt.replace(
-            tzinfo=timezone.utc
-        )
-
-    return dt.astimezone(timezone.utc)
-
-
-def is_live_now(program):
-    """
-    Comprueba si el programa está ocurriendo
-    exactamente en este momento.
-    """
-
-    start = parse_xmltv_time(
-        program.get("start")
-    )
-
-    stop = parse_xmltv_time(
-        program.get("stop")
-    )
-
-    if start is None or stop is None:
-        return False
-
-    now = datetime.now(timezone.utc)
-
-    return start <= now < stop
-
-
-def create_events(programs, streams_by_channel):
-
+def create_events(
+    programs,
+    streams_by_channel
+):
     events = []
 
-    total_programs = 0
-    skipped_not_live = 0
-    skipped_no_stream = 0
-
     for program in programs:
-
-        total_programs += 1
-
-        # =========================================================
-        # SOLO PROGRAMAS QUE ESTÁN EN DIRECTO AHORA
-        # =========================================================
-
-        if not is_live_now(program):
-            skipped_not_live += 1
-            continue
 
         title = str(
             program.get(
@@ -172,8 +74,13 @@ def create_events(programs, streams_by_channel):
         if not title or not channel_id:
             continue
 
-        sport = program.get("sport")
+        # Si EPG ya detectó el deporte,
+        # lo utilizamos directamente.
+        sport = program.get(
+            "sport"
+        )
 
+        # Si no existe, lo detectamos.
         if not sport:
             sport = detect_sport(
                 title,
@@ -183,33 +90,34 @@ def create_events(programs, streams_by_channel):
         if sport is None:
             continue
 
-        channel_streams = streams_by_channel.get(
-            channel_id,
-            []
+        channel_streams = (
+            streams_by_channel.get(
+                channel_id,
+                []
+            )
         )
 
         if not channel_streams:
-            skipped_no_stream += 1
             continue
 
         servers = []
 
         for stream in channel_streams:
 
-            url = stream.get("url")
+            url = stream.get(
+                "url"
+            )
 
             if not url:
                 continue
 
-            servers.append(
-                {
-                    "url": url,
-                    "name": stream.get(
-                        "title",
-                        "Fuente"
-                    ),
-                }
-            )
+            servers.append({
+                "url": url,
+                "name": stream.get(
+                    "title",
+                    "Fuente"
+                ),
+            })
 
         servers = remove_duplicate_streams(
             servers
@@ -258,36 +166,16 @@ def create_events(programs, streams_by_channel):
                 ""
             ),
 
-            # IMPORTANTE:
-            # Solo llegamos aquí si está en directo.
             "live": True,
 
             "servers": servers,
         }
 
         events.append(
-            normalize_event(event)
+            normalize_event(
+                event
+            )
         )
-
-    print()
-    print("CONTROL DE DIRECTOS")
-    print(
-        f"Programas revisados: "
-        f"{total_programs}"
-    )
-    print(
-        f"Programas descartados por "
-        f"no estar en directo: "
-        f"{skipped_not_live}"
-    )
-    print(
-        f"Programas sin fuente: "
-        f"{skipped_no_stream}"
-    )
-    print(
-        f"Eventos LIVE encontrados: "
-        f"{len(events)}"
-    )
 
     return events
 
@@ -307,10 +195,15 @@ def main():
         "sports",
         []
     ):
-        print(f" - {sport}")
+        print(
+            f" - {sport}"
+        )
+
+    # ========================================================
+    # EPG
+    # ========================================================
 
     print()
-
     print(
         "1/3 - Obteniendo programación..."
     )
@@ -326,8 +219,11 @@ def main():
         f"{len(programs)}"
     )
 
-    print()
+    # ========================================================
+    # STREAMS
+    # ========================================================
 
+    print()
     print(
         "2/3 - Obteniendo fuentes..."
     )
@@ -345,10 +241,13 @@ def main():
         )
     )
 
-    print()
+    # ========================================================
+    # RELACIONAR
+    # ========================================================
 
+    print()
     print(
-        "3/3 - Relacionando eventos LIVE "
+        "3/3 - Relacionando eventos "
         "con fuentes..."
     )
 
@@ -369,11 +268,13 @@ def main():
 
     total_events = 0
 
-    for sport, sport_events in grouped.items():
+    for sport, sport_events in (
+        grouped.items()
+    ):
 
         print(
             f"{sport}: "
-            f"{len(sport_events)} eventos LIVE"
+            f"{len(sport_events)} eventos"
         )
 
         total_events += len(
@@ -383,12 +284,15 @@ def main():
     print()
 
     print(
-        f"TOTAL EVENTOS LIVE: "
+        f"TOTAL EVENTOS: "
         f"{total_events}"
     )
 
-    print()
+    # ========================================================
+    # M3U
+    # ========================================================
 
+    print()
     print(
         "Generando parrilla..."
     )
@@ -405,7 +309,9 @@ def main():
     print()
 
     print("=" * 60)
-    print("PROCESO FINALIZADO")
+    print(
+        "PROCESO FINALIZADO"
+    )
     print("=" * 60)
 
 
