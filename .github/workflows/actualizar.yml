@@ -76,13 +76,13 @@ jobs:
 
 
       # =====================================================
-      # 7. BUSCAR TODAS LAS FUENTES EPG DEPORTIVAS
+      # 7. BUSCAR FUENTES EPG DEPORTIVAS
+      # ESPAÑOL FUERA
       # =====================================================
 
       - name: Buscar canales deportivos con EPG
         run: |
           python - <<'PY'
-          import json
           import glob
           import xml.etree.ElementTree as ET
           from pathlib import Path
@@ -93,7 +93,8 @@ jobs:
           API_URL = "https://iptv-org.github.io/api/channels.json"
 
           print("=" * 70)
-          print("BUSCANDO TODAS LAS FUENTES EPG DEPORTIVAS")
+          print("BUSCANDO FUENTES EPG DEPORTIVAS")
+          print("ESPAÑOL EXCLUIDO")
           print("=" * 70)
 
           # =================================================
@@ -120,6 +121,40 @@ jobs:
               text = re.sub(r"\s+", " ", text).strip()
 
               return text
+
+          # =================================================
+          # IDIOMAS ESPAÑOLES A EXCLUIR
+          # =================================================
+
+          SPANISH_LANGS = {
+              "es",
+              "es-ES",
+              "es-MX",
+              "es-AR",
+              "es-CO",
+              "es-CL",
+              "es-PE",
+              "es-UY",
+              "es-EC",
+              "es-PY",
+              "es-BO",
+              "es-VE",
+              "es-CR",
+              "es-PA",
+              "es-DO",
+              "es-GT",
+              "es-HN",
+              "es-SV",
+              "es-NI",
+              "es-CU",
+          }
+
+          def is_spanish(lang):
+              lang = str(lang or "").strip()
+              return lang.lower() in {
+                  x.lower()
+                  for x in SPANISH_LANGS
+              }
 
           # =================================================
           # PALABRAS DEPORTIVAS
@@ -168,12 +203,15 @@ jobs:
               "olympics",
               "arena",
               "stadium",
-              "espn deportes",
               "fox sports",
               "sky sport",
               "sportklub",
               "super sport",
           ]
+
+          # =================================================
+          # DESCARGAR CANALES IPTV-ORG
+          # =================================================
 
           print("")
           print("Descargando canales de IPTV-ORG...")
@@ -189,7 +227,7 @@ jobs:
           channels = response.json()
 
           # =================================================
-          # INDEXAR TODOS LOS CANALES DEPORTIVOS
+          # INDEXAR CANALES DEPORTIVOS
           # =================================================
 
           sports_channels = {}
@@ -237,7 +275,7 @@ jobs:
           )
 
           # =================================================
-          # BUSCAR TODOS LOS ARCHIVOS EPG
+          # BUSCAR ARCHIVOS EPG
           # =================================================
 
           files = glob.glob(
@@ -256,9 +294,10 @@ jobs:
           name_matches = 0
           fuzzy_matches = 0
           sport_sources = 0
+          spanish_removed = 0
 
           # =================================================
-          # PROCESAR TODOS LOS ARCHIVOS EPG
+          # PROCESAR ARCHIVOS
           # =================================================
 
           for filename in files:
@@ -310,12 +349,18 @@ jobs:
                   if not site or not site_id:
                       continue
 
-                  normalized_name = normalize(
-                      name
-                  )
+                  # =================================================
+                  # ELIMINAR ESPAÑOL
+                  # =================================================
+
+                  if is_spanish(lang):
+                      spanish_removed += 1
+                      continue
+
+                  normalized_name = normalize(name)
 
                   # =================================================
-                  # 1. COINCIDENCIA DIRECTA POR XMLTV_ID
+                  # 1. XMLTV_ID DIRECTO
                   # =================================================
 
                   if (
@@ -344,16 +389,14 @@ jobs:
                       continue
 
                   # =================================================
-                  # 2. DETECTAR CANAL DEPORTIVO POR NOMBRE
+                  # 2. DETECTAR DEPORTE POR NOMBRE
                   # =================================================
-
-                  name_lower = normalized_name
 
                   is_sport_channel = False
 
                   for word in SPORT_CHANNEL_WORDS:
 
-                      if normalize(word) in name_lower:
+                      if normalize(word) in normalized_name:
 
                           is_sport_channel = True
                           break
@@ -364,7 +407,7 @@ jobs:
                   sport_sources += 1
 
                   # =================================================
-                  # 3. COINCIDENCIA EXACTA POR NOMBRE
+                  # 3. NOMBRE EXACTO
                   # =================================================
 
                   possible_ids = sports_names.get(
@@ -398,7 +441,7 @@ jobs:
                       continue
 
                   # =================================================
-                  # 4. COINCIDENCIA PARECIDA
+                  # 4. COINCIDENCIA APROXIMADA
                   # =================================================
 
                   best_id = None
@@ -517,7 +560,7 @@ jobs:
 
           print("")
           print("=" * 70)
-          print("RESULTADO DE LA BUSQUEDA EPG")
+          print("RESULTADO")
           print("=" * 70)
 
           print(
@@ -546,6 +589,11 @@ jobs:
           )
 
           print(
+              f"Fuentes españolas eliminadas: "
+              f"{spanish_removed}"
+          )
+
+          print(
               f"TOTAL CONFIGURACIONES EPG: "
               f"{len(matches)}"
           )
@@ -561,7 +609,7 @@ jobs:
               print("")
               print(
                   "ERROR: no se encontró ninguna "
-                  "fuente EPG deportiva."
+                  "fuente EPG deportiva no española."
               )
               raise SystemExit(1)
 
@@ -629,6 +677,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No hay cambios en la parrilla."
           else
-            git commit -m "Actualizar parrilla deportiva"
+            git commit -m "Actualizar parrilla deportiva sin español"
             git push
           fi
