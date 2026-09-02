@@ -672,11 +672,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          echo "============================================================"
+          echo "SINCRONIZANDO CON GITHUB"
+          echo "============================================================"
+
+          git fetch origin main
+
+          # Nos colocamos sobre la versión más reciente de GitHub
+          # conservando la M3U que acabamos de generar.
+          git reset --soft origin/main
+
           git add output/parrilla_deportes_automatica.m3u
 
           if git diff --cached --quiet; then
             echo "No hay cambios en la parrilla."
           else
             git commit -m "Actualizar parrilla deportiva sin español"
-            git push
+            git push origin HEAD:main
           fi
