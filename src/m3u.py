@@ -31,9 +31,11 @@ def clean_text(text):
 
 def create_m3u(events):
     """
-    Crea una M3U organizada por deporte y evento.
+    Crea una M3U deportiva.
 
-    Cada evento puede contener varias fuentes.
+    Todos los eventos pertenecen al grupo principal DEPORTES.
+    El deporte aparece dentro del nombre del evento.
+    Cada evento mantiene todas sus fuentes disponibles.
     """
 
     lines = [
@@ -43,18 +45,12 @@ def create_m3u(events):
 
     for sport_name in SPORT_ORDER:
 
-        lines.append(
-            f"# ===== {sport_name} ====="
-        )
-
         sport_events = [
             event
             for event in events
-            if event.get("sport_name")
-            == sport_name
+            if event.get("sport_name") == sport_name
         ]
 
-        # Evitar eventos duplicados.
         seen_events = set()
 
         for event in sport_events:
@@ -73,20 +69,12 @@ def create_m3u(events):
                 )
             )
 
-            event_key = (
-                f"{title}|{start}"
-            )
+            event_key = f"{sport_name}|{title}|{start}"
 
             if event_key in seen_events:
                 continue
 
-            seen_events.add(
-                event_key
-            )
-
-            lines.append(
-                f"# --- {title} ---"
-            )
+            seen_events.add(event_key)
 
             servers = event.get(
                 "servers",
@@ -94,7 +82,6 @@ def create_m3u(events):
             )
 
             seen_urls = set()
-
             server_number = 0
 
             for server in servers:
@@ -127,21 +114,20 @@ def create_m3u(events):
                     )
 
                 display_name = (
+                    f"{sport_name} | "
                     f"{title} | "
                     f"{server_name}"
                 )
 
                 lines.append(
                     f'#EXTINF:-1 '
-                    f'group-title="{sport_name}",'
+                    f'group-title="DEPORTES",'
                     f'{display_name}'
                 )
 
                 lines.append(url)
 
             lines.append("")
-
-        lines.append("")
 
     return "\n".join(lines)
 
@@ -156,9 +142,7 @@ def save_m3u(events):
         exist_ok=True
     )
 
-    content = create_m3u(
-        events
-    )
+    content = create_m3u(events)
 
     OUTPUT_FILE.write_text(
         content,
