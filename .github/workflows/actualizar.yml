@@ -572,11 +572,11 @@ jobs:
       # 8. GENERAR EPG
       # =====================================================
 
-- name: Generar EPG
-  working-directory: .epg
-  env:
-    NODE_OPTIONS: "--max-old-space-size=8192"
-  run: |
+      - name: Generar EPG
+        working-directory: .epg
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
+        run: |
           echo "============================================================"
           echo "GENERANDO EPG"
           echo "============================================================"
