@@ -66,6 +66,30 @@ https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Nogomet (M): Sassuolo - Juventus, Serie A 2026/2027 | Adjarasport 1
 https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | JT Football | Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Watford vs Stoke City - EFL - English Football League SkyBet - Championship 2026/2027 | beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Watford vs Stoke City - EFL - English Football League SkyBet - Championship 2026/2027 | BeIN Sports XTRA
@@ -363,17 +387,6 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bundesliga Weekly - Episode Number 4 | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 4 | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 4 | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 4 | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 4 | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 4 | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A - Matchday 4 | beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A - Matchday 4 | BeIN Sports XTRA
@@ -383,17 +396,6 @@ https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A - Matchday 4 | BeIN SPORTS XTRA
 https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A - Matchday 4 | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 2 | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 2 | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 2 | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 2 | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Matchday 2 | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bundesliga Highlights - Matchday 2 | beIN SPORTS XTRA
@@ -438,17 +440,6 @@ https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | LaLiga Highlights - Matchday 4 | BeIN SPORTS XTRA
 https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | LaLiga Highlights - Matchday 4 | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 - Matchday #3 | beIN SPORTS XTRA
@@ -715,6 +706,39 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Burnley vs Bristol City | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Swansea vs Wrexham | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Swansea vs Wrexham | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Swansea vs Wrexham | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Swansea vs Wrexham | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Swansea vs Wrexham | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Turkish Super Lig Soccer | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Turkish Super Lig Soccer | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Turkish Super Lig Soccer | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Turkish Super Lig Soccer | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Turkish Super Lig Soccer | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Turco Superliga | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Turco Superliga | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Turco Superliga | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Turco Superliga | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Turco Superliga | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Ligue 1 | beIN SPORTS XTRA en Espanol
 http://201.190.41.246:9060/play/a03y/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Ligue 1 | beIN Sports XTRA en Espanol
@@ -843,11 +867,6 @@ https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
-https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
-https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 90 in 60 | CBS Sports Golazo Network
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 90 in 60 | CBS Sports Golazo Network
@@ -866,6 +885,11 @@ https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-li
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 90 in 60 | CBS Sports Golazo Network
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 90 in 60 | CBS Sports Golazo Network
+https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football | CBS Sports HQ
@@ -1032,9 +1056,6 @@ https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
 https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football | CBS Sports HQ
 https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Liga Mexicana de Béisbol | Claro Sports
-https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jugando Claro | Claro Sports
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
@@ -1055,6 +1076,9 @@ https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jugando Claro | Claro Sports
+https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Griego Superliga | Claro Sports
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Griego Superliga | Claro Sports
@@ -1110,9 +1134,6 @@ https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Great American Events | ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol picante | ESPN Deportes HD
-http://168.228.44.241:9998/play/a0dz/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol LaLiga | ESPN Deportes HD
 http://168.228.44.241:9998/play/a0dz/index.m3u8
 
@@ -1129,30 +1150,16 @@ http://168.228.44.241:9998/play/a0dz/index.m3u8
 http://168.228.44.241:9998/play/a0dz/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol picante | ESPN Deportes HD
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol picante | ESPN Deportes HD
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol LaLiga | ESPN Deportes HD
 http://168.228.44.241:9998/play/a0dz/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Viii Sports 2024 National Championship | ESPNews
 http://41.205.93.154/ESPNNEWS/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | SEC Storied | ESPNU HD
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | SEC Storied | ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Difference: LSU Football | ESPNU HD
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Difference: LSU Football | ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Season: Ole Miss Football | ESPNU HD
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Season: Ole Miss Football | ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU HD
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | College GameDay | ESPNU HD
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
@@ -1383,6 +1390,12 @@ http://stream.mcquack.net/416/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpall: Serie A ajakiri | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: LaLiga: Real Sociedad - Atlético Madrid | Go3 Sport 1
+http://stream.mcquack.net/416/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpalli: La Liga: Real Sociedad - Atlético Madrid | Go3 Sport 1
+http://stream.mcquack.net/416/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Futbols – Itālijas līga. Udinese – Lazio. Calcio: Campionato Italiano Serie A | KTV Sport
 https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
 
@@ -1404,15 +1417,12 @@ https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Life after Football | More Than Sports TV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Life after Football | More Than Sports TV
-https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Life after Football | More Than Sports TV
-https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | AFL Premiership Football: Fremantle - Western Bulldogs | More Than Sports TV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | AFL Premiership Football: West Coast Eagles - Carlton | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Cal Football | NBC Sports Bay Area
 https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
 
@@ -1429,6 +1439,12 @@ https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
 https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football | NBC Sports Bay Area
+https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Cal Football Postgame Live | NBC Sports Bay Area
+https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Cal Football Postgame Live | NBC Sports Bay Area
 https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Cal Football Postgame Live | NBC Sports Bay Area
@@ -1641,6 +1657,9 @@ https://messi.damitv.st/papi/ts/nbc-sports-philly/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Pro Football Weekly | NBC Sports Philadelphia
 https://messi.damitv.st/papi/ts/nbc-sports-philly/playlist.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Pro Football Weekly | NBC Sports Philadelphia
+https://messi.damitv.st/papi/ts/nbc-sports-philly/playlist.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football «San Francisco 49ers vs. Los Angeles Rams» (Melbourne Cricket Ground, Melbourne, Victoria, AUS) | NFL Network
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
@@ -1671,10 +1690,10 @@ http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Matchup «Week 1» | NFL Network
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football «2025: Buffalo Bills vs. Houston Texans» | NFL Network
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football | NFL Network
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football | NFL Network
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football «2025: Buffalo Bills vs. Houston Texans» | NFL Network
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football | NFL Network
@@ -1687,9 +1706,6 @@ http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football «2025: New York Giants vs. Dallas Cowboys – Week 2» | NFL Network
-http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football de la LNF | NFL Network
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Football | NFL Network
@@ -1727,12 +1743,6 @@ http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL Matchup | NFL Network
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: World grand finals Dubai – Part 1 | Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: World grand finals Dubai – part 2 | Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: SCL Norway | Pluto TV Esportes
 https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
@@ -1875,9 +1885,6 @@ https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-a
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer - Euro League Superfinal 2026 Uomini - 4a giornata: Italia - Danimarca | Rai Sport
 https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer | Rai Sport
-https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer Euro League Maschile Italia – Danimarca | Rai Sport
 https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
 
@@ -1930,12 +1937,6 @@ http://stream.mcquack.net/313/index.m3u8
 http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Saudi profiliiga. Al Khaleej - Al Nassr FC | Setanta Sports
-http://stream.mcquack.net/313/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpalli: La Liga: Classic | Setanta Sports
-http://stream.mcquack.net/313/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: LaLiga: Classic | Setanta Sports
 http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2. Bundesliga. St. Pauli - Wolfsburg | Setanta Sports
@@ -2011,6 +2012,12 @@ http://stream.mcquack.net/313/index.m3u8
 http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: French Ligue 1: Classic | Setanta Sports
+http://stream.mcquack.net/313/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpall: Ligue 1: Brest - PSG | Setanta Sports
+http://stream.mcquack.net/313/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: French Ligue 1: Brest - PSG | Setanta Sports
 http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Real Madrid vs Inter-UEFA Champions League Highlights | Sony Sports Ten 2 HD
@@ -2138,11 +2145,6 @@ https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Napoli vs. Arsenal; UEFA Champions League Football | Sony Sports Ten 3 Hindi
 https://cloudplay-sonyliv.pages.dev/ten3.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League 2026/27 Napoli vs Arsenal | Sony Sports Ten 3 Hindi HD
-https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League 2026/27 Napoli vs Arsenal | Sony Sports Ten 3 Hindi
-https://cloudplay-sonyliv.pages.dev/ten3.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League 2026/27 Manchester United vs Sabah | Sony Sports Ten 3 Hindi HD
 https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League 2026/27 Manchester United vs Sabah | Sony Sports Ten 3 Hindi
@@ -2226,12 +2228,6 @@ https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | LFC TV – Champions League (Ligaphase, 1. Spieltag) | Sportdigital FUSSBALL
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Liverpool FC - Atletico Madrid: LFC TV - Champions League (Ligaphase, 1. Spieltag) | Sportdigital FUSSBALL
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Brasilianische Serie A | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Liverpool FC - Atletico Madrid: LFC TV - Champions League (Ligaphase, 1. Spieltag) | Sportdigital FUSSBALL
@@ -2507,6 +2503,12 @@ http://znty.dyndns.org:5010/hls/stv2.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A 2026-27 - Veneza x Fiorentina | Sport TV2
 http://znty.dyndns.org:5010/hls/stv2.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Lecce x Monza: Serie A (Live) | Sport TV5
+http://znty.dyndns.org:5010/hls/stv5.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Nápoles x Bolonha: Serie A (Live) | Sport TV5
+http://znty.dyndns.org:5010/hls/stv5.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Indianapolis Colts x Baltimore Ravens - NFL : Indianapolis Colts x Baltimore Ravens | SporTV 3
 http://170.83.49.66:8083/SPORTV3HD/index.m3u8
 
@@ -2609,15 +2611,20 @@ http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | CPL 2026 HLs Warriors v Riders | Star Sports 2 HD
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Central Delhi Kings vs. West Delhi Lions-Delhi Premier League T20 | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Central Delhi Kings vs. West Delhi Lions-Delhi Premier League T20 | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | CPL 2026 HLs Warriors v Riders | Star Sports 2 HD
+http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | CPL 2026 HLs Warriors v Riders | Star Sports 2 HD
+https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | North Delhi Strikers vs. Outer Delhi Warriors-Delhi Premier League | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | North Delhi Strikers vs. Outer Delhi Warriors-Delhi Premier League | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | CPL 2026 HLs Tridents v Kingsmen | Star Sports 2 HD
+http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | CPL 2026 HLs Tridents v Kingsmen | Star Sports 2 HD
+https://tvsen7.aynaott.com/ssport2hd/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live CPL 2026 Tridents v Warriors | Star Sports 2 HD
+http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live CPL 2026 Tridents v Warriors | Star Sports 2 HD
+https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | CPL 2026 HLs Tridents v Kingsmen | Star Sports 2 Hindi HD
 http://103.157.248.140:8000/play/a01m/index.m3u8
@@ -2700,6 +2707,9 @@ http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Highlights Aston villa v Arsenal | Star Sports Select 2 HD
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL The Big Interview | Star Sports Select 2 HD
+http://tvsen7.aynascope.net/ssport2hd/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | GameDay Live | talkSPORT
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | GameDay Live | talkSPORT
@@ -2718,11 +2728,6 @@ https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Full-Time Fallout with Max Scott | talkSPORT
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Full-Time Fallout with Max Scott | talkSPORT
-https://tvsen6.aynaott.com/talkSPORT/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Full Time Fallout with Max Scott &amp; Perry Groves | talkSPORT
-https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Full Time Fallout with Max Scott &amp; Perry Groves | talkSPORT
 https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars (Australia)
@@ -3201,40 +3206,6 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester United Tragedy/Beamon's Giant Leap | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Neuer, Maldini and Alaba - EP6 | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars (Australia)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars
@@ -3250,23 +3221,6 @@ https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars Russia
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars. Neuer, Maldini and Alaba | Trace Sport Stars (Australia)
@@ -3694,6 +3648,40 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Maradona, Marquez & Pacquiao - EP4 | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Tammy Abraham - EP11 | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 | TVMsport+
 https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 
@@ -3706,23 +3694,8 @@ https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 | TVMsport+
 https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-http://45.181.87.106/TYCSPORTSHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-http://38.44.109.41:8003/play/a02l/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Uno contra uno | TyC Sports
-https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Uno contra uno | TyC Sports
-http://45.181.87.106/TYCSPORTSHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Uno contra uno | TyC Sports
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Uno contra uno | TyC Sports
-http://38.44.109.41:8003/play/a02l/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FIFA World Cup 2026 | TVMsport+
+https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
 https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
@@ -3731,24 +3704,6 @@ http://45.181.87.106/TYCSPORTSHD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-http://38.44.109.41:8003/play/a02l/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-http://45.181.87.106/TYCSPORTSHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
-http://38.44.109.41:8003/play/a02l/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
-https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
-http://45.181.87.106/TYCSPORTSHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
 http://38.44.109.41:8003/play/a02l/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
@@ -3776,6 +3731,24 @@ http://45.181.87.106/TYCSPORTSHD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
+http://38.44.109.41:8003/play/a02l/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
+https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
+http://45.181.87.106/TYCSPORTSHD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
+http://38.44.109.41:8003/play/a02l/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
+https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
+http://45.181.87.106/TYCSPORTSHD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
 http://38.44.109.41:8003/play/a02l/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sportia | TyC Sports
@@ -3821,6 +3794,15 @@ http://45.181.87.106/TYCSPORTSHD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Hay Equipo | TyC Sports
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Hay Equipo | TyC Sports
+http://38.44.109.41:8003/play/a02l/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
+https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
+http://45.181.87.106/TYCSPORTSHD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
 http://38.44.109.41:8003/play/a02l/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol Argentino Primera División | TyC Sports
@@ -3958,6 +3940,9 @@ http://59.103.38.46:8000/play/a126/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bundesliga 2026-27 Borussia Dortmund vs SC Paderborn | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bundesliga 2026-27 Best of the month-August | Unite8 Sports 2
+http://59.103.38.46:8000/play/a126/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | European T20 Premier League | Willow Sports
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | European T20 Premier League | Willow Sports
@@ -3971,22 +3956,28 @@ https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | European T20 Premier League | Willow Sports
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League FC Barcelona - Feyenoord | Ziggo Sport 2
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Athletic Club - Elche | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League PSV - Sjachtar Donetsk | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Real Madrid - Internazionale | Ziggo Sport 2
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Atalanta - Cagliari | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Sevilla FC - Valencia CF | Ziggo Sport 2
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Real Madrid - Rayo Vallecano | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round up | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A | Ziggo Sport 2
@@ -4004,64 +3995,16 @@ http://86.87.15.10:8004/play/a02b/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga preview show | Ziggo Sport 2
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Real Madrid - Rayo Vallecano | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Tussen De Palen | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League FC Barcelona - Feyenoord | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Genoa - Frosinone Calcio | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
@@ -4076,27 +4019,6 @@ http://86.87.15.10:8004/play/a02b/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Lazio - AC Milan | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Atalanta - Cagliari | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League hoogtepunten | Ziggo Sport 2
-http://86.87.15.10:8004/play/a02b/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
@@ -4106,7 +4028,7 @@ http://86.87.15.10:8004/play/a02b/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League hoogtepunten | Ziggo Sport 2
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
@@ -4115,13 +4037,85 @@ http://86.87.15.10:8004/play/a02b/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Athletic Club - Elche | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League PSV - Sjachtar Donetsk | Ziggo Sport 2
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Atalanta - Cagliari | Ziggo Sport 2
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Celta de Vigo - Málaga CF | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Levante UD - FC Barcelona | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Getafe CF - Deportivo La Coruña | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Sassuolo - Juventus | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League magazine | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Europa League & UEFA Conference League magazine | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League Hoogtepunten | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Levante UD - FC Barcelona | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Napoli - Bologna | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League | Ziggo Sport 2
+http://86.87.15.10:8004/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Real Sociedad - Atlético Madrid | Ziggo Sport 2
 http://86.87.15.10:8004/play/a02b/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
@@ -4130,9 +4124,6 @@ http://145.239.5.177/349/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's greatest stage | Ziggo Sport 5
-http://145.239.5.177/349/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's Greatest Stage | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
 
@@ -4140,6 +4131,9 @@ http://145.239.5.177/349/index.m3u8
 http://145.239.5.177/349/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's Greatest Stage | Ziggo Sport 5
+http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's greatest stage | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
@@ -4153,11 +4147,32 @@ http://145.239.5.177/349/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's greatest stage | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
+http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
+http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
+http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's greatest stage | Ziggo Sport 5
+http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's greatest stage | Ziggo Sport 5
+http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round up | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Real Madrid - Rayo Vallecano | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Inside Serie A | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Sevilla FC - Valencia CF | Ziggo Sport
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Lazio - AC Milan | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's Greatest Stage | Ziggo Sport
@@ -4166,16 +4181,22 @@ http://86.87.15.10:8004/play/a02d/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Nation | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Real Madrid - Rayo Vallecano | Ziggo Sport
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round up | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round up | Ziggo Sport
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Europa League magazine | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: Serie A Napoli - Bologna | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Real Sociedad - Atlético Madrid | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round Up | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Real Madrid - Rayo Vallecano | Ziggo Sport
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Voetbal: LaLiga Levante UD - FC Barcelona | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Premier Padel Tennis | beIN SPORTS XTRA
@@ -4208,6 +4229,9 @@ https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
 https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Premier Padel Tennis | BeIN Sports XTRA en Espanol
 https://bein-esp-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Davis Cup 2026 | ČT Sport
+http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | 2025 Billie Jean King Cup Tennis | DD Sports SD
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
@@ -4361,24 +4385,6 @@ https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tenis | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Doubles | Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Doubles | Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Doubles | Final | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Doubles | Final | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Doubles | Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Doubles | Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Doubles | Final | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Doubles | Final | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | C. Harrison / N. Skupski - K. Krawietz / T. Puetz Men | Doubles | Final | US Open | Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | C. Harrison / N. Skupski - K. Krawietz / T. Puetz Men | Doubles | Final | US Open | Esport3
@@ -4404,24 +4410,6 @@ https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Singles | Semi-Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Singles | Semi-Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Singles | Semi-Final | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: US Open: Men | Singles | Semi-Final | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Singles | Semi-Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Singles | Semi-Final | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Singles | Semi-Final | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Men | Singles | Semi-Final | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | T. Konduri / M. Latak - A. Gabet / V. Gonzalez-Galino Junior Men | Doubles | Final | US Open | Esport3
@@ -4451,22 +4439,13 @@ https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis The US Open: Women | Singles | Final | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Courtside US Open | Day 13 | Esport3
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Courtside Women's Final | Day 14 | Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Courtside US Open | Day 13 | Esport3
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Courtside Women's Final | Day 14 | Esport3
 https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Courtside US Open | Day 13 | Esport3
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Courtside Women's Final | Day 14 | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Courtside US Open | Day 13 | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Finale, ženske | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Finale, ženske | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Finale, ženske | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Finale, ženske | Esport3
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Courtside Women's Final | Day 14 | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Esport3
@@ -4476,15 +4455,6 @@ https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Aryna Sabalenka - Elena Rybakina Women | Singles | Final | US Open | Esport3
@@ -4809,6 +4779,15 @@ https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Table Tennis | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Table Tennis | Esport3
+https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
+https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
+https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
+https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tenis: Odprto prvenstvo ZDA: Ženske, posamezno, finale | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Eurosport Tennis Club | Esport3
@@ -4917,9 +4896,6 @@ http://103.253.18.58:8000/play/a03o
 #EXTINF:-1 group-title="DEPORTES",TENIS | Live-2026 US Open Tennis-2026 US Open Tennis | Star Sports 1 Hindi
 http://103.253.18.58:8000/play/a03o
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Live US Open 2026 | Star Sports 1 Hindi
-http://103.253.18.58:8000/play/a03o
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports 1 Hindi
 http://103.253.18.58:8000/play/a03o
 
@@ -4958,26 +4934,6 @@ http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports 2 HD
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports 2 Hindi HD
 http://103.157.248.140:8000/play/a01m/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports 2 Hindi
@@ -4998,16 +4954,10 @@ http://103.157.248.140:8000/play/a01m/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports 2 Hindi
 https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports Khel
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports Khel
 http://103.175.73.12:8080/live/151/151_0.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports Khel
-http://103.175.73.12:8080/live/151/151_0.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports Khel
-http://103.175.73.12:8080/live/151/151_0.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes | Star Sports Khel
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports Khel
 http://103.175.73.12:8080/live/151/151_0.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open Heroes 2026 HLs | Star Sports Khel
@@ -5106,439 +5056,11 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 #EXTINF:-1 group-title="DEPORTES",TENIS | Supertennis Today. Speciale Us Open | SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open 2026 | SuperTennis
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | Us Open | SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open 2026 | SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Australian Open Encore | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
-https://rezofoot.tv/Tennis/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
 https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
@@ -7013,6 +6535,56 @@ http://23.237.104.106:8080/USA_TENNIS/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Seville ATP Challenger | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Séville Espagne 2025 | Tennis Channel
 https://rezofoot.tv/Tennis/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
@@ -10590,6 +10162,431 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlint
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
 https://rezofoot.tv/Tennis/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel Live at the US Open | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
 https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
@@ -11157,6 +11154,17 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Kazakhstan vs Philippines – Basketball Men | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
@@ -11190,17 +11198,6 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | BeIN Sports XTRA
@@ -11221,50 +11218,6 @@ https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
 https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Basketball World Tour - Debrecen | beIN SPORTS XTRA
@@ -11320,6 +11273,72 @@ https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
 https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Tour Mundial de Baloncesto 3x3 de la FIBA | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | FIBA 3x3 Basketball World Tour | beIN SPORTS XTRA
@@ -11498,19 +11517,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -80s Champions Collection | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -80s Champions Collection | NBA TV
@@ -11522,19 +11528,6 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -80s Champions Collection | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -80s Champions Collection | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -80年代冠軍珍藏 | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -80年代冠軍珍藏 | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -80年代冠軍珍藏 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -80年代冠軍珍藏 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -80年代冠軍珍藏 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -80年代冠軍珍藏 | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
@@ -11561,19 +11554,6 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Miami Heat vs Los Angeles Lakers | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Miami Heat vs Los Angeles Lakers | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -邁阿密熱火 對 洛杉磯湖人 | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -邁阿密熱火 對 洛杉磯湖人 | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -邁阿密熱火 對 洛杉磯湖人 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -邁阿密熱火 對 洛杉磯湖人 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -邁阿密熱火 對 洛杉磯湖人 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -邁阿密熱火 對 洛杉磯湖人 | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
@@ -11680,19 +11660,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -羅拔荷利 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -羅拔荷利 | NBA TV
@@ -11704,6 +11671,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -羅拔荷利 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -羅拔荷利 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Robert Horry | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
@@ -11745,19 +11725,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -迪韋特侯活 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -迪韋特侯活 | NBA TV
@@ -11769,6 +11736,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -迪韋特侯活 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA故事集 -迪韋特侯活 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories -Dwight Howard | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action | NBA TV
@@ -11784,19 +11764,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第6集 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第6集 | NBA TV
@@ -11808,6 +11775,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第6集 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第6集 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E6 | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA | NBA TV
@@ -11849,19 +11829,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA社交媒體精華 第1集 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA社交媒體精華 第1集 | NBA TV
@@ -11873,6 +11840,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA社交媒體精華 第1集 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA社交媒體精華 第1集 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Social E1 | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA | NBA TV
@@ -11953,19 +11933,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Month | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA攻守時間 -本月賽事 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA攻守時間 -本月賽事 | NBA TV
@@ -11977,6 +11944,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA攻守時間 -本月賽事 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA攻守時間 -本月賽事 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Month | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA TV Canada Specials | NBA TV
@@ -12044,19 +12024,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -鳳凰城太陽 對 波士頓塞爾特人 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -鳳凰城太陽 對 波士頓塞爾特人 | NBA TV
@@ -12068,6 +12035,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -鳳凰城太陽 對 波士頓塞爾特人 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA攻守時間 -鳳凰城太陽 對 波士頓塞爾特人 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot Clock -Phoenix Suns vs Boston Celtics | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action | NBA TV
@@ -12083,19 +12063,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第1集 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第1集 | NBA TV
@@ -12107,6 +12074,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第1集 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第1集 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E1 | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA | NBA TV
@@ -12135,19 +12115,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
-https://cdn1.ayitistream.com/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第2集 | NBA TV
 https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第2集 | NBA TV
@@ -12159,6 +12126,19 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第2集 | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩動作精華 第2集 | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Best of NBA Action E2 | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Shot: Best Games of the Week | NBA TV
@@ -12356,6 +12336,45 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Enjoy the NBA Trivia Show | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Hardwood Classics | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Hardwood Classics | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Hardwood Classics | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Hardwood Classics | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Hardwood Classics | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Hardwood Classics | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classics | NBA TV
+https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classics | NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classics | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classics | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classics | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classics | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA on NBC Highlights Factory | NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA on NBC Highlights Factory | NBC Sports NOW
@@ -12365,7 +12384,7 @@ https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA on NBC Highlights Factory | NBC Sports
 https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Campionati Mondiali femminili FIBA 2026: Finale | Rai Sport
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Campionati Mondiali femminili FIBA 2026: Finale: United States - France | Rai Sport
 https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Classic Games | S Sport 2
@@ -12383,15 +12402,15 @@ https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Classic Games | S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Yarı Final-1 | S Sport
-https://corestream.siteyaptim.live/s-sport/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Yarı Final-2 | S Sport
 https://corestream.siteyaptim.live/s-sport/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Final Maçı | S Sport
 https://corestream.siteyaptim.live/s-sport/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Üçüncülük Maçı | S Sport
+https://corestream.siteyaptim.live/s-sport/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 1 Hindi
 http://103.253.18.58:8000/play/a03o
 
@@ -12423,27 +12442,6 @@ https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 2 HD
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026: Guyana Amazon Warriors vs Trinbago Knight Riders, Match 33-CPL | Star Sports 2 Hindi
-https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Live-2026: Trinbago Knight Riders vs Guyana Amazon Warriors-Women's | Star Sports Khel
-http://103.175.73.12:8080/live/151/151_0.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Live-2026: Trinbago Knight Riders vs Guyana Amazon Warriors-Women's | Star Sports Khel
-http://103.175.73.12:8080/live/151/151_0.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NCAA Women's Basketball: Charleston vs Towson | Swerve Sports
 https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8
@@ -12766,10 +12764,16 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto : le dîner des légendes | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Essais libres 2 des Moto 3 | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 3 : Grand Prix de San Marin | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 3: Grand Prix de San Marin | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Essais libres 2 des Moto 2 | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 2: Grand Prix de San Marin | Canal+ Sport 360
@@ -12778,22 +12782,34 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 2 : Grand Prix de San Marin | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP: Grand Prix de San Marin | Canal+ Sport 360
-https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP : Grand Prix de San Marin | Canal+ Sport 360
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Essais libres 2 des Moto GP | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP: Grand Prix de San Marin | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP : Grand Prix de San Marin | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Essais qualificatifs des Moto GP | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP: Grand Prix de San Marin | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP : Grand Prix de San Marin | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Essais qualificatifs 1 et 2 des Moto 3 | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 3: Grand Prix de San Marin | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 3 : Grand Prix de San Marin | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Essais qualificatifs 1 et 2 des Moto 2 | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 2: Grand Prix de San Marin | Canal+ Sport 360
@@ -12805,6 +12821,9 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | La grille Moto | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Sprint des Moto GP | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP: Grand Prix de San Marin | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
@@ -12814,13 +12833,16 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Débrief Moto | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formule 1: GP d'Espagne : Qualifications | Canal+ Sport 360
-https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP: Grand Prix de San Marin | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Sprint des Moto GP | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP : Grand Prix de San Marin | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Débrief Moto | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Débrief Moto | Canal+ Sport 360
@@ -12835,13 +12857,25 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: GP de Saint-Marin : Course sprint | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Sprint des Moto GP | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Débrief Moto | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Débrief Moto | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Warm Up des Moto GP | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: GP de Saint-Marin : Warm up | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | La parade des pilotes | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | On Board moto | Canal+ Sport 360
@@ -12853,7 +12887,13 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | La grille Moto | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | La Grille Moto | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto2: GP de Saint-Marin : La course | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | On Board | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | On Board F1 | Canal+ Sport 360
@@ -13135,6 +13175,9 @@ https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | 2026 Italian Grand Prix | F1 Channel
 https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Jolyon Palmer's Analysis - Italy | F1 Channel
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | GP de San Marino - Treinos Livres | Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | GP de San Marino - Treinos Livres | Fox Sports en Espanol
@@ -13186,9 +13229,6 @@ https://a-cdn.klowdtv.com/live2/ftf_720p/playlist.m3u8
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: Grand Prix of San Marino | Go3 Sport 1
-http://stream.mcquack.net/416/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motorsport: MXGP Behind the Gate | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Korvpalli naiste MM: SF1. Prantsusmaa - Saksamaa | Go3 Sport 1
@@ -13339,6 +13379,9 @@ https://cdtest.global.ssl.fastly.net/1785070000~b023a98e129026ee64ab87ff37011c44
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Campionato mondiale di motocross: MXGP Cina: Gara 2 | Rai Sport
 https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Campionato mondiale di motocross: MXGP Cina: Gara 2 | Rai Sport
+https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | F1: Классика | Setanta Sports 1 Eurasia
 http://stream.mcquack.net/234/index.m3u8
 
@@ -13402,16 +13445,10 @@ http://znty.dyndns.org:5010/hls/stv5.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIA European Rallycross Championship - GP Portugal Dia 1 - Qualificação 1 (Direto) | Sport TV5
 http://znty.dyndns.org:5010/hls/stv5.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIA European Rallycross Championship - GP Portugal (Live) | Sport TV5
-http://znty.dyndns.org:5010/hls/stv5.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | GP PT: 1.º Dia Qualif. 2 - FIA Europ. Rallycross Championship (Direto) | Sport TV5
 http://znty.dyndns.org:5010/hls/stv5.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIA European Rallycross Championship - GP Portugal Dia 1 - Qualificação 2 (Direto) | Sport TV5
-http://znty.dyndns.org:5010/hls/stv5.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIA European Rallycross Championship - GP Portugal (Live) | Sport TV5
 http://znty.dyndns.org:5010/hls/stv5.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | GP Portugal 1.º Dia - FIA European Rallycross Champ. (Direto) | Sport TV6
@@ -13420,8 +13457,8 @@ http://zntx.dyndns.org:8085/hls/stv6.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIA European Rallycross Championship - GP Portugal Dia 1 - Meias-Finais e Final (Direto) | Sport TV6
 http://zntx.dyndns.org:8085/hls/stv6.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIA European Rallycross Championship - GP Portugal (Live) | Sport TV6
-http://zntx.dyndns.org:8085/hls/stv6.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIA European Rallycross Championship - GP Portugal (Live) | Sport TV7
+http://zntx.dyndns.org:8085/hls/stv7.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | GP da Espanha - Treino Livre 1 | SporTV 3
 http://170.83.49.66:8083/SPORTV3HD/index.m3u8
@@ -13482,11 +13519,6 @@ https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP | S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP | S Sport 2
-https://corestream.siteyaptim.live/s-sport2/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP | S Sport 2
-https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto GP | S Sport
 https://corestream.siteyaptim.live/s-sport/index.m3u8
 
@@ -13510,23 +13542,6 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Flashpoint | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Foul Play | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Iconic - Formula 1 - EP5 | Trace Sport Stars (Australia)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Iconic - Formula 1 - EP5 | Trace Sport Stars
@@ -13544,10 +13559,27 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Iconic - Formula 1 - EP5 | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | TVMsport+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formel 1 | TVMsport+
 https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | TVMsport+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formel 1 | TVMsport+
 https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motosurf Melco GP of Macau 2025 - HL show 1 | World of Freesports
@@ -13560,13 +13592,28 @@ https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_dat
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motosurf Melco GP of Macau 2025 - HL show 2 | World of Freesports
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Langs de vangrails Emerson Fittipaldi | Ziggo Sport
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: GP van San Marino samenvatting Sprint race | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formule 1: Grand Prix insights | Ziggo Sport
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: GP van San Marino samenvatting Moto2 & Moto3 Kwalificatie | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: GP van San Marino samenvatting Sprint race | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Ziggo Sport race café na de GP | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: GP van San Marino samenvatting Race | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Ziggo Sport race café na de GP | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto2: GP van San Marino samenvatting Race | Ziggo Sport
+http://86.87.15.10:8004/play/a02d/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: GP van San Marino samenvatting Race | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP Hoogtepunten | Ziggo Sport
@@ -13676,9 +13723,6 @@ http://213.91.179.28:8000/play/a0at
 
 #EXTINF:-1 group-title="DEPORTES",MOTOGP | ПРЯКО, MotoGP: Спринт за Голямата награда на Сан Марино | Max Sport 2
 http://213.91.179.28:8000/play/a0at
-
-#EXTINF:-1 group-title="DEPORTES",MOTOGP | Ziggo Sport race café | Ziggo Sport
-http://86.87.15.10:8004/play/a02d/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",MOTOGP | Ziggo Sport Race Café | Ziggo Sport
 http://86.87.15.10:8004/play/a02d/index.m3u8
