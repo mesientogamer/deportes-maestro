@@ -175,17 +175,6 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2027 AFCON Qualifiers - Matchday #2 | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | BeIN Sports XTRA
@@ -197,15 +186,15 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2027 AFCON Qualifiers | beIN SPORTS XTRA
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2027 AFCON Qualifiers | BeIN Sports XTRA
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN Sports XTRA
 https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2027 AFCON Qualifiers | beIN SPORTS XTRA
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | beIN SPORTS XTRA
 https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2027 AFCON Qualifiers | BeIN SPORTS XTRA
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN SPORTS XTRA
 https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2027 AFCON Qualifiers | BeIN Sports XTRA
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2027 AFCON Qualifiers - Matchday #2 | beIN SPORTS XTRA
@@ -250,6 +239,17 @@ https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN SPORTS XTRA
 https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 -- Highlight Show | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 Highlight Show 2026/27 | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | This is Paris | beIN SPORTS XTRA
@@ -406,6 +406,17 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Dortmund vs Augsburg - 2022/23 | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Marseille vs PSG | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Marseille vs PSG | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Marseille vs PSG | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Marseille vs PSG | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Marseille vs PSG | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 - Matchday #5 | beIN SPORTS XTRA en Espanol
 http://201.190.41.246:9060/play/a03y/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 - Matchday #5 | beIN Sports XTRA en Espanol
@@ -415,26 +426,14 @@ https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playl
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Ligue 1 2026/27 - Matchday #5 | BeIN Sports XTRA en Espanol
 https://bein-esp-xumo.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Luis Enrique : Vous ne pouvez pas comprendre ! | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | CBS Sports Golazo Network | CBS Sports Golazo Network
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | CBS Sports Golazo Network | CBS Sports Golazo Network
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Billion Dollar Goal | CBS Sports Golazo Network
-https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Billion Dollar Goal | CBS Sports Golazo Network
-https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Billion Dollar Goal | CBS Sports Golazo Network
-https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Billion Dollar Goal | CBS Sports Golazo Network
-https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
-https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
-https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
@@ -483,6 +482,21 @@ https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-li
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Morning Footy | CBS Sports Golazo Network
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Morning Footy | CBS Sports Golazo Network
+https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Women's Champions League Today | CBS Sports Golazo Network
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Women's Champions League Today | CBS Sports Golazo Network
+https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Women's Champions League: OL Lyonnes vs Chelsea | CBS Sports Golazo Network
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Women's Champions League: OL Lyonnes vs Chelsea | CBS Sports Golazo Network
+https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Scoreline: Soccer Highlights &amp; Analysis | CBS Sports Golazo Network
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live: NFL Football | CBS Sports HQ
@@ -685,15 +699,6 @@ http://168.196.127.137:6001/play/a08r/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol masculino amistosos internacionales | Claro Sports
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF-Khelo India Beach Games | DD Sports
 https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF-Khelo India Beach Games | DD Sports SD
@@ -701,15 +706,6 @@ https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF-Khelo India Beach Games | DD Sports SD
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF-Khelo India Beach Games | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Junior, Girls U-17 Final Match; Subroto Cup International Football Tournament | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Junior, Girls U-17 Final Match; Subroto Cup International Football Tournament | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Junior, Girls U-17 Final Match; Subroto Cup International Football Tournament | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Junior, Girls U-17 Final Match; Subroto Cup International Football Tournament | DD Sports
 https://cdn.pishow.tv/ott/live/13/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Subroto Cup International Football Tournament | DD Sports
@@ -721,15 +717,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/in
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Subroto Cup International Football Tournament | DD Sports
 https://cdn.pishow.tv/ott/live/13/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF-Khelo India Beach Games | DD Sports
 https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF-Khelo India Beach Games | DD Sports SD
@@ -739,69 +726,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/in
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF-Khelo India Beach Games | DD Sports
 https://cdn.pishow.tv/ott/live/13/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports
 https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports SD
@@ -809,6 +733,42 @@ https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports SD
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Beach Soccer, 2nd SF; Khelo India Beach Games | DD Sports
+https://cdn.pishow.tv/ott/live/13/master.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | KIBG-2025-Beach Soccer M-SF-2 | DD Sports
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | KIBG-2025-Beach Soccer M-SF-2 | DD Sports SD
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | KIBG-2025-Beach Soccer M-SF-2 | DD Sports SD
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | KIBG-2025-Beach Soccer M-SF-2 | DD Sports
+https://cdn.pishow.tv/ott/live/13/master.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
+https://cdn.pishow.tv/ott/live/13/master.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
+https://cdn.pishow.tv/ott/live/13/master.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports SD
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
 https://cdn.pishow.tv/ott/live/13/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sports programme | DD Sports
@@ -1011,9 +971,6 @@ http://168.228.44.241:9998/play/a0dz/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fútbol picante | ESPN Deportes HD
 http://168.228.44.241:9998/play/a0dz/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Always College Football | ESPNews
-http://41.205.93.154/ESPNNEWS/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | This Is Football | ESPNews
 http://41.205.93.154/ESPNNEWS/index.m3u8
 
@@ -1048,19 +1005,9 @@ http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150: The Greatest | ESPNU
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150 - The American Game | ESPNU HD
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150 - The American Game | ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150: The American Game | ESPNU HD
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150: The American Game | ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150 - The American Game | ESPNU HD
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150 - The American Game | ESPNU
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU HD
@@ -1071,11 +1018,6 @@ http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 14 Days in Gainesville | ESPNU HD
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 14 Days in Gainesville | ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150 - The American Game | ESPNU HD
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football 150 - The American Game | ESPNU
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU HD
@@ -1203,14 +1145,30 @@ http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 30 for 30 | ESPNU
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FC Twente vs. PSV; Eredivisie Soccer | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FC Twente vs. PSV; Eredivisie Soccer | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FC Twente vs. PSV; Eredivisie Soccer | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FC Twente vs. PSV; Eredivisie Soccer | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 30 for 30 | ESPNU HD
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 30 for 30 | ESPNU
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU HD
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | SEC in 60 | ESPNU HD
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | SEC in 60 | ESPNU
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | SEC Storied | ESPNU HD
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | SEC Storied | ESPNU
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU HD
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | College Football Live | ESPNU
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | FC Twente vs. PSV-Eredivisie Soccer | Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
@@ -1219,15 +1177,6 @@ https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | FC Twente vs. PSV-Eredivisie Soccer | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | FC Twente vs. PSV-Eredivisie Soccer | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sporting Kansas City at Atlanta United FC; Major League Soccer | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sporting Kansas City at Atlanta United FC; Major League Soccer | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sporting Kansas City at Atlanta United FC; Major League Soccer | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sporting Kansas City at Atlanta United FC; Major League Soccer | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sporting Kansas City at Atlanta United FC-Major League Soccer | Esport3
@@ -1239,15 +1188,6 @@ https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Sporting Kansas City at Atlanta United FC-Major League Soccer | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round 7; Dutch League Highlights | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round 7; Dutch League Highlights | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round 7; Dutch League Highlights | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round 7; Dutch League Highlights | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round 7-Dutch League Highlights | Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round 7-Dutch League Highlights | Esport3
@@ -1257,15 +1197,6 @@ https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Round 7-Dutch League Highlights | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht; Eredivisie Soccer | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht; Eredivisie Soccer | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht; Eredivisie Soccer | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht; Eredivisie Soccer | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht-Eredivisie Soccer | Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht-Eredivisie Soccer | Esport3
@@ -1273,15 +1204,6 @@ https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht-Eredivisie Soccer | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Feyenoord vs. FC Utrecht-Eredivisie Soccer | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FIM Speedway Grand Prix Series | Esport3
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FIM Speedway Grand Prix Series | Esport3
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FIM Speedway Grand Prix Series | Esport3
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | FIM Speedway Grand Prix Series | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Eredivisie Soccer | Esport3
@@ -1515,6 +1437,15 @@ https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Chris Simms Unbuttoned | NBC Sports
 https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Chris Simms Unbuttoned | NBC Sports NOW
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Chris Simms Unbuttoned | NBC Sports NOW
+https://jmp2.uk/plu-6549306c83595c000815a696.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Chris Simms Unbuttoned | NBC Sports NOW
+https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Chris Simms Unbuttoned | NBC Sports
+https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL GameDay Preview | NFL Channel
 https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL GameDay Preview | NFL Channel
@@ -1524,18 +1455,6 @@ https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
 https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | NFL GameCenter Live | NFL Channel
 https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: SCL Romania | Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League | Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fluminense Football Club | Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: SCL Lithuania | Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Copa del Rey: Real Madrid - Celta Vigo (1/8-finale) | Pluto TV Esportes
 https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
@@ -1580,6 +1499,15 @@ https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: SCL Latvia | Pluto TV Esportes
+https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: SCL Croatia | Pluto TV Esportes
+https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Strongman Champions League: SCL Poland | Pluto TV Esportes
+https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Fluminense Football Club | Pluto TV Esportes
 https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Liga Profesional de Fútbol | Premier Sports 2
@@ -1643,26 +1571,6 @@ https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Serie A femminile: Inter - Fiorentina | Rai Sport
 https://7nyaler.streamhostingcdn.top/stream/2/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: French Ligue 1: Toulouse - Lille | Setanta Sports HD
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: French Ligue 1: Toulouse - Lille | Setanta Sports
-http://stream.mcquack.net/313/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpall: Ligue 1: Toulouse - Lille | Setanta Sports HD
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpall: Ligue 1: Toulouse - Lille | Setanta Sports
-http://stream.mcquack.net/313/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: LaLiga: Real Sociedad - Celta Vigo | Setanta Sports HD
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: LaLiga: Real Sociedad - Celta Vigo | Setanta Sports
-http://stream.mcquack.net/313/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpalli: La Liga: Real Sociedad - Celta Vigo | Setanta Sports HD
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpalli: La Liga: Real Sociedad - Celta Vigo | Setanta Sports
-http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: French Ligue 1: Lyon - Auxerre | Setanta Sports HD
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
@@ -1764,19 +1672,29 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/ind
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpalli: La Liga: Villareal - Dep. A Coruna | Setanta Sports
 http://stream.mcquack.net/313/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Türkiye vs. Italy; UEFA Nations League Soccer | Sony Sports Ten 1 HD
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Türkiye vs. Italy; UEFA Nations League Soccer | Sony Sports Ten 1
-https://cloudplay-sonyliv.pages.dev/ten1.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | English Football League Championship: Birmingham - Wolves | Setanta Sports HD
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | English Football League Championship: Birmingham - Wolves | Setanta Sports
+http://stream.mcquack.net/313/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football - Sky Bet Championship: Birmingham - Wolves | Setanta Sports HD
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football - Sky Bet Championship: Birmingham - Wolves | Setanta Sports
+http://stream.mcquack.net/313/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: Bundesliga: Hamburger SV - Mainz | Setanta Sports HD
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football: Bundesliga: Hamburger SV - Mainz | Setanta Sports
+http://stream.mcquack.net/313/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpall: Bundesliga: Hamburger SV - Mainz | Setanta Sports HD
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Jalgpall: Bundesliga: Hamburger SV - Mainz | Setanta Sports
+http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Türkiye vs. Italy-UEFA Nations League Soccer | Sony Sports Ten 1 HD
 https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Türkiye vs. Italy-UEFA Nations League Soccer | Sony Sports Ten 1
-https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Real Madrid vs Inter; UEFA Champions League Highlights | Sony Sports Ten 1 HD
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Real Madrid vs Inter; UEFA Champions League Highlights | Sony Sports Ten 1
 https://cloudplay-sonyliv.pages.dev/ten1.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Real Madrid vs Inter-UEFA Champions League Highlights | Sony Sports Ten 1 HD
@@ -1784,35 +1702,10 @@ https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Real Madrid vs Inter-UEFA Champions League Highlights | Sony Sports Ten 1
 https://cloudplay-sonyliv.pages.dev/ten1.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Belgium vs France; UEFA Nations League: | Sony Sports Ten 1 HD
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Belgium vs France; UEFA Nations League: | Sony Sports Ten 1
-https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Türkiye vs Italy; UEFA Nations League: | Sony Sports Ten 1 HD
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Türkiye vs Italy; UEFA Nations League: | Sony Sports Ten 1
-https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Norway vs. Portugal; UEFA Nations League: | Sony Sports Ten 1 HD
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Norway vs. Portugal; UEFA Nations League: | Sony Sports Ten 1
-https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Germany vs. Greece; UEFA Nations League: | Sony Sports Ten 1 HD
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Germany vs. Greece; UEFA Nations League: | Sony Sports Ten 1
-https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UCL 2026-27 Highlights MD 1- Napoli vs Arsenal | Sony Sports Ten 1 HD
 https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UCL 2026-27 Highlights MD 1- Napoli vs Arsenal | Sony Sports Ten 1
 https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Belgium vs. France; UEFA Nations League Soccer | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Belgium vs. France; UEFA Nations League Soccer | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Belgium vs. France-UEFA Nations League Soccer | Sony Sports Ten 2 HD
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
@@ -1822,16 +1715,6 @@ https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UCL Magazine | Sony Sports Ten 2 HD
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UCL Magazine | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Norway vs. Portugal; UEFA Nations League: | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Norway vs. Portugal; UEFA Nations League: | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Germany vs. Greece; UEFA Nations League: | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Germany vs. Greece; UEFA Nations League: | Sony Sports Ten 2
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | League Phase: Bayer Leverkusen vs NK Celje; UEFA Champions League Football | Sony Sports Ten 2 HD
@@ -1849,34 +1732,14 @@ https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Porto vs Manchester City; UEFA Champions League Highlights | Sony Sports Ten 2
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Belgium vs France; UEFA Nations League: | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Belgium vs France; UEFA Nations League: | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Barcelona vs Feyenoord; UEFA Champions League Highlights | Sony Sports Ten 2 HD
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Barcelona vs Feyenoord; UEFA Champions League Highlights | Sony Sports Ten 2
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Türkiye vs Italy; UEFA Nations League: | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Türkiye vs Italy; UEFA Nations League: | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | League Phase MD 1; UEFA Champions League Highlights | Sony Sports Ten 2 HD
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | League Phase MD 1; UEFA Champions League Highlights | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Belgium vs France; UEFA Nations League: | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Belgium vs France; UEFA Nations League: | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Finland vs. Belarus; UEFA Nations League Soccer | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Finland vs. Belarus; UEFA Nations League Soccer | Sony Sports Ten 2
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Finland vs. Belarus-UEFA Nations League Soccer | Sony Sports Ten 2 HD
@@ -1887,11 +1750,6 @@ https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | League Phase MD 1; UEFA Champions League Highlights | Sony Sports Ten 2 HD
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | League Phase MD 1; UEFA Champions League Highlights | Sony Sports Ten 2
-https://cloudplay-sonyliv.pages.dev/ten2.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Türkiye vs Italy; UEFA Nations League: | Sony Sports Ten 2 HD
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Türkiye vs Italy; UEFA Nations League: | Sony Sports Ten 2
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Liverpool vs. Atlético Madrid; UEFA Champions League Soccer | Sony Sports Ten 2 HD
@@ -1914,34 +1772,19 @@ https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | League Phase: Bayer Leverkusen vs NK Celje; UEFA Champions League Football | Sony Sports Ten 2
 https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Northern Ireland vs. Hungary; UEFA Nations League Soccer | Sony Sports Ten 3 Hindi HD
-https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Northern Ireland vs. Hungary; UEFA Nations League Soccer | Sony Sports Ten 3 Hindi
-https://cloudplay-sonyliv.pages.dev/ten3.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UCL 2026-27 Magazine Programme | Sony Sports Ten 2 HD
+https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UCL 2026-27 Magazine Programme | Sony Sports Ten 2
+https://cloudplay-sonyliv.pages.dev/ten2.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Northern Ireland vs. Hungary-UEFA Nations League Soccer | Sony Sports Ten 3 Hindi HD
 https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Northern Ireland vs. Hungary-UEFA Nations League Soccer | Sony Sports Ten 3 Hindi
 https://cloudplay-sonyliv.pages.dev/ten3.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Sweden vs. Poland; UEFA Nations League Soccer | Sony Sports Ten 5 HD
-https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Sweden vs. Poland; UEFA Nations League Soccer | Sony Sports Ten 5
-https://cloudplay-sonyliv.pages.dev/ten5.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Sweden vs. Poland-UEFA Nations League Soccer | Sony Sports Ten 5 HD
 https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Sweden vs. Poland-UEFA Nations League Soccer | Sony Sports Ten 5
-https://cloudplay-sonyliv.pages.dev/ten5.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Nations League: | Sony Sports Ten 5 HD
-https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Nations League: | Sony Sports Ten 5
-https://cloudplay-sonyliv.pages.dev/ten5.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Moldova vs. Faroe Islands; UEFA Nations League Soccer | Sony Sports Ten 5 HD
-https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Moldova vs. Faroe Islands; UEFA Nations League Soccer | Sony Sports Ten 5
 https://cloudplay-sonyliv.pages.dev/ten5.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Moldova vs. Faroe Islands-UEFA Nations League Soccer | Sony Sports Ten 5 HD
@@ -2039,9 +1882,6 @@ https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht - Football’s Greatest Stage, Johan Cruyff (Episode 8) | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht - Footballs Greatest Stage | Sportdigital FUSSBALL
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Die Co-Stars von Pelé: Im Rampenlicht - Footballs Greatest Stage, Episode 9 | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
@@ -2049,9 +1889,6 @@ https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht – Footballs Greatest Stage | Sportdigital FUSSBALL
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht - Footballs Greatest Stage | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Franz Beckenbauer: Im Rampenlicht - Footballs Greatest Stage, Episode 10 | Sportdigital FUSSBALL
@@ -2063,9 +1900,6 @@ https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht – Footballs Greatest Stage | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht - Footballs Greatest Stage | Sportdigital FUSSBALL
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Frankreich 1998: Im Rampenlicht - Footballs Greatest Stage, Episode 11 | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
@@ -2073,9 +1907,6 @@ https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht – Footballs Greatest Stage | Sportdigital FUSSBALL
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Im Rampenlicht - Footballs Greatest Stage | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Zinedine Zidane: Im Rampenlicht - Footballs Greatest Stage, Episode 12 | Sportdigital FUSSBALL
@@ -2156,10 +1987,16 @@ https://sportsgrid-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Early Line | SportsGrid
 https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | İtalya Serie A | S Sport 2
-https://corestream.siteyaptim.live/s-sport2/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | İtalya Serie A | S Sport 2
-https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Early Line Live | SportsGrid
+https://sportsgrid-tribal.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Early Line Live | SportsGrid
+https://amg00315-sportsgrid-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Early Line Live | SportsGrid
+https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Early Line Live | SportsGrid
+https://sportsgrid-plex.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Early Line Live | SportsGrid
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | İtalya Serie A | S Sport 2
 https://corestream.siteyaptim.live/s-sport2/index.m3u8
@@ -2171,8 +2008,15 @@ https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | İtalya Serie A | S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Almanya Bundesliga | S Sport
-https://corestream.siteyaptim.live/s-sport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | İtalya Serie A | S Sport 2
+https://corestream.siteyaptim.live/s-sport2/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | İtalya Serie A | S Sport 2
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Almanya Bundesliga | S Sport 2
+https://corestream.siteyaptim.live/s-sport2/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Almanya Bundesliga | S Sport 2
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | İtalya Serie A | S Sport
 https://corestream.siteyaptim.live/s-sport/index.m3u8
@@ -2180,155 +2024,14 @@ https://corestream.siteyaptim.live/s-sport/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2. Bundesliga | S Sport
 https://corestream.siteyaptim.live/s-sport/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | CPL 2026 HLs Tridents v Kingsmen | Star Sports 2 HD
-http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Almanya Bundesliga | S Sport
+https://corestream.siteyaptim.live/s-sport/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | FTB Exclusive | Star Sports 2 Hindi
 https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | FTB Exclusive | Star Sports 2 Hindi
 https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester City vs. Coventry City; Premier League Soccer | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2022-23 - Manchester United vs Newcastle; Premier League Classic Match | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Netbusters | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester City v Bournemouth; Premier League: Match Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Netbusters | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Leeds United vs. Newcastle United; Premier League Soccer | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL: The Big Interview | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2021/22: Liverpool v Manchester City; Premier League Classic Match | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League GOATs | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Arsenal v Coventry City; Premier League: Match Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL: The Big Interview | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2019/20 - Liverpool vs Man City; Premier League Classic Match | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | 2019/20 - Newcastle v Liverpool; The Premier League's Greatest Games | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Chelsea v Liverpool; Premier League: Match Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Chelsea v Liverpool; Premier League: Match Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Highlights Arsenal v Man City | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Premier League Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Highlights Man City v Bournemouth | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Manchester City v Bournemouth; Premier League: Match Highlights | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Classic Match Liverpool v Man City | Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Netbusters | Star Sports Select 2 HD
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
@@ -2385,6 +2088,9 @@ http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Match Highlights 2024/25 Liverpool v Chelsea | Star Sports Select 2 HD
+http://tvsen7.aynascope.net/ssport2hd/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | PL Highlights Aston villa v Arsenal | Star Sports Select 2 HD
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint | Trace Sport Stars (Australia)
@@ -2995,25 +2701,6 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | The Iconic | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sport Stars
-https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Gianluigi Donnarumma - EP15 | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars. Gianluigi Donnarumma | Trace Sport Stars (Australia)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars. Gianluigi Donnarumma | Trace Sport Stars
@@ -3069,25 +2756,6 @@ https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars Russia
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sport Stars
-https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Flashpoint - Manchester United Tragedy/Beamon's Giant Leap - EP13 | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Media Darlings - EP16 | Trace Sport Stars (Australia)
@@ -3603,6 +3271,25 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Stars - Footballers and Their Pets - EP20 | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sport Stars
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Footballers and Their Pets | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | UEFA Champions League: Fotballkveld | TVMsport+
 https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 
@@ -3810,94 +3497,31 @@ http://38.44.109.41:8003/play/a02l/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Superfútbol | TyC Sports
 http://168.228.44.241:9999/play/a02e/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Forca Kochi FC vs Malappuram FC; Super League Kerala Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bundesliga Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Calicut FC vs. Thiruvananthapuram Kombans FC; Super League Kerala Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Spain U20 vs. Korea DPR U20; 2026 FIFA U-20 Women's World Cup | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Korea DPR U20 vs. Colombia U20; 2026 FIFA U-20 Women's World Cup | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Semi-Final 2: North Korea vs Columbia; FIFA U-20 Women's World Cup 2026 Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bayer 04 Leverkusen vs RB Leipzig; Bundesliga Highlights | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bayer 04 Leverkusen vs RB Leipzig-Bundesliga Highlights | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Spain U20 vs. Korea DPR U20; 2026 FIFA U-20 Women's World Cup | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Kannur Warriors FC vs. Thrissur Magic FC; Super League Kerala Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Spain U20 vs. Korea DPR U20; 2026 FIFA U-20 Women's World Cup | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | MD 4 : VfB Stuttgart vs Borussia Dortmund HLs; Bundesliga Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | MD 4 : VfB Stuttgart vs Borussia Dortmund HLs-Bundesliga Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Borussia Dortmund vs SC Paderborn; Bundesliga Highlights | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Borussia Dortmund vs SC Paderborn-Bundesliga Highlights | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Schalke vs. Bayern Munich; Bundesliga Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Schalke vs. Bayern Munich-Bundesliga Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Calicut FC vs. Thiruvananthapuram Kombans FC; Super League Kerala Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Rishikesh River Kings vs. USN Indians; Uttarakhand Premier League Cricket | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live-Rishikesh River Kings vs. USN Indians-Uttarakhand Premier League | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Haridwar Elmas vs Tehri Titans; Uttarakhand Premier League Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Haridwar Elmas vs Tehri Titans-Uttarakhand Premier League Highlights | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Dehradun Warriors vs. Nainital Tigers Kings; Uttarakhand Premier League Cricket | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Pithoragarh Hurricanes vs Nainital Tigers; Uttarakhand Premier League Highlights | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Pithoragarh Hurricanes vs Nainital Tigers-Uttarakhand Premier League | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Live - Haridwar Elmas vs. Pithoragarh Hurricanes; Uttarakhand Premier League Cricket | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bundesliga 2026-27 MD 4 VfB Stuttgart vs Borussia Dortmund | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | VfB Stuttgart vs. Borussia Dortmund; Bundesliga Soccer | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | VfB Stuttgart vs. Borussia Dortmund-Bundesliga Soccer | Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Bundesliga 2026-27 MD 4 Highlights | Unite8 Sports 2
 http://59.103.38.46:8000/play/a126/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football Women - Semi-Final | Willow Sports
@@ -3980,9 +3604,6 @@ http://145.239.5.177/349/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's Greatest Stage | Ziggo Sport 5
-http://145.239.5.177/349/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's greatest stage | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
 
@@ -3990,6 +3611,9 @@ http://145.239.5.177/349/index.m3u8
 http://145.239.5.177/349/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's greatest stage | Ziggo Sport 5
+http://145.239.5.177/349/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÚTBOL | Football's Greatest Stage | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÚTBOL | La Liga nations | Ziggo Sport 5
@@ -4044,13 +3668,22 @@ https://dokagents.site/live/digisport4/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Great American Events | ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",TENIS | WTT Champions Table Tennis | Esport3
+https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | WTT Champions Table Tennis | Esport3
+https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | WTT Champions Table Tennis | Esport3
+https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | WTT Champions Table Tennis | Esport3
+https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: ATP 250 Chengdu. Singles. Final | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: ATP 250 Chengdu Open | Go3 Sport 1
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: ATP 250 Chengdu Open: Singles. Final | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: ATP 250 Chengdu Open: Singles. Final | Go3 Sport 1
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis: ATP 250 Chengdu Open | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Теннис: ATP 250 - Чемпионат Ханчжоу | Go3 Sport 1
@@ -4384,22 +4017,16 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 #EXTINF:-1 group-title="DEPORTES",TENIS | ATP 500 Pechino 2025. Flavio COBOLLI (ITA) vs Andrey RUBLEV (RUS) | SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | ATP 500 PECHINO 2025 | SuperTennis
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | WTA 500 Singapore | SuperTennis
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | WTA 500 Singapore 2026 | SuperTennis
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | ATP 500 Pechino 2025 | SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | ATP 500 Pechino 2025, Finale. Jannik SINNER (ITA) vs Learner TIEN (USA) | SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Us Open | SuperTennis
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open 2026 | SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Hangzhou-ATP | Tennis Channel 2
@@ -4435,46 +4062,37 @@ https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Hangzhou-ATP | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | 2026 Hangzhou Open Tennis | Tennis Channel 2
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Courtside | Tennis Channel 2
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | Race to the ATP WTA Finals | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | WTA All Access | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel 2
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | Courtside: Chengdu-ATP Hangzhou-ATP Finals | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | US Open 2026 | Tennis Channel 2
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | Aces: The ATP No. 1 Club | Tennis Channel 2
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | US Open 2026 | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Aces: The ATP No. 1 Club | Tennis Channel 2
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open ENCORE | Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | US Open 2026 | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Aces: The ATP No. 1 Club: First…Forever | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Courtside | Tennis Channel 2
+#EXTINF:-1 group-title="DEPORTES",TENIS | Aces: The ATP No. 1 Club | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Aces: The ATP No. 1 Club: Only Room for One | Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Courtside | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Courtside: Chengdu-ATP Hangzhou-ATP Finals | Tennis Channel 2
@@ -4498,25 +4116,31 @@ https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Today Live | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Today Live | Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",TENIS | Courtside - Live | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Today Live | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Today Live | Tennis Channel 2
+#EXTINF:-1 group-title="DEPORTES",TENIS | ATP Race to the Finals | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Courtside | Tennis Channel 2
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | ATP Race to the Finals | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | The Big T Podcast | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Today | Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Aces: The ATP No. 1 Club | Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Aces: The ATP No. 1 Club | Tennis Channel 2
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | TennisChannel 2 | Tennis Channel 2
@@ -5394,6 +5018,29 @@ http://23.237.104.106:8080/USA_TENNIS/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | Tennis Channel
+https://rezofoot.tv/Tennis/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | TennisChannel 2
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6870c9333ffa5e0c914e9205.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6870c97b759366af055fe371.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel (UK)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Porto ATP Challenger | Tennis Channel
 https://rezofoot.tv/Tennis/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | Tennis Channel | TennisChannel 2
@@ -9523,25 +9170,6 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | Flashpoint | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sport Stars
-https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",TENIS | Borg & Mcenroe/ Tyson & Holyfield | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",TENIS | The Iconic | Trace Sport Stars (Australia)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | The Iconic | Trace Sport Stars
@@ -9713,14 +9341,43 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | WTA 500 SINGAPORE OPEN 2026 # 017:QF 4 | True Tennis
-http://58.8.186.128:10004/bysid/2418
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sport Stars
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | Heroines - The Serena Williams Impact - On and Off the Tennis Court - EP10 | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",TENIS | WTA 500 SINGAPORE OPEN 2026 # 018:SF 1 | True Tennis
-http://58.8.186.128:10004/bysid/2418
-
-#EXTINF:-1 group-title="DEPORTES",TENIS | WTA 500 SINGAPORE OPEN 2026 # 019:SF 2 | True Tennis
-http://58.8.186.128:10004/bysid/2418
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sport Stars
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",TENIS | The Serena Williams Impact - On and Off the Tennis Court | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",TENIS | WTA 500 SINGAPORE OPEN 2026 # 020:FINAL | True Tennis
 http://58.8.186.128:10004/bysid/2418
@@ -9776,6 +9433,9 @@ http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | VT - WNBA: Indiana Fever x Las Vegas Aces | 5Sport 4K
 http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Today | 5Sport 4K
+http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | KVALIFIKACIJE ZA SP: NIZOZEMSKA - HRVATSKA, košarka | Adjarasport 1
 https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
 
@@ -9810,17 +9470,6 @@ https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playl
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN Sports XTRA
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | beIN SPORTS XTRA
-https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN SPORTS XTRA
-https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN Sports XTRA
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Copa de Europa de Baloncesto 3x3 de la FIBA 2026 | beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Copa de Europa de Baloncesto 3x3 de la FIBA 2026 | BeIN Sports XTRA
@@ -9896,6 +9545,17 @@ https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Copa de Europa de Baloncesto 3x3 de la FIBA 2026 | BeIN SPORTS XTRA
 https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Copa de Europa de Baloncesto 3x3 de la FIBA 2026 | BeIN Sports XTRA
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN Sports XTRA
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | beIN SPORTS XTRA
+https://d9ssxzmclhfo4.cloudfront.net/bein_sports.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN SPORTS XTRA
+https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN Sports XTRA
 https://bein-xtra-xumo.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | beIN SPORTS XTRA en Espanol
@@ -9906,24 +9566,6 @@ https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
 https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN Sports XTRA en Espanol
 https://bein-esp-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | beIN SPORTS XTRA en Espanol
-http://201.190.41.246:9060/play/a03y/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | beIN Sports XTRA en Espanol
-https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN SPORTS XTRA En Espanol
-https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 FIBA 3x3 Europe Cup | BeIN Sports XTRA en Espanol
-https://bein-esp-xumo.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Haryana vs Punjab, Girls Basketball, Semifinal 1; Khelo India Youth Games | DD Sports
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Haryana vs Punjab, Girls Basketball, Semifinal 1; Khelo India Youth Games | DD Sports SD
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Haryana vs Punjab, Girls Basketball, Semifinal 1; Khelo India Youth Games | DD Sports SD
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Haryana vs Punjab, Girls Basketball, Semifinal 1; Khelo India Youth Games | DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Khelo India Youth Games | DD Sports
 https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
@@ -9945,6 +9587,9 @@ https://cdn.pishow.tv/ott/live/13/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Stern Heads-Up Pinball Invitational | ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Today | ESPNews
+http://41.205.93.154/ESPNNEWS/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Today | ESPNews
 http://41.205.93.154/ESPNNEWS/index.m3u8
@@ -9997,46 +9642,49 @@ http://stream.mcquack.net/416/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: Euroleague Originals. Preview Show | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: Euroleague Originals | Go3 Sport 1
-http://stream.mcquack.net/416/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Euroleague Originals: Preview Show | Go3 Sport 1
-http://stream.mcquack.net/416/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | EuroLeague. Žalgiris - Olympiacos | Go3 Sport 1
-http://stream.mcquack.net/416/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: Real Madrid - Olympiacos | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball: EuroLeague: Žalgiris - Olympiacos | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague. Anadolu Efes - Real Madrid | Go3 Sport 1
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: Real Madrid - Olympiacos | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague | Go3 Sport 1
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague. Anadolu Efes - Real Madrid | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball: EuroLeague: Anadolu Efes - Real Madrid | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: FC Bayern - Crvena zvezda | Go3 Sport 1
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball: EuroLeague: Olimpia Milano - Virtus | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: Fenerbahce - Paris | Go3 Sport 1
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: FC Bayern - Crvena zvezda | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball: EuroLeague: Dubai - FC Barcelona | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: FC Bayern - Crvena zvezda | Go3 Sport 1
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: Fenerbahce - Paris | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball: EuroLeague: Olimpia Milano - Virtus | Go3 Sport 1
+http://stream.mcquack.net/416/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: FC Bayern - Crvena zvezda | Go3 Sport 1
+http://stream.mcquack.net/416/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball - EuroCup: Siauliai - London | Go3 Sport 1
+http://stream.mcquack.net/416/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball: EuroLeague: Maccabi - Besiktas | Go3 Sport 1
+http://stream.mcquack.net/416/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Korvpall: EuroLeague: Partizan - Olimpia Milano | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketbols: Eirolīga. Fenerbahce – Virtus. Basketball: EuroLeague | KTV Sport
@@ -10066,85 +9714,40 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
 http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | The NBA Channel
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | The NBA Channel
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | The NBA Channel
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA經典重溫 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA經典重溫 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA經典重溫 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA經典重溫 | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -多倫多速龍 對 克里夫蘭騎士 | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -多倫多速龍 對 克里夫蘭騎士 | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -多倫多速龍 對 克里夫蘭騎士 | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA精彩重溫 -多倫多速龍 對 克里夫蘭騎士 | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | The NBA Channel
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
@@ -10163,6 +9766,258 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Journey: Legends | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Journey: Legends | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Journey: Legends | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Journey: Legends | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA75: The Celebration | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA75: The Celebration | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA75: The Celebration | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA75: The Celebration | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback -Toronto Raptors vs Cleveland Cavaliers | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Hardwood Classic | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Marquee Matchups | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Marquee Matchups | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Marquee Matchups | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Marquee Matchups | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Week | NBA TV
@@ -10201,6 +10056,24 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Top 50 Handles: 2025-26 Season | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Top 50 Handles: 2025-26 Season | NBA TV
@@ -10217,6 +10090,114 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
@@ -10246,24 +10227,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | NBA TV
@@ -10271,6 +10234,15 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA攻守時間 -今夜賽事 | NBA TV
@@ -10300,15 +10272,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock -Games of the Night | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA TV Canada Specials | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA TV Canada Specials | NBA TV
@@ -10336,6 +10299,15 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap: Amazon | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Johnny Hoops訪談NBA傳奇 第206集 -卜柏堤 | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Johnny Hoops訪談NBA傳奇 第206集 -卜柏堤 | NBA TV
@@ -10352,15 +10324,6 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Legends with Johnny Hoops E206 -Bob Pettit | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
@@ -10381,15 +10344,6 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap: Amazon | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | NBA TV
-http://rezofoot.tv/NBATV/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | NBA TV
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | The NBA Channel
-https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketballography E202 -Bob Pettit | NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketballography E202 -Bob Pettit | NBA TV
@@ -10397,6 +10351,15 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketballography E202 -Bob Pettit | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketballography E202 -Bob Pettit | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Nightcap | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Playback | NBA TV
@@ -10424,6 +10387,78 @@ http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | NBA TV
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Stories | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Night | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 WNBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 WNBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 WNBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | 2026 WNBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Week | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Week | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Week | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA Shot Clock: Games of the Week | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball Past, Present & Future | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Association | The NBA Channel
+https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | NBA TV
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA Playback | The NBA Channel
 https://pb-5pdyic0cu7tri.akamaized.net/NBA.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | WNBA on NBC Highlights Factory | NBC Sports NOW
@@ -10459,9 +10494,6 @@ https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Franz Beckenbauer (Episode 10) | Sportdigital FUSSBALL
 https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Franz Beckenbauer (Episode 10) | Sportdigital FUSSBALL
-https://7nyaler.streamhostingcdn.top/stream/15/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basquetebol: NBA Final Conferência Este - NBA Recaps (Resumo) | Sport TV2
 http://znty.dyndns.org:5010/hls/stv2.m3u8
 
@@ -10480,11 +10512,6 @@ http://znty.dyndns.org:5010/hls/stv2.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Euroliga 2026/2027 - Anadolu Efes Istanbul x Real Madrid Baloncesto (Direto) | Sport TV5
 http://znty.dyndns.org:5010/hls/stv5.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Anadolu Efes - Real Madrid | S Sport 2
-https://corestream.siteyaptim.live/s-sport2/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Anadolu Efes - Real Madrid | S Sport 2
-https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Zalgiris Kaunas - Olympiacos | S Sport 2
 https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Zalgiris Kaunas - Olympiacos | S Sport 2
@@ -10510,8 +10537,15 @@ https://corestream.siteyaptim.live/s-sport2/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Euroleague | S Sport 2
 https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Fenerbahçe Tarfin - Bayern Münih | S Sport
-https://corestream.siteyaptim.live/s-sport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Panathinaikos - Asvel | S Sport 2
+https://corestream.siteyaptim.live/s-sport2/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Panathinaikos - Asvel | S Sport 2
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA | S Sport 2
+https://corestream.siteyaptim.live/s-sport2/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA | S Sport 2
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Olimpia Milano - Virtus Bologna | S Sport
 https://corestream.siteyaptim.live/s-sport/index.m3u8
@@ -10526,6 +10560,9 @@ https://corestream.siteyaptim.live/s-sport/index.m3u8
 https://corestream.siteyaptim.live/s-sport/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Euroleague | S Sport
+https://corestream.siteyaptim.live/s-sport/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | Maccabi Tel Aviv - Beşiktaş | S Sport
 https://corestream.siteyaptim.live/s-sport/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | Basketball: USC vs UCLA Semifinal [JuJu Watkins] | Swerve Sports
@@ -10550,6 +10587,25 @@ https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic - NBA - EP2 | Trace Sport Stars Russia
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic - NBA - EP2 | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sport Stars
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",BALONCESTO | The Iconic | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",BALONCESTO | NBA | Trace Sport Stars (Australia)
@@ -10782,9 +10838,6 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Fractionné F1 - Saison 4 | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Fractionné F1 - Season 4 | Canal+ Sport 360
-https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Moto 2: Grand Prix d'Autriche | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
@@ -10800,16 +10853,13 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | On Board moto | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | On Board moto | Canal+ Sport 360
-https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Débrief Moto | Canal+ Sport 360
-https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Débrief Moto | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formule 1 : La fabrique des rêves | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | BA dans la F1 | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Voile: Grand Prix de Genève | Canal+ Sport 360
@@ -10836,7 +10886,22 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | On Board moto | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Sail GP Geneva | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | SailGP: Genève, jour 2 | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Lundi Grand Prix | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Lundi Grand Prix | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Lundi Grand Prix | Canal+ Sport 360
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Lundi Grand Prix | Canal+ Sport 360
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motorismus: FIM Speedway Grand Prix 2026 | ČT Sport
@@ -10878,22 +10943,22 @@ https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | CYCLING: Grand Prix Cycliste de Quebec | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
 https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
 https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motocross: FIM Motocross World Championship Sweden: MXGP Race 2 | Esport3
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: FIM motokrossi maailmameistrivõistlused Rootsis: MXGP Race 2 | Esport3
 https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | F1 2022 Singapore Grand Prix | F1 Channel
@@ -10918,12 +10983,6 @@ https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.
 https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | 2026 Belgian Grand Prix | F1 Channel
-https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | 2026 Belgian Grand Prix | F1 Channel
-https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | F1 Race in 30 - Monaco 2021 | F1 Channel
 https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | F1 Race in 30 - Monaco 2021 | F1 Channel
@@ -10963,6 +11022,15 @@ https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.
 https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Azerbaijan GP - F2 Feature Race 2025 | F1 Channel
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | F1 Race in 30 - Emilia Romagna 2021 | F1 Channel
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | F1 Race in 30 - Spain 2021 | F1 Channel
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | 2026 Hungarian Grand Prix | F1 Channel
 https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | GP do Kansas | Fox Deportes
@@ -11009,16 +11077,40 @@ https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | K1 | GLORY Kickboxing
 https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: Austria Grand Prix: Race | Go3 Sport 1
-http://stream.mcquack.net/416/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | K1 | GLORY Kickboxing
+https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | MotoGP: Grand Prix of Austria: Race | Go3 Sport 1
 http://stream.mcquack.net/416/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Indy NXT Series: Indianapolis Grand Prix: 2. Rennen | More Than Sports TV
-https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Motokross: Austria Grand Prix: Race | Go3 Sport 1
+http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Indy NXT Series: Detroit Grand Prix | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Supermoto World & European Championship | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Supermoto World & European Championship | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Supermoto World & European Championship | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Supermoto World & European Championship | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Supermoto World & European Championship | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Indy NXT Series: Grand Prix of Alabama: 1. Rennen | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Supermoto World & European Championship | More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | FIM Supermoto World & European Championship | More Than Sports TV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Muay Thai Grand Prix: Road to MTGP | Pluto TV Esportes
@@ -11037,11 +11129,6 @@ https://dokagents.site/live/pr5/mono.m3u8
 https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | DP World Women's Asia Cup 2026 - SF1 India vs Bangladesh Highlights | Sony Sports Ten 1
 https://cloudplay-sonyliv.pages.dev/ten1.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | DP World Women's Asia Cup 2026 - SF1 India vs Bangladesh Highlights | Sony Sports Ten 3 Hindi HD
-https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | DP World Women's Asia Cup 2026 - SF1 India vs Bangladesh Highlights | Sony Sports Ten 3 Hindi
-https://cloudplay-sonyliv.pages.dev/ten3.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | 20th Asian Games-Aichi-Nagoya 2026-Men QF1 - Pakistan vs 2nd Place of Group B Highlights | Sony Sports Ten 5 HD
 https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
@@ -11126,63 +11213,6 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars
-https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars
-https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sport Stars (Australia)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sport Stars
-http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sport Stars
-https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sport Stars
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sports Stars
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | TRACE Sportstar
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sport Stars Russia
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Sprint Format | Trace Sport Stars SD
-https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
-
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars (Australia)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars
@@ -11238,6 +11268,25 @@ https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars Russia
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row - The Sprint Format - EP1 | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Trace Sport Stars (Australia)
@@ -11316,18 +11365,24 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Iconic - Formula 1 - EP5 | Trace Sport Stars SD
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Softball 05 Women - PHI vs SGP | Willow Sports
-https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Softball 05 Women - PHI vs SGP | Willow Sports
-https://jmp2.uk/plu-6972546cc62833833a187f50.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Softball 05 Women - PHI vs SGP | Willow Sports
-https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Softball 05 Women - PHI vs SGP | Willow Sports
-https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Softball 05 Women - PHI vs SGP | Willow Sports
-https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-distrotvus/playlist.m3u8
-#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Softball 05 Women - PHI vs SGP | Willow Sports
-https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars (Australia)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sports Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | TRACE Sportstar
+https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars Russia
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | Formula 1 | Trace Sport Stars SD
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 
 #EXTINF:-1 group-title="DEPORTES",FÓRMULA 1 | The Front Row | Ziggo Sport 5
 http://145.239.5.177/349/index.m3u8
